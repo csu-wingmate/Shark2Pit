@@ -1,0 +1,172 @@
+{
+  "packets": [
+    {
+      "number": "1",
+      "fields": [
+        {
+          "name": "",
+          "position": 54,
+          "size": 24,
+          "value": "6f004c000100000000000000c0a8641c0000407e00000000",
+          "show": "Encapsulation Header",
+          "layer": "enip"
+        },
+        {
+          "name": "",
+          "position": 78,
+          "size": 76,
+          "value": "000000000000020000000000b2003c00540220062401059b00000000000000000e00010022f5130002000000102700001a48102700001a28010934040000000000000000200424062c022c01",
+          "show": "Command Specific Data",
+          "layer": "enip"
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "fields": [
+        {
+          "name": "",
+          "position": 54,
+          "size": 24,
+          "value": "6f004c000100000000000000c0a8641c0000403700000000",
+          "show": "Encapsulation Header",
+          "layer": "enip"
+        },
+        {
+          "name": "",
+          "position": 78,
+          "size": 76,
+          "value": "000000000000020000000000b2003c00540220062401059b00000000000000000d00010022f5130002000000102700001a48102700001a28010934040000000000000000200424062c022c01",
+          "show": "Command Specific Data",
+          "layer": "enip"
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "fields": [
+        {
+          "name": "",
+          "position": 54,
+          "size": 24,
+          "value": "040000000000000000000000000000000000000000000000",
+          "show": "Encapsulation Header",
+          "layer": "enip"
+        },
+        {
+          "name": "",
+          "position": 78,
+          "size": 0,
+          "value": "",
+          "show": "Command Specific Data",
+          "layer": "enip"
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "fields": [
+        {
+          "name": "",
+          "position": 54,
+          "size": 24,
+          "value": "04001a000000000000000000000000000000000000000000",
+          "show": "Encapsulation Header",
+          "layer": "enip"
+        },
+        {
+          "name": "",
+          "position": 78,
+          "size": 26,
+          "value": "01000001140001002001436f6d6d756e69636174696f6e730000",
+          "show": "Command Specific Data",
+          "layer": "enip"
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "fields": [
+        {
+          "name": "",
+          "position": 54,
+          "size": 24,
+          "value": "650004000000000000000000000000000000000000000000",
+          "show": "Encapsulation Header",
+          "layer": "enip"
+        },
+        {
+          "name": "",
+          "position": 78,
+          "size": 4,
+          "value": "01000000",
+          "show": "Command Specific Data",
+          "layer": "enip"
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "fields": [
+        {
+          "name": "",
+          "position": 54,
+          "size": 24,
+          "value": "650004000100000000000000000000000000000000000000",
+          "show": "Encapsulation Header",
+          "layer": "enip"
+        },
+        {
+          "name": "",
+          "position": 78,
+          "size": 4,
+          "value": "01000000",
+          "show": "Command Specific Data",
+          "layer": "enip"
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "fields": [
+        {
+          "name": "",
+          "position": 54,
+          "size": 24,
+          "value": "6f004c000100000000000000c0a8641c0000485700000000",
+          "show": "Encapsulation Header",
+          "layer": "enip"
+        },
+        {
+          "name": "",
+          "position": 78,
+          "size": 76,
+          "value": "000000000000020000000000b2003c00540220062401059b00000000000000000e00010022f5130002000000102700001a48102700001a28010934040000000000000000200424062c022c01",
+          "show": "Command Specific Data",
+          "layer": "enip"
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "fields": [
+        {
+          "name": "",
+          "position": 54,
+          "size": 24,
+          "value": "6f0056000100000000000000c0a8641c0000485700000000",
+          "show": "Encapsulation Header",
+          "layer": "enip"
+        },
+        {
+          "name": "",
+          "position": 78,
+          "size": 86,
+          "value": "000000000000040000000000b2001e00d40000000200a2f10300a2f10e00010022f513001027000010270000000000801000000208ae00000000000000000000000001801000000208aeefc005800000000000000000",
+          "show": "Command Specific Data",
+          "layer": "enip"
+        }
+      ]
+    }
+  ]
+}

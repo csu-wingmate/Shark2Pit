@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="pdml2html.xsl"?>
+<!-- You can find pdml2html.xsl in /usr/share/doc/wireshark or at https://gitlab.com/wireshark/wireshark/-/tree/master/resources/share/doc/wireshark/pdml2html.xsl. -->
+<pdml version="0" creator="wireshark/4.4.7" time="Sun Jul 20 23:22:37 2025" capture_file="./pcaps/coap.pcap">
+<packet>
+  <proto name="geninfo" pos="0" showname="General information" size="86">
+    <field name="num" pos="0" show="1" showname="Number" value="1" size="86"/>
+    <field name="len" pos="0" show="86" showname="Frame Length" value="56" size="86"/>
+    <field name="caplen" pos="0" show="86" showname="Captured Length" value="56" size="86"/>
+    <field name="timestamp" pos="0" show="Apr  9, 2012 15:48:30.293035000 CST" showname="Captured Time" value="1333957710.293035000" size="86"/>
+  </proto>
+  <proto name="frame" showname="Frame 1: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)" size="86" pos="0">
+    <field name="frame.encap_type" showname="Encapsulation type: Ethernet (1)" size="0" pos="0" show="1"/>
+    <field name="frame.time" showname="Arrival Time: Apr  9, 2012 15:48:30.293035000 CST" size="0" pos="0" show="Apr  9, 2012 15:48:30.293035000 CST"/>
+    <field name="frame.time_utc" showname="UTC Arrival Time: Apr  9, 2012 07:48:30.293035000 UTC" size="0" pos="0" show="Apr  9, 2012 07:48:30.293035000 UTC"/>
+    <field name="frame.time_epoch" showname="Epoch Arrival Time: 1333957710.293035000" size="0" pos="0" show="1333957710.293035000"/>
+    <field name="frame.offset_shift" showname="Time shift for this packet: 0.000000000 seconds" size="0" pos="0" show="0.000000000"/>
+    <field name="frame.time_delta" showname="Time delta from previous captured frame: 0.000000000 seconds" size="0" pos="0" show="0.000000000"/>
+    <field name="frame.time_delta_displayed" showname="Time delta from previous displayed frame: 0.000000000 seconds" size="0" pos="0" show="0.000000000"/>
+    <field name="frame.time_relative" showname="Time since reference or first frame: 0.000000000 seconds" size="0" pos="0" show="0.000000000"/>
+    <field name="frame.number" showname="Frame Number: 1" size="0" pos="0" show="1"/>
+    <field name="frame.len" showname="Frame Length: 86 bytes (688 bits)" size="0" pos="0" show="86"/>
+    <field name="frame.cap_len" showname="Capture Length: 86 bytes (688 bits)" size="0" pos="0" show="86"/>
+    <field name="frame.marked" showname="Frame is marked: False" size="0" pos="0" show="False"/>
+    <field name="frame.ignored" showname="Frame is ignored: False" size="0" pos="0" show="False"/>
+    <field name="frame.protocols" showname="Protocols in frame: eth:ethertype:ipv6:udp:coap" size="0" pos="0" show="eth:ethertype:ipv6:udp:coap"/>
+  </proto>
+  <proto name="eth" showname="Ethernet II, Src: AzureWaveTec_c0:97:4a (48:5d:60:c0:97:4a), Dst: H3CTechnolog_b4:cc:01 (00:23:89:b4:cc:01)" size="14" pos="0">
+    <field name="eth.dst" showname="Destination: H3CTechnolog_b4:cc:01 (00:23:89:b4:cc:01)" size="6" pos="0" show="00:23:89:b4:cc:01" value="002389b4cc01">
+      <field name="eth.dst_resolved" showname="Destination (resolved): H3CTechnolog_b4:cc:01" hide="yes" size="6" pos="0" show="H3CTechnolog_b4:cc:01" value="002389b4cc01"/>
+      <field name="eth.dst.oui" showname="Destination OUI: 00:23:89 (Hangzhou H3C Technologies Co., Limited)" hide="yes" size="3" pos="0" show="9097" value="002389"/>
+      <field name="eth.dst.oui_resolved" showname="Destination OUI (resolved): Hangzhou H3C Technologies Co., Limited" hide="yes" size="6" pos="0" show="Hangzhou H3C Technologies Co., Limited" value="002389b4cc01"/>
+      <field name="eth.dst.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+      <field name="eth.dst.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+      <field name="eth.addr" showname="Address: H3CTechnolog_b4:cc:01 (00:23:89:b4:cc:01)" hide="yes" size="6" pos="0" show="00:23:89:b4:cc:01" value="002389b4cc01"/>
+      <field name="eth.addr_resolved" showname="Address (resolved): H3CTechnolog_b4:cc:01" hide="yes" size="6" pos="0" show="H3CTechnolog_b4:cc:01" value="002389b4cc01"/>
+      <field name="eth.addr.oui" showname="Address OUI: 00:23:89 (Hangzhou H3C Technologies Co., Limited)" hide="yes" size="3" pos="0" show="9097" value="002389"/>
+      <field name="eth.addr.oui_resolved" showname="Address OUI (resolved): Hangzhou H3C Technologies Co., Limited" hide="yes" size="6" pos="0" show="Hangzhou H3C Technologies Co., Limited" value="002389b4cc01"/>
+      <field name="eth.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" hide="yes" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+      <field name="eth.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" hide="yes" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+    </field>
+    <field name="eth.src" showname="Source: AzureWaveTec_c0:97:4a (48:5d:60:c0:97:4a)" size="6" pos="6" show="48:5d:60:c0:97:4a" value="485d60c0974a">
+      <field name="eth.src_resolved" showname="Source (resolved): AzureWaveTec_c0:97:4a" hide="yes" size="6" pos="6" show="AzureWaveTec_c0:97:4a" value="485d60c0974a"/>
+      <field name="eth.src.oui" showname="Source OUI: 48:5d:60 (AzureWave Technology Inc.)" hide="yes" size="3" pos="6" show="4742496" value="485d60"/>
+      <field name="eth.src.oui_resolved" showname="Source OUI (resolved): AzureWave Technology Inc." hide="yes" size="6" pos="6" show="AzureWave Technology Inc." value="485d60c0974a"/>
+      <field name="eth.src.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+      <field name="eth.src.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+      <field name="eth.addr" showname="Address: AzureWaveTec_c0:97:4a (48:5d:60:c0:97:4a)" hide="yes" size="6" pos="6" show="48:5d:60:c0:97:4a" value="485d60c0974a"/>
+      <field name="eth.addr_resolved" showname="Address (resolved): AzureWaveTec_c0:97:4a" hide="yes" size="6" pos="6" show="AzureWaveTec_c0:97:4a" value="485d60c0974a"/>
+      <field name="eth.addr.oui" showname="Address OUI: 48:5d:60 (AzureWave Technology Inc.)" hide="yes" size="3" pos="6" show="4742496" value="485d60"/>
+      <field name="eth.addr.oui_resolved" showname="Address OUI (resolved): AzureWave Technology Inc." hide="yes" size="6" pos="6" show="AzureWave Technology Inc." value="485d60c0974a"/>
+      <field name="eth.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" hide="yes" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+      <field name="eth.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" hide="yes" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+    </field>
+    <field name="eth.type" showname="Type: IPv6 (0x86dd)" size="2" pos="12" show="0x86dd" value="86dd"/>
+    <field name="eth.stream" showname="Stream index: 0" size="0" pos="0" show="0"/>
+  </proto>
+  <proto name="ipv6" showname="Internet Protocol Version 6, Src: 2001:da8:215:1171:a10b:cb48:8f83:57f6, Dst: 2001:620:8:35d9::10" size="40" pos="14">
+    <field name="ipv6.version" showname="0110 .... = Version: 6" size="1" pos="14" show="6" value="60"/>
+    <field name="ip.version" showname="0110 .... = Version: 6 [This field makes the filter match on &quot;ip.version == 6&quot; possible]" hide="yes" size="1" pos="14" show="6" value="6" unmaskedvalue="60"/>
+    <field name="ipv6.tclass" showname=".... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)" size="4" pos="14" show="0x00000000" value="0" unmaskedvalue="60000000">
+      <field name="ipv6.tclass.dscp" showname=".... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)" size="4" pos="14" show="0" value="0" unmaskedvalue="60000000"/>
+      <field name="ipv6.tclass.ecn" showname=".... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)" size="4" pos="14" show="0" value="0" unmaskedvalue="60000000"/>
+    </field>
+    <field name="ipv6.flow" showname=".... 0000 0000 0000 0000 0000 = Flow Label: 0x00000" size="3" pos="15" show="0x000000" value="0" unmaskedvalue="000000"/>
+    <field name="ipv6.plen" showname="Payload Length: 32" size="2" pos="18" show="32" value="0020"/>
+    <field name="ipv6.nxt" showname="Next Header: UDP (17)" size="1" pos="20" show="17" value="11"/>
+    <field name="ipv6.hlim" showname="Hop Limit: 64" size="1" pos="21" show="64" value="40"/>
+    <field name="ipv6.src" showname="Source Address: 2001:da8:215:1171:a10b:cb48:8f83:57f6" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6">
+      <field name="ipv6.src_addr_space" showname="Address Space: Global Unicast" size="2" pos="22" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.addr" showname="Source or Destination Address: 2001:da8:215:1171:a10b:cb48:8f83:57f6" hide="yes" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6">
+      <field name="ipv6.addr_space" showname="Address Space: Global Unicast" size="2" pos="22" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.src_host" showname="Source Host: 2001:da8:215:1171:a10b:cb48:8f83:57f6" hide="yes" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6"/>
+    <field name="ipv6.host" showname="Source or Destination Host: 2001:da8:215:1171:a10b:cb48:8f83:57f6" hide="yes" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6"/>
+    <field name="ipv6.dst" showname="Destination Address: 2001:620:8:35d9::10" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010">
+      <field name="ipv6.dst_addr_space" showname="Address Space: Global Unicast" size="2" pos="38" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.addr" showname="Source or Destination Address: 2001:620:8:35d9::10" hide="yes" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010">
+      <field name="ipv6.addr_space" showname="Address Space: Global Unicast" size="2" pos="38" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.dst_host" showname="Destination Host: 2001:620:8:35d9::10" hide="yes" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010"/>
+    <field name="ipv6.host" showname="Source or Destination Host: 2001:620:8:35d9::10" hide="yes" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010"/>
+    <field name="ipv6.stream" showname="Stream index: 0" size="0" pos="14" show="0"/>
+  </proto>
+  <proto name="udp" showname="User Datagram Protocol, Src Port: 61043, Dst Port: 5683" size="8" pos="54">
+    <field name="udp.srcport" showname="Source Port: 61043" size="2" pos="54" show="61043" value="ee73"/>
+    <field name="udp.dstport" showname="Destination Port: 5683" size="2" pos="56" show="5683" value="1633"/>
+    <field name="udp.port" showname="Source or Destination Port: 61043" hide="yes" size="2" pos="54" show="61043" value="ee73"/>
+    <field name="udp.port" showname="Source or Destination Port: 5683" hide="yes" size="2" pos="56" show="5683" value="1633"/>
+    <field name="udp.length" showname="Length: 32" size="2" pos="58" show="32" value="0020"/>
+    <field name="udp.checksum" showname="Checksum: 0xfd1a [unverified]" size="2" pos="60" show="0xfd1a" value="fd1a"/>
+    <field name="udp.checksum.status" showname="Checksum Status: Unverified" size="0" pos="60" show="2"/>
+    <field name="udp.stream" showname="Stream index: 0" size="0" pos="62" show="0"/>
+    <field name="udp.stream.pnum" showname="Stream Packet Number: 1" size="0" pos="54" show="1"/>
+    <field name="" show="Timestamps" size="0" pos="54">
+      <field name="udp.time_relative" showname="Time since first frame: 0.000000000 seconds" size="0" pos="54" show="0.000000000"/>
+      <field name="udp.time_delta" showname="Time since previous frame: 0.000000000 seconds" size="0" pos="54" show="0.000000000"/>
+    </field>
+    <field name="udp.payload" showname="UDP payload (24 bytes)" size="24" pos="62" show="43:01:05:ca:72:16:33:2b:2e:77:65:6c:6c:2d:6b:6e:6f:77:6e:04:63:6f:72:65" value="430105ca7216332b2e77656c6c2d6b6e6f776e04636f7265"/>
+  </proto>
+  <proto name="coap" showname="Constrained Application Protocol, Confirmable, GET, MID:1482" size="24" pos="62">
+    <field name="coap.version" showname="01.. .... = Version: 1" size="1" pos="62" show="1" value="1" unmaskedvalue="43"/>
+    <field name="coap.type" showname="..00 .... = Type: Confirmable (0)" size="1" pos="62" show="0" value="0" unmaskedvalue="43"/>
+    <field name="coap.token_len" showname=".... 0011 = Token Length: 3" size="1" pos="62" show="3" value="3" unmaskedvalue="43"/>
+    <field name="coap.code" showname="Code: GET (1)" size="1" pos="63" show="1" value="01"/>
+    <field name="coap.mid" showname="Message ID: 1482" size="2" pos="64" show="1482" value="05ca"/>
+    <field name="coap.token" showname="Token: 721633" size="3" pos="66" show="72:16:33" value="721633"/>
+    <field name="coap.opt.name" showname="Opt Name: #1: Unknown Option (2): 2e 77 65 6c 6c 2d 6b 6e 6f 77 6e" size="12" pos="69" show="#1: Unknown Option (2)" value="2b2e77656c6c2d6b6e6f776e">
+      <field name="_ws.expert" showname="Expert Info (Warning/Malformed): Invalid Option Number 2" size="0" pos="69">
+        <field name="coap.invalid_option_number" showname="Invalid Option Number 2" size="0" pos="0" show="" value=""/>
+        <field name="_ws.expert.message" showname="Message: Invalid Option Number 2" hide="yes" size="0" pos="0" show="Invalid Option Number 2"/>
+        <field name="_ws.expert.severity" showname="Severity level: Warning" size="0" pos="0" show="6291456"/>
+        <field name="_ws.expert.group" showname="Group: Malformed" size="0" pos="0" show="117440512"/>
+      </field>
+      <proto name="_ws.malformed" showname="Malformed Packet" hide="yes" size="0" pos="69"/>
+      <field name="coap.opt.desc" showname="Opt Desc: Type 2, Elective, Unsafe" size="12" pos="69" show="Type 2, Elective, Unsafe" value="2b2e77656c6c2d6b6e6f776e"/>
+      <field name="coap.opt.delta" showname="0010 .... = Opt Delta: 2" size="1" pos="69" show="2" value="2" unmaskedvalue="2b"/>
+      <field name="coap.opt.length" showname=".... 1011 = Opt Length: 11" size="1" pos="69" show="11" value="B" unmaskedvalue="2b"/>
+      <field name="coap.opt.unknown" showname="Unknown: 2e77656c6c2d6b6e6f776e" size="11" pos="70" show="2e:77:65:6c:6c:2d:6b:6e:6f:77:6e" value="2e77656c6c2d6b6e6f776e"/>
+    </field>
+    <field name="coap.opt.name" showname="Opt Name: #2: Unknown Option (2): 63 6f 72 65" size="5" pos="81" show="#2: Unknown Option (2)" value="04636f7265">
+      <field name="_ws.expert" showname="Expert Info (Warning/Malformed): Invalid Option Number 2" size="0" pos="81">
+        <field name="coap.invalid_option_number" showname="Invalid Option Number 2" size="0" pos="0" show="" value=""/>
+        <field name="_ws.expert.message" showname="Message: Invalid Option Number 2" hide="yes" size="0" pos="0" show="Invalid Option Number 2"/>
+        <field name="_ws.expert.severity" showname="Severity level: Warning" size="0" pos="0" show="6291456"/>
+        <field name="_ws.expert.group" showname="Group: Malformed" size="0" pos="0" show="117440512"/>
+      </field>
+      <proto name="_ws.malformed" showname="Malformed Packet" hide="yes" size="0" pos="81"/>
+      <field name="coap.opt.desc" showname="Opt Desc: Type 2, Elective, Unsafe" size="5" pos="81" show="Type 2, Elective, Unsafe" value="04636f7265"/>
+      <field name="coap.opt.delta" showname="0000 .... = Opt Delta: 0" size="1" pos="81" show="0" value="0" unmaskedvalue="04"/>
+      <field name="coap.opt.length" showname=".... 0100 = Opt Length: 4" size="1" pos="81" show="4" value="4" unmaskedvalue="04"/>
+      <field name="coap.opt.unknown" showname="Unknown: 636f7265" size="4" pos="82" show="63:6f:72:65" value="636f7265"/>
+    </field>
+  </proto>
+</packet>
+
+
+<packet>
+  <proto name="geninfo" pos="0" showname="General information" size="86">
+    <field name="num" pos="0" show="2" showname="Number" value="2" size="86"/>
+    <field name="len" pos="0" show="86" showname="Frame Length" value="56" size="86"/>
+    <field name="caplen" pos="0" show="86" showname="Captured Length" value="56" size="86"/>
+    <field name="timestamp" pos="0" show="Apr  9, 2012 15:48:35.764217000 CST" showname="Captured Time" value="1333957715.764217000" size="86"/>
+  </proto>
+  <proto name="frame" showname="Frame 2: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)" size="86" pos="0">
+    <field name="frame.encap_type" showname="Encapsulation type: Ethernet (1)" size="0" pos="0" show="1"/>
+    <field name="frame.time" showname="Arrival Time: Apr  9, 2012 15:48:35.764217000 CST" size="0" pos="0" show="Apr  9, 2012 15:48:35.764217000 CST"/>
+    <field name="frame.time_utc" showname="UTC Arrival Time: Apr  9, 2012 07:48:35.764217000 UTC" size="0" pos="0" show="Apr  9, 2012 07:48:35.764217000 UTC"/>
+    <field name="frame.time_epoch" showname="Epoch Arrival Time: 1333957715.764217000" size="0" pos="0" show="1333957715.764217000"/>
+    <field name="frame.offset_shift" showname="Time shift for this packet: 0.000000000 seconds" size="0" pos="0" show="0.000000000"/>
+    <field name="frame.time_delta" showname="Time delta from previous captured frame: 5.471182000 seconds" size="0" pos="0" show="5.471182000"/>
+    <field name="frame.time_delta_displayed" showname="Time delta from previous displayed frame: 5.471182000 seconds" size="0" pos="0" show="5.471182000"/>
+    <field name="frame.time_relative" showname="Time since reference or first frame: 5.471182000 seconds" size="0" pos="0" show="5.471182000"/>
+    <field name="frame.number" showname="Frame Number: 2" size="0" pos="0" show="2"/>
+    <field name="frame.len" showname="Frame Length: 86 bytes (688 bits)" size="0" pos="0" show="86"/>
+    <field name="frame.cap_len" showname="Capture Length: 86 bytes (688 bits)" size="0" pos="0" show="86"/>
+    <field name="frame.marked" showname="Frame is marked: False" size="0" pos="0" show="False"/>
+    <field name="frame.ignored" showname="Frame is ignored: False" size="0" pos="0" show="False"/>
+    <field name="frame.protocols" showname="Protocols in frame: eth:ethertype:ipv6:udp:coap" size="0" pos="0" show="eth:ethertype:ipv6:udp:coap"/>
+  </proto>
+  <proto name="eth" showname="Ethernet II, Src: AzureWaveTec_c0:97:4a (48:5d:60:c0:97:4a), Dst: H3CTechnolog_b4:cc:01 (00:23:89:b4:cc:01)" size="14" pos="0">
+    <field name="eth.dst" showname="Destination: H3CTechnolog_b4:cc:01 (00:23:89:b4:cc:01)" size="6" pos="0" show="00:23:89:b4:cc:01" value="002389b4cc01">
+      <field name="eth.dst_resolved" showname="Destination (resolved): H3CTechnolog_b4:cc:01" hide="yes" size="6" pos="0" show="H3CTechnolog_b4:cc:01" value="002389b4cc01"/>
+      <field name="eth.dst.oui" showname="Destination OUI: 00:23:89 (Hangzhou H3C Technologies Co., Limited)" hide="yes" size="3" pos="0" show="9097" value="002389"/>
+      <field name="eth.dst.oui_resolved" showname="Destination OUI (resolved): Hangzhou H3C Technologies Co., Limited" hide="yes" size="6" pos="0" show="Hangzhou H3C Technologies Co., Limited" value="002389b4cc01"/>
+      <field name="eth.dst.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+      <field name="eth.dst.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+      <field name="eth.addr" showname="Address: H3CTechnolog_b4:cc:01 (00:23:89:b4:cc:01)" hide="yes" size="6" pos="0" show="00:23:89:b4:cc:01" value="002389b4cc01"/>
+      <field name="eth.addr_resolved" showname="Address (resolved): H3CTechnolog_b4:cc:01" hide="yes" size="6" pos="0" show="H3CTechnolog_b4:cc:01" value="002389b4cc01"/>
+      <field name="eth.addr.oui" showname="Address OUI: 00:23:89 (Hangzhou H3C Technologies Co., Limited)" hide="yes" size="3" pos="0" show="9097" value="002389"/>
+      <field name="eth.addr.oui_resolved" showname="Address OUI (resolved): Hangzhou H3C Technologies Co., Limited" hide="yes" size="6" pos="0" show="Hangzhou H3C Technologies Co., Limited" value="002389b4cc01"/>
+      <field name="eth.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" hide="yes" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+      <field name="eth.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" hide="yes" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+    </field>
+    <field name="eth.src" showname="Source: AzureWaveTec_c0:97:4a (48:5d:60:c0:97:4a)" size="6" pos="6" show="48:5d:60:c0:97:4a" value="485d60c0974a">
+      <field name="eth.src_resolved" showname="Source (resolved): AzureWaveTec_c0:97:4a" hide="yes" size="6" pos="6" show="AzureWaveTec_c0:97:4a" value="485d60c0974a"/>
+      <field name="eth.src.oui" showname="Source OUI: 48:5d:60 (AzureWave Technology Inc.)" hide="yes" size="3" pos="6" show="4742496" value="485d60"/>
+      <field name="eth.src.oui_resolved" showname="Source OUI (resolved): AzureWave Technology Inc." hide="yes" size="6" pos="6" show="AzureWave Technology Inc." value="485d60c0974a"/>
+      <field name="eth.src.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+      <field name="eth.src.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+      <field name="eth.addr" showname="Address: AzureWaveTec_c0:97:4a (48:5d:60:c0:97:4a)" hide="yes" size="6" pos="6" show="48:5d:60:c0:97:4a" value="485d60c0974a"/>
+      <field name="eth.addr_resolved" showname="Address (resolved): AzureWaveTec_c0:97:4a" hide="yes" size="6" pos="6" show="AzureWaveTec_c0:97:4a" value="485d60c0974a"/>
+      <field name="eth.addr.oui" showname="Address OUI: 48:5d:60 (AzureWave Technology Inc.)" hide="yes" size="3" pos="6" show="4742496" value="485d60"/>
+      <field name="eth.addr.oui_resolved" showname="Address OUI (resolved): AzureWave Technology Inc." hide="yes" size="6" pos="6" show="AzureWave Technology Inc." value="485d60c0974a"/>
+      <field name="eth.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" hide="yes" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+      <field name="eth.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" hide="yes" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+    </field>
+    <field name="eth.type" showname="Type: IPv6 (0x86dd)" size="2" pos="12" show="0x86dd" value="86dd"/>
+    <field name="eth.stream" showname="Stream index: 0" size="0" pos="0" show="0"/>
+  </proto>
+  <proto name="ipv6" showname="Internet Protocol Version 6, Src: 2001:da8:215:1171:a10b:cb48:8f83:57f6, Dst: 2001:620:8:35d9::10" size="40" pos="14">
+    <field name="ipv6.version" showname="0110 .... = Version: 6" size="1" pos="14" show="6" value="60"/>
+    <field name="ip.version" showname="0110 .... = Version: 6 [This field makes the filter match on &quot;ip.version == 6&quot; possible]" hide="yes" size="1" pos="14" show="6" value="6" unmaskedvalue="60"/>
+    <field name="ipv6.tclass" showname=".... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)" size="4" pos="14" show="0x00000000" value="0" unmaskedvalue="60000000">
+      <field name="ipv6.tclass.dscp" showname=".... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)" size="4" pos="14" show="0" value="0" unmaskedvalue="60000000"/>
+      <field name="ipv6.tclass.ecn" showname=".... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)" size="4" pos="14" show="0" value="0" unmaskedvalue="60000000"/>
+    </field>
+    <field name="ipv6.flow" showname=".... 0000 0000 0000 0000 0000 = Flow Label: 0x00000" size="3" pos="15" show="0x000000" value="0" unmaskedvalue="000000"/>
+    <field name="ipv6.plen" showname="Payload Length: 32" size="2" pos="18" show="32" value="0020"/>
+    <field name="ipv6.nxt" showname="Next Header: UDP (17)" size="1" pos="20" show="17" value="11"/>
+    <field name="ipv6.hlim" showname="Hop Limit: 64" size="1" pos="21" show="64" value="40"/>
+    <field name="ipv6.src" showname="Source Address: 2001:da8:215:1171:a10b:cb48:8f83:57f6" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6">
+      <field name="ipv6.src_addr_space" showname="Address Space: Global Unicast" size="2" pos="22" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.addr" showname="Source or Destination Address: 2001:da8:215:1171:a10b:cb48:8f83:57f6" hide="yes" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6">
+      <field name="ipv6.addr_space" showname="Address Space: Global Unicast" size="2" pos="22" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.src_host" showname="Source Host: 2001:da8:215:1171:a10b:cb48:8f83:57f6" hide="yes" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6"/>
+    <field name="ipv6.host" showname="Source or Destination Host: 2001:da8:215:1171:a10b:cb48:8f83:57f6" hide="yes" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6"/>
+    <field name="ipv6.dst" showname="Destination Address: 2001:620:8:35d9::10" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010">
+      <field name="ipv6.dst_addr_space" showname="Address Space: Global Unicast" size="2" pos="38" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.addr" showname="Source or Destination Address: 2001:620:8:35d9::10" hide="yes" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010">
+      <field name="ipv6.addr_space" showname="Address Space: Global Unicast" size="2" pos="38" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.dst_host" showname="Destination Host: 2001:620:8:35d9::10" hide="yes" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010"/>
+    <field name="ipv6.host" showname="Source or Destination Host: 2001:620:8:35d9::10" hide="yes" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010"/>
+    <field name="ipv6.stream" showname="Stream index: 0" size="0" pos="14" show="0"/>
+  </proto>
+  <proto name="udp" showname="User Datagram Protocol, Src Port: 61044, Dst Port: 5683" size="8" pos="54">
+    <field name="udp.srcport" showname="Source Port: 61044" size="2" pos="54" show="61044" value="ee74"/>
+    <field name="udp.dstport" showname="Destination Port: 5683" size="2" pos="56" show="5683" value="1633"/>
+    <field name="udp.port" showname="Source or Destination Port: 61044" hide="yes" size="2" pos="54" show="61044" value="ee74"/>
+    <field name="udp.port" showname="Source or Destination Port: 5683" hide="yes" size="2" pos="56" show="5683" value="1633"/>
+    <field name="udp.length" showname="Length: 32" size="2" pos="58" show="32" value="0020"/>
+    <field name="udp.checksum" showname="Checksum: 0x0315 [unverified]" size="2" pos="60" show="0x0315" value="0315"/>
+    <field name="udp.checksum.status" showname="Checksum Status: Unverified" size="0" pos="60" show="2"/>
+    <field name="udp.stream" showname="Stream index: 1" size="0" pos="62" show="1"/>
+    <field name="udp.stream.pnum" showname="Stream Packet Number: 1" size="0" pos="54" show="1"/>
+    <field name="" show="Timestamps" size="0" pos="54">
+      <field name="udp.time_relative" showname="Time since first frame: 0.000000000 seconds" size="0" pos="54" show="0.000000000"/>
+      <field name="udp.time_delta" showname="Time since previous frame: 0.000000000 seconds" size="0" pos="54" show="0.000000000"/>
+    </field>
+    <field name="udp.payload" showname="UDP payload (24 bytes)" size="24" pos="62" show="43:02:ff:cd:72:16:33:2b:2e:77:65:6c:6c:2d:6b:6e:6f:77:6e:04:63:6f:72:65" value="4302ffcd7216332b2e77656c6c2d6b6e6f776e04636f7265"/>
+  </proto>
+  <proto name="coap" showname="Constrained Application Protocol, Confirmable, POST, MID:65485" size="24" pos="62">
+    <field name="coap.version" showname="01.. .... = Version: 1" size="1" pos="62" show="1" value="1" unmaskedvalue="43"/>
+    <field name="coap.type" showname="..00 .... = Type: Confirmable (0)" size="1" pos="62" show="0" value="0" unmaskedvalue="43"/>
+    <field name="coap.token_len" showname=".... 0011 = Token Length: 3" size="1" pos="62" show="3" value="3" unmaskedvalue="43"/>
+    <field name="coap.code" showname="Code: POST (2)" size="1" pos="63" show="2" value="02"/>
+    <field name="coap.mid" showname="Message ID: 65485" size="2" pos="64" show="65485" value="ffcd"/>
+    <field name="coap.token" showname="Token: 721633" size="3" pos="66" show="72:16:33" value="721633"/>
+    <field name="coap.opt.name" showname="Opt Name: #1: Unknown Option (2): 2e 77 65 6c 6c 2d 6b 6e 6f 77 6e" size="12" pos="69" show="#1: Unknown Option (2)" value="2b2e77656c6c2d6b6e6f776e">
+      <field name="_ws.expert" showname="Expert Info (Warning/Malformed): Invalid Option Number 2" size="0" pos="69">
+        <field name="coap.invalid_option_number" showname="Invalid Option Number 2" size="0" pos="0" show="" value=""/>
+        <field name="_ws.expert.message" showname="Message: Invalid Option Number 2" hide="yes" size="0" pos="0" show="Invalid Option Number 2"/>
+        <field name="_ws.expert.severity" showname="Severity level: Warning" size="0" pos="0" show="6291456"/>
+        <field name="_ws.expert.group" showname="Group: Malformed" size="0" pos="0" show="117440512"/>
+      </field>
+      <proto name="_ws.malformed" showname="Malformed Packet" hide="yes" size="0" pos="69"/>
+      <field name="coap.opt.desc" showname="Opt Desc: Type 2, Elective, Unsafe" size="12" pos="69" show="Type 2, Elective, Unsafe" value="2b2e77656c6c2d6b6e6f776e"/>
+      <field name="coap.opt.delta" showname="0010 .... = Opt Delta: 2" size="1" pos="69" show="2" value="2" unmaskedvalue="2b"/>
+      <field name="coap.opt.length" showname=".... 1011 = Opt Length: 11" size="1" pos="69" show="11" value="B" unmaskedvalue="2b"/>
+      <field name="coap.opt.unknown" showname="Unknown: 2e77656c6c2d6b6e6f776e" size="11" pos="70" show="2e:77:65:6c:6c:2d:6b:6e:6f:77:6e" value="2e77656c6c2d6b6e6f776e"/>
+    </field>
+    <field name="coap.opt.name" showname="Opt Name: #2: Unknown Option (2): 63 6f 72 65" size="5" pos="81" show="#2: Unknown Option (2)" value="04636f7265">
+      <field name="_ws.expert" showname="Expert Info (Warning/Malformed): Invalid Option Number 2" size="0" pos="81">
+        <field name="coap.invalid_option_number" showname="Invalid Option Number 2" size="0" pos="0" show="" value=""/>
+        <field name="_ws.expert.message" showname="Message: Invalid Option Number 2" hide="yes" size="0" pos="0" show="Invalid Option Number 2"/>
+        <field name="_ws.expert.severity" showname="Severity level: Warning" size="0" pos="0" show="6291456"/>
+        <field name="_ws.expert.group" showname="Group: Malformed" size="0" pos="0" show="117440512"/>
+      </field>
+      <proto name="_ws.malformed" showname="Malformed Packet" hide="yes" size="0" pos="81"/>
+      <field name="coap.opt.desc" showname="Opt Desc: Type 2, Elective, Unsafe" size="5" pos="81" show="Type 2, Elective, Unsafe" value="04636f7265"/>
+      <field name="coap.opt.delta" showname="0000 .... = Opt Delta: 0" size="1" pos="81" show="0" value="0" unmaskedvalue="04"/>
+      <field name="coap.opt.length" showname=".... 0100 = Opt Length: 4" size="1" pos="81" show="4" value="4" unmaskedvalue="04"/>
+      <field name="coap.opt.unknown" showname="Unknown: 636f7265" size="4" pos="82" show="63:6f:72:65" value="636f7265"/>
+    </field>
+  </proto>
+</packet>
+
+
+<packet>
+  <proto name="geninfo" pos="0" showname="General information" size="86">
+    <field name="num" pos="0" show="3" showname="Number" value="3" size="86"/>
+    <field name="len" pos="0" show="86" showname="Frame Length" value="56" size="86"/>
+    <field name="caplen" pos="0" show="86" showname="Captured Length" value="56" size="86"/>
+    <field name="timestamp" pos="0" show="Apr  9, 2012 15:48:37.200749000 CST" showname="Captured Time" value="1333957717.200749000" size="86"/>
+  </proto>
+  <proto name="frame" showname="Frame 3: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)" size="86" pos="0">
+    <field name="frame.encap_type" showname="Encapsulation type: Ethernet (1)" size="0" pos="0" show="1"/>
+    <field name="frame.time" showname="Arrival Time: Apr  9, 2012 15:48:37.200749000 CST" size="0" pos="0" show="Apr  9, 2012 15:48:37.200749000 CST"/>
+    <field name="frame.time_utc" showname="UTC Arrival Time: Apr  9, 2012 07:48:37.200749000 UTC" size="0" pos="0" show="Apr  9, 2012 07:48:37.200749000 UTC"/>
+    <field name="frame.time_epoch" showname="Epoch Arrival Time: 1333957717.200749000" size="0" pos="0" show="1333957717.200749000"/>
+    <field name="frame.offset_shift" showname="Time shift for this packet: 0.000000000 seconds" size="0" pos="0" show="0.000000000"/>
+    <field name="frame.time_delta" showname="Time delta from previous captured frame: 1.436532000 seconds" size="0" pos="0" show="1.436532000"/>
+    <field name="frame.time_delta_displayed" showname="Time delta from previous displayed frame: 1.436532000 seconds" size="0" pos="0" show="1.436532000"/>
+    <field name="frame.time_relative" showname="Time since reference or first frame: 6.907714000 seconds" size="0" pos="0" show="6.907714000"/>
+    <field name="frame.number" showname="Frame Number: 3" size="0" pos="0" show="3"/>
+    <field name="frame.len" showname="Frame Length: 86 bytes (688 bits)" size="0" pos="0" show="86"/>
+    <field name="frame.cap_len" showname="Capture Length: 86 bytes (688 bits)" size="0" pos="0" show="86"/>
+    <field name="frame.marked" showname="Frame is marked: False" size="0" pos="0" show="False"/>
+    <field name="frame.ignored" showname="Frame is ignored: False" size="0" pos="0" show="False"/>
+    <field name="frame.protocols" showname="Protocols in frame: eth:ethertype:ipv6:udp:coap" size="0" pos="0" show="eth:ethertype:ipv6:udp:coap"/>
+  </proto>
+  <proto name="eth" showname="Ethernet II, Src: AzureWaveTec_c0:97:4a (48:5d:60:c0:97:4a), Dst: H3CTechnolog_b4:cc:01 (00:23:89:b4:cc:01)" size="14" pos="0">
+    <field name="eth.dst" showname="Destination: H3CTechnolog_b4:cc:01 (00:23:89:b4:cc:01)" size="6" pos="0" show="00:23:89:b4:cc:01" value="002389b4cc01">
+      <field name="eth.dst_resolved" showname="Destination (resolved): H3CTechnolog_b4:cc:01" hide="yes" size="6" pos="0" show="H3CTechnolog_b4:cc:01" value="002389b4cc01"/>
+      <field name="eth.dst.oui" showname="Destination OUI: 00:23:89 (Hangzhou H3C Technologies Co., Limited)" hide="yes" size="3" pos="0" show="9097" value="002389"/>
+      <field name="eth.dst.oui_resolved" showname="Destination OUI (resolved): Hangzhou H3C Technologies Co., Limited" hide="yes" size="6" pos="0" show="Hangzhou H3C Technologies Co., Limited" value="002389b4cc01"/>
+      <field name="eth.dst.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+      <field name="eth.dst.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+      <field name="eth.addr" showname="Address: H3CTechnolog_b4:cc:01 (00:23:89:b4:cc:01)" hide="yes" size="6" pos="0" show="00:23:89:b4:cc:01" value="002389b4cc01"/>
+      <field name="eth.addr_resolved" showname="Address (resolved): H3CTechnolog_b4:cc:01" hide="yes" size="6" pos="0" show="H3CTechnolog_b4:cc:01" value="002389b4cc01"/>
+      <field name="eth.addr.oui" showname="Address OUI: 00:23:89 (Hangzhou H3C Technologies Co., Limited)" hide="yes" size="3" pos="0" show="9097" value="002389"/>
+      <field name="eth.addr.oui_resolved" showname="Address OUI (resolved): Hangzhou H3C Technologies Co., Limited" hide="yes" size="6" pos="0" show="Hangzhou H3C Technologies Co., Limited" value="002389b4cc01"/>
+      <field name="eth.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" hide="yes" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+      <field name="eth.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" hide="yes" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+    </field>
+    <field name="eth.src" showname="Source: AzureWaveTec_c0:97:4a (48:5d:60:c0:97:4a)" size="6" pos="6" show="48:5d:60:c0:97:4a" value="485d60c0974a">
+      <field name="eth.src_resolved" showname="Source (resolved): AzureWaveTec_c0:97:4a" hide="yes" size="6" pos="6" show="AzureWaveTec_c0:97:4a" value="485d60c0974a"/>
+      <field name="eth.src.oui" showname="Source OUI: 48:5d:60 (AzureWave Technology Inc.)" hide="yes" size="3" pos="6" show="4742496" value="485d60"/>
+      <field name="eth.src.oui_resolved" showname="Source OUI (resolved): AzureWave Technology Inc." hide="yes" size="6" pos="6" show="AzureWave Technology Inc." value="485d60c0974a"/>
+      <field name="eth.src.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+      <field name="eth.src.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+      <field name="eth.addr" showname="Address: AzureWaveTec_c0:97:4a (48:5d:60:c0:97:4a)" hide="yes" size="6" pos="6" show="48:5d:60:c0:97:4a" value="485d60c0974a"/>
+      <field name="eth.addr_resolved" showname="Address (resolved): AzureWaveTec_c0:97:4a" hide="yes" size="6" pos="6" show="AzureWaveTec_c0:97:4a" value="485d60c0974a"/>
+      <field name="eth.addr.oui" showname="Address OUI: 48:5d:60 (AzureWave Technology Inc.)" hide="yes" size="3" pos="6" show="4742496" value="485d60"/>
+      <field name="eth.addr.oui_resolved" showname="Address OUI (resolved): AzureWave Technology Inc." hide="yes" size="6" pos="6" show="AzureWave Technology Inc." value="485d60c0974a"/>
+      <field name="eth.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" hide="yes" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+      <field name="eth.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" hide="yes" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+    </field>
+    <field name="eth.type" showname="Type: IPv6 (0x86dd)" size="2" pos="12" show="0x86dd" value="86dd"/>
+    <field name="eth.stream" showname="Stream index: 0" size="0" pos="0" show="0"/>
+  </proto>
+  <proto name="ipv6" showname="Internet Protocol Version 6, Src: 2001:da8:215:1171:a10b:cb48:8f83:57f6, Dst: 2001:620:8:35d9::10" size="40" pos="14">
+    <field name="ipv6.version" showname="0110 .... = Version: 6" size="1" pos="14" show="6" value="60"/>
+    <field name="ip.version" showname="0110 .... = Version: 6 [This field makes the filter match on &quot;ip.version == 6&quot; possible]" hide="yes" size="1" pos="14" show="6" value="6" unmaskedvalue="60"/>
+    <field name="ipv6.tclass" showname=".... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)" size="4" pos="14" show="0x00000000" value="0" unmaskedvalue="60000000">
+      <field name="ipv6.tclass.dscp" showname=".... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)" size="4" pos="14" show="0" value="0" unmaskedvalue="60000000"/>
+      <field name="ipv6.tclass.ecn" showname=".... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)" size="4" pos="14" show="0" value="0" unmaskedvalue="60000000"/>
+    </field>
+    <field name="ipv6.flow" showname=".... 0000 0000 0000 0000 0000 = Flow Label: 0x00000" size="3" pos="15" show="0x000000" value="0" unmaskedvalue="000000"/>
+    <field name="ipv6.plen" showname="Payload Length: 32" size="2" pos="18" show="32" value="0020"/>
+    <field name="ipv6.nxt" showname="Next Header: UDP (17)" size="1" pos="20" show="17" value="11"/>
+    <field name="ipv6.hlim" showname="Hop Limit: 64" size="1" pos="21" show="64" value="40"/>
+    <field name="ipv6.src" showname="Source Address: 2001:da8:215:1171:a10b:cb48:8f83:57f6" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6">
+      <field name="ipv6.src_addr_space" showname="Address Space: Global Unicast" size="2" pos="22" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.addr" showname="Source or Destination Address: 2001:da8:215:1171:a10b:cb48:8f83:57f6" hide="yes" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6">
+      <field name="ipv6.addr_space" showname="Address Space: Global Unicast" size="2" pos="22" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.src_host" showname="Source Host: 2001:da8:215:1171:a10b:cb48:8f83:57f6" hide="yes" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6"/>
+    <field name="ipv6.host" showname="Source or Destination Host: 2001:da8:215:1171:a10b:cb48:8f83:57f6" hide="yes" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6"/>
+    <field name="ipv6.dst" showname="Destination Address: 2001:620:8:35d9::10" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010">
+      <field name="ipv6.dst_addr_space" showname="Address Space: Global Unicast" size="2" pos="38" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.addr" showname="Source or Destination Address: 2001:620:8:35d9::10" hide="yes" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010">
+      <field name="ipv6.addr_space" showname="Address Space: Global Unicast" size="2" pos="38" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.dst_host" showname="Destination Host: 2001:620:8:35d9::10" hide="yes" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010"/>
+    <field name="ipv6.host" showname="Source or Destination Host: 2001:620:8:35d9::10" hide="yes" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010"/>
+    <field name="ipv6.stream" showname="Stream index: 0" size="0" pos="14" show="0"/>
+  </proto>
+  <proto name="udp" showname="User Datagram Protocol, Src Port: 61045, Dst Port: 5683" size="8" pos="54">
+    <field name="udp.srcport" showname="Source Port: 61045" size="2" pos="54" show="61045" value="ee75"/>
+    <field name="udp.dstport" showname="Destination Port: 5683" size="2" pos="56" show="5683" value="1633"/>
+    <field name="udp.port" showname="Source or Destination Port: 61045" hide="yes" size="2" pos="54" show="61045" value="ee75"/>
+    <field name="udp.port" showname="Source or Destination Port: 5683" hide="yes" size="2" pos="56" show="5683" value="1633"/>
+    <field name="udp.length" showname="Length: 32" size="2" pos="58" show="32" value="0020"/>
+    <field name="udp.checksum" showname="Checksum: 0xcae3 [unverified]" size="2" pos="60" show="0xcae3" value="cae3"/>
+    <field name="udp.checksum.status" showname="Checksum Status: Unverified" size="0" pos="60" show="2"/>
+    <field name="udp.stream" showname="Stream index: 2" size="0" pos="62" show="2"/>
+    <field name="udp.stream.pnum" showname="Stream Packet Number: 1" size="0" pos="54" show="1"/>
+    <field name="" show="Timestamps" size="0" pos="54">
+      <field name="udp.time_relative" showname="Time since first frame: 0.000000000 seconds" size="0" pos="54" show="0.000000000"/>
+      <field name="udp.time_delta" showname="Time since previous frame: 0.000000000 seconds" size="0" pos="54" show="0.000000000"/>
+    </field>
+    <field name="udp.payload" showname="UDP payload (24 bytes)" size="24" pos="62" show="43:03:37:fd:72:16:33:2b:2e:77:65:6c:6c:2d:6b:6e:6f:77:6e:04:63:6f:72:65" value="430337fd7216332b2e77656c6c2d6b6e6f776e04636f7265"/>
+  </proto>
+  <proto name="coap" showname="Constrained Application Protocol, Confirmable, PUT, MID:14333" size="24" pos="62">
+    <field name="coap.version" showname="01.. .... = Version: 1" size="1" pos="62" show="1" value="1" unmaskedvalue="43"/>
+    <field name="coap.type" showname="..00 .... = Type: Confirmable (0)" size="1" pos="62" show="0" value="0" unmaskedvalue="43"/>
+    <field name="coap.token_len" showname=".... 0011 = Token Length: 3" size="1" pos="62" show="3" value="3" unmaskedvalue="43"/>
+    <field name="coap.code" showname="Code: PUT (3)" size="1" pos="63" show="3" value="03"/>
+    <field name="coap.mid" showname="Message ID: 14333" size="2" pos="64" show="14333" value="37fd"/>
+    <field name="coap.token" showname="Token: 721633" size="3" pos="66" show="72:16:33" value="721633"/>
+    <field name="coap.opt.name" showname="Opt Name: #1: Unknown Option (2): 2e 77 65 6c 6c 2d 6b 6e 6f 77 6e" size="12" pos="69" show="#1: Unknown Option (2)" value="2b2e77656c6c2d6b6e6f776e">
+      <field name="_ws.expert" showname="Expert Info (Warning/Malformed): Invalid Option Number 2" size="0" pos="69">
+        <field name="coap.invalid_option_number" showname="Invalid Option Number 2" size="0" pos="0" show="" value=""/>
+        <field name="_ws.expert.message" showname="Message: Invalid Option Number 2" hide="yes" size="0" pos="0" show="Invalid Option Number 2"/>
+        <field name="_ws.expert.severity" showname="Severity level: Warning" size="0" pos="0" show="6291456"/>
+        <field name="_ws.expert.group" showname="Group: Malformed" size="0" pos="0" show="117440512"/>
+      </field>
+      <proto name="_ws.malformed" showname="Malformed Packet" hide="yes" size="0" pos="69"/>
+      <field name="coap.opt.desc" showname="Opt Desc: Type 2, Elective, Unsafe" size="12" pos="69" show="Type 2, Elective, Unsafe" value="2b2e77656c6c2d6b6e6f776e"/>
+      <field name="coap.opt.delta" showname="0010 .... = Opt Delta: 2" size="1" pos="69" show="2" value="2" unmaskedvalue="2b"/>
+      <field name="coap.opt.length" showname=".... 1011 = Opt Length: 11" size="1" pos="69" show="11" value="B" unmaskedvalue="2b"/>
+      <field name="coap.opt.unknown" showname="Unknown: 2e77656c6c2d6b6e6f776e" size="11" pos="70" show="2e:77:65:6c:6c:2d:6b:6e:6f:77:6e" value="2e77656c6c2d6b6e6f776e"/>
+    </field>
+    <field name="coap.opt.name" showname="Opt Name: #2: Unknown Option (2): 63 6f 72 65" size="5" pos="81" show="#2: Unknown Option (2)" value="04636f7265">
+      <field name="_ws.expert" showname="Expert Info (Warning/Malformed): Invalid Option Number 2" size="0" pos="81">
+        <field name="coap.invalid_option_number" showname="Invalid Option Number 2" size="0" pos="0" show="" value=""/>
+        <field name="_ws.expert.message" showname="Message: Invalid Option Number 2" hide="yes" size="0" pos="0" show="Invalid Option Number 2"/>
+        <field name="_ws.expert.severity" showname="Severity level: Warning" size="0" pos="0" show="6291456"/>
+        <field name="_ws.expert.group" showname="Group: Malformed" size="0" pos="0" show="117440512"/>
+      </field>
+      <proto name="_ws.malformed" showname="Malformed Packet" hide="yes" size="0" pos="81"/>
+      <field name="coap.opt.desc" showname="Opt Desc: Type 2, Elective, Unsafe" size="5" pos="81" show="Type 2, Elective, Unsafe" value="04636f7265"/>
+      <field name="coap.opt.delta" showname="0000 .... = Opt Delta: 0" size="1" pos="81" show="0" value="0" unmaskedvalue="04"/>
+      <field name="coap.opt.length" showname=".... 0100 = Opt Length: 4" size="1" pos="81" show="4" value="4" unmaskedvalue="04"/>
+      <field name="coap.opt.unknown" showname="Unknown: 636f7265" size="4" pos="82" show="63:6f:72:65" value="636f7265"/>
+    </field>
+  </proto>
+</packet>
+
+
+<packet>
+  <proto name="geninfo" pos="0" showname="General information" size="86">
+    <field name="num" pos="0" show="4" showname="Number" value="4" size="86"/>
+    <field name="len" pos="0" show="86" showname="Frame Length" value="56" size="86"/>
+    <field name="caplen" pos="0" show="86" showname="Captured Length" value="56" size="86"/>
+    <field name="timestamp" pos="0" show="Apr  9, 2012 15:48:38.629009000 CST" showname="Captured Time" value="1333957718.629009000" size="86"/>
+  </proto>
+  <proto name="frame" showname="Frame 4: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)" size="86" pos="0">
+    <field name="frame.encap_type" showname="Encapsulation type: Ethernet (1)" size="0" pos="0" show="1"/>
+    <field name="frame.time" showname="Arrival Time: Apr  9, 2012 15:48:38.629009000 CST" size="0" pos="0" show="Apr  9, 2012 15:48:38.629009000 CST"/>
+    <field name="frame.time_utc" showname="UTC Arrival Time: Apr  9, 2012 07:48:38.629009000 UTC" size="0" pos="0" show="Apr  9, 2012 07:48:38.629009000 UTC"/>
+    <field name="frame.time_epoch" showname="Epoch Arrival Time: 1333957718.629009000" size="0" pos="0" show="1333957718.629009000"/>
+    <field name="frame.offset_shift" showname="Time shift for this packet: 0.000000000 seconds" size="0" pos="0" show="0.000000000"/>
+    <field name="frame.time_delta" showname="Time delta from previous captured frame: 1.428260000 seconds" size="0" pos="0" show="1.428260000"/>
+    <field name="frame.time_delta_displayed" showname="Time delta from previous displayed frame: 1.428260000 seconds" size="0" pos="0" show="1.428260000"/>
+    <field name="frame.time_relative" showname="Time since reference or first frame: 8.335974000 seconds" size="0" pos="0" show="8.335974000"/>
+    <field name="frame.number" showname="Frame Number: 4" size="0" pos="0" show="4"/>
+    <field name="frame.len" showname="Frame Length: 86 bytes (688 bits)" size="0" pos="0" show="86"/>
+    <field name="frame.cap_len" showname="Capture Length: 86 bytes (688 bits)" size="0" pos="0" show="86"/>
+    <field name="frame.marked" showname="Frame is marked: False" size="0" pos="0" show="False"/>
+    <field name="frame.ignored" showname="Frame is ignored: False" size="0" pos="0" show="False"/>
+    <field name="frame.protocols" showname="Protocols in frame: eth:ethertype:ipv6:udp:coap" size="0" pos="0" show="eth:ethertype:ipv6:udp:coap"/>
+  </proto>
+  <proto name="eth" showname="Ethernet II, Src: AzureWaveTec_c0:97:4a (48:5d:60:c0:97:4a), Dst: H3CTechnolog_b4:cc:01 (00:23:89:b4:cc:01)" size="14" pos="0">
+    <field name="eth.dst" showname="Destination: H3CTechnolog_b4:cc:01 (00:23:89:b4:cc:01)" size="6" pos="0" show="00:23:89:b4:cc:01" value="002389b4cc01">
+      <field name="eth.dst_resolved" showname="Destination (resolved): H3CTechnolog_b4:cc:01" hide="yes" size="6" pos="0" show="H3CTechnolog_b4:cc:01" value="002389b4cc01"/>
+      <field name="eth.dst.oui" showname="Destination OUI: 00:23:89 (Hangzhou H3C Technologies Co., Limited)" hide="yes" size="3" pos="0" show="9097" value="002389"/>
+      <field name="eth.dst.oui_resolved" showname="Destination OUI (resolved): Hangzhou H3C Technologies Co., Limited" hide="yes" size="6" pos="0" show="Hangzhou H3C Technologies Co., Limited" value="002389b4cc01"/>
+      <field name="eth.dst.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+      <field name="eth.dst.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+      <field name="eth.addr" showname="Address: H3CTechnolog_b4:cc:01 (00:23:89:b4:cc:01)" hide="yes" size="6" pos="0" show="00:23:89:b4:cc:01" value="002389b4cc01"/>
+      <field name="eth.addr_resolved" showname="Address (resolved): H3CTechnolog_b4:cc:01" hide="yes" size="6" pos="0" show="H3CTechnolog_b4:cc:01" value="002389b4cc01"/>
+      <field name="eth.addr.oui" showname="Address OUI: 00:23:89 (Hangzhou H3C Technologies Co., Limited)" hide="yes" size="3" pos="0" show="9097" value="002389"/>
+      <field name="eth.addr.oui_resolved" showname="Address OUI (resolved): Hangzhou H3C Technologies Co., Limited" hide="yes" size="6" pos="0" show="Hangzhou H3C Technologies Co., Limited" value="002389b4cc01"/>
+      <field name="eth.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" hide="yes" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+      <field name="eth.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" hide="yes" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+    </field>
+    <field name="eth.src" showname="Source: AzureWaveTec_c0:97:4a (48:5d:60:c0:97:4a)" size="6" pos="6" show="48:5d:60:c0:97:4a" value="485d60c0974a">
+      <field name="eth.src_resolved" showname="Source (resolved): AzureWaveTec_c0:97:4a" hide="yes" size="6" pos="6" show="AzureWaveTec_c0:97:4a" value="485d60c0974a"/>
+      <field name="eth.src.oui" showname="Source OUI: 48:5d:60 (AzureWave Technology Inc.)" hide="yes" size="3" pos="6" show="4742496" value="485d60"/>
+      <field name="eth.src.oui_resolved" showname="Source OUI (resolved): AzureWave Technology Inc." hide="yes" size="6" pos="6" show="AzureWave Technology Inc." value="485d60c0974a"/>
+      <field name="eth.src.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+      <field name="eth.src.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+      <field name="eth.addr" showname="Address: AzureWaveTec_c0:97:4a (48:5d:60:c0:97:4a)" hide="yes" size="6" pos="6" show="48:5d:60:c0:97:4a" value="485d60c0974a"/>
+      <field name="eth.addr_resolved" showname="Address (resolved): AzureWaveTec_c0:97:4a" hide="yes" size="6" pos="6" show="AzureWaveTec_c0:97:4a" value="485d60c0974a"/>
+      <field name="eth.addr.oui" showname="Address OUI: 48:5d:60 (AzureWave Technology Inc.)" hide="yes" size="3" pos="6" show="4742496" value="485d60"/>
+      <field name="eth.addr.oui_resolved" showname="Address OUI (resolved): AzureWave Technology Inc." hide="yes" size="6" pos="6" show="AzureWave Technology Inc." value="485d60c0974a"/>
+      <field name="eth.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" hide="yes" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+      <field name="eth.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" hide="yes" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+    </field>
+    <field name="eth.type" showname="Type: IPv6 (0x86dd)" size="2" pos="12" show="0x86dd" value="86dd"/>
+    <field name="eth.stream" showname="Stream index: 0" size="0" pos="0" show="0"/>
+  </proto>
+  <proto name="ipv6" showname="Internet Protocol Version 6, Src: 2001:da8:215:1171:a10b:cb48:8f83:57f6, Dst: 2001:620:8:35d9::10" size="40" pos="14">
+    <field name="ipv6.version" showname="0110 .... = Version: 6" size="1" pos="14" show="6" value="60"/>
+    <field name="ip.version" showname="0110 .... = Version: 6 [This field makes the filter match on &quot;ip.version == 6&quot; possible]" hide="yes" size="1" pos="14" show="6" value="6" unmaskedvalue="60"/>
+    <field name="ipv6.tclass" showname=".... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)" size="4" pos="14" show="0x00000000" value="0" unmaskedvalue="60000000">
+      <field name="ipv6.tclass.dscp" showname=".... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)" size="4" pos="14" show="0" value="0" unmaskedvalue="60000000"/>
+      <field name="ipv6.tclass.ecn" showname=".... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)" size="4" pos="14" show="0" value="0" unmaskedvalue="60000000"/>
+    </field>
+    <field name="ipv6.flow" showname=".... 0000 0000 0000 0000 0000 = Flow Label: 0x00000" size="3" pos="15" show="0x000000" value="0" unmaskedvalue="000000"/>
+    <field name="ipv6.plen" showname="Payload Length: 32" size="2" pos="18" show="32" value="0020"/>
+    <field name="ipv6.nxt" showname="Next Header: UDP (17)" size="1" pos="20" show="17" value="11"/>
+    <field name="ipv6.hlim" showname="Hop Limit: 64" size="1" pos="21" show="64" value="40"/>
+    <field name="ipv6.src" showname="Source Address: 2001:da8:215:1171:a10b:cb48:8f83:57f6" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6">
+      <field name="ipv6.src_addr_space" showname="Address Space: Global Unicast" size="2" pos="22" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.addr" showname="Source or Destination Address: 2001:da8:215:1171:a10b:cb48:8f83:57f6" hide="yes" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6">
+      <field name="ipv6.addr_space" showname="Address Space: Global Unicast" size="2" pos="22" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.src_host" showname="Source Host: 2001:da8:215:1171:a10b:cb48:8f83:57f6" hide="yes" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6"/>
+    <field name="ipv6.host" showname="Source or Destination Host: 2001:da8:215:1171:a10b:cb48:8f83:57f6" hide="yes" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6"/>
+    <field name="ipv6.dst" showname="Destination Address: 2001:620:8:35d9::10" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010">
+      <field name="ipv6.dst_addr_space" showname="Address Space: Global Unicast" size="2" pos="38" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.addr" showname="Source or Destination Address: 2001:620:8:35d9::10" hide="yes" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010">
+      <field name="ipv6.addr_space" showname="Address Space: Global Unicast" size="2" pos="38" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.dst_host" showname="Destination Host: 2001:620:8:35d9::10" hide="yes" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010"/>
+    <field name="ipv6.host" showname="Source or Destination Host: 2001:620:8:35d9::10" hide="yes" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010"/>
+    <field name="ipv6.stream" showname="Stream index: 0" size="0" pos="14" show="0"/>
+  </proto>
+  <proto name="udp" showname="User Datagram Protocol, Src Port: 61046, Dst Port: 5683" size="8" pos="54">
+    <field name="udp.srcport" showname="Source Port: 61046" size="2" pos="54" show="61046" value="ee76"/>
+    <field name="udp.dstport" showname="Destination Port: 5683" size="2" pos="56" show="5683" value="1633"/>
+    <field name="udp.port" showname="Source or Destination Port: 61046" hide="yes" size="2" pos="54" show="61046" value="ee76"/>
+    <field name="udp.port" showname="Source or Destination Port: 5683" hide="yes" size="2" pos="56" show="5683" value="1633"/>
+    <field name="udp.length" showname="Length: 32" size="2" pos="58" show="32" value="0020"/>
+    <field name="udp.checksum" showname="Checksum: 0xbc7a [unverified]" size="2" pos="60" show="0xbc7a" value="bc7a"/>
+    <field name="udp.checksum.status" showname="Checksum Status: Unverified" size="0" pos="60" show="2"/>
+    <field name="udp.stream" showname="Stream index: 3" size="0" pos="62" show="3"/>
+    <field name="udp.stream.pnum" showname="Stream Packet Number: 1" size="0" pos="54" show="1"/>
+    <field name="" show="Timestamps" size="0" pos="54">
+      <field name="udp.time_relative" showname="Time since first frame: 0.000000000 seconds" size="0" pos="54" show="0.000000000"/>
+      <field name="udp.time_delta" showname="Time since previous frame: 0.000000000 seconds" size="0" pos="54" show="0.000000000"/>
+    </field>
+    <field name="udp.payload" showname="UDP payload (24 bytes)" size="24" pos="62" show="43:04:46:64:72:16:33:2b:2e:77:65:6c:6c:2d:6b:6e:6f:77:6e:04:63:6f:72:65" value="430446647216332b2e77656c6c2d6b6e6f776e04636f7265"/>
+  </proto>
+  <proto name="coap" showname="Constrained Application Protocol, Confirmable, DELETE, MID:18020" size="24" pos="62">
+    <field name="coap.version" showname="01.. .... = Version: 1" size="1" pos="62" show="1" value="1" unmaskedvalue="43"/>
+    <field name="coap.type" showname="..00 .... = Type: Confirmable (0)" size="1" pos="62" show="0" value="0" unmaskedvalue="43"/>
+    <field name="coap.token_len" showname=".... 0011 = Token Length: 3" size="1" pos="62" show="3" value="3" unmaskedvalue="43"/>
+    <field name="coap.code" showname="Code: DELETE (4)" size="1" pos="63" show="4" value="04"/>
+    <field name="coap.mid" showname="Message ID: 18020" size="2" pos="64" show="18020" value="4664"/>
+    <field name="coap.token" showname="Token: 721633" size="3" pos="66" show="72:16:33" value="721633"/>
+    <field name="coap.opt.name" showname="Opt Name: #1: Unknown Option (2): 2e 77 65 6c 6c 2d 6b 6e 6f 77 6e" size="12" pos="69" show="#1: Unknown Option (2)" value="2b2e77656c6c2d6b6e6f776e">
+      <field name="_ws.expert" showname="Expert Info (Warning/Malformed): Invalid Option Number 2" size="0" pos="69">
+        <field name="coap.invalid_option_number" showname="Invalid Option Number 2" size="0" pos="0" show="" value=""/>
+        <field name="_ws.expert.message" showname="Message: Invalid Option Number 2" hide="yes" size="0" pos="0" show="Invalid Option Number 2"/>
+        <field name="_ws.expert.severity" showname="Severity level: Warning" size="0" pos="0" show="6291456"/>
+        <field name="_ws.expert.group" showname="Group: Malformed" size="0" pos="0" show="117440512"/>
+      </field>
+      <proto name="_ws.malformed" showname="Malformed Packet" hide="yes" size="0" pos="69"/>
+      <field name="coap.opt.desc" showname="Opt Desc: Type 2, Elective, Unsafe" size="12" pos="69" show="Type 2, Elective, Unsafe" value="2b2e77656c6c2d6b6e6f776e"/>
+      <field name="coap.opt.delta" showname="0010 .... = Opt Delta: 2" size="1" pos="69" show="2" value="2" unmaskedvalue="2b"/>
+      <field name="coap.opt.length" showname=".... 1011 = Opt Length: 11" size="1" pos="69" show="11" value="B" unmaskedvalue="2b"/>
+      <field name="coap.opt.unknown" showname="Unknown: 2e77656c6c2d6b6e6f776e" size="11" pos="70" show="2e:77:65:6c:6c:2d:6b:6e:6f:77:6e" value="2e77656c6c2d6b6e6f776e"/>
+    </field>
+    <field name="coap.opt.name" showname="Opt Name: #2: Unknown Option (2): 63 6f 72 65" size="5" pos="81" show="#2: Unknown Option (2)" value="04636f7265">
+      <field name="_ws.expert" showname="Expert Info (Warning/Malformed): Invalid Option Number 2" size="0" pos="81">
+        <field name="coap.invalid_option_number" showname="Invalid Option Number 2" size="0" pos="0" show="" value=""/>
+        <field name="_ws.expert.message" showname="Message: Invalid Option Number 2" hide="yes" size="0" pos="0" show="Invalid Option Number 2"/>
+        <field name="_ws.expert.severity" showname="Severity level: Warning" size="0" pos="0" show="6291456"/>
+        <field name="_ws.expert.group" showname="Group: Malformed" size="0" pos="0" show="117440512"/>
+      </field>
+      <proto name="_ws.malformed" showname="Malformed Packet" hide="yes" size="0" pos="81"/>
+      <field name="coap.opt.desc" showname="Opt Desc: Type 2, Elective, Unsafe" size="5" pos="81" show="Type 2, Elective, Unsafe" value="04636f7265"/>
+      <field name="coap.opt.delta" showname="0000 .... = Opt Delta: 0" size="1" pos="81" show="0" value="0" unmaskedvalue="04"/>
+      <field name="coap.opt.length" showname=".... 0100 = Opt Length: 4" size="1" pos="81" show="4" value="4" unmaskedvalue="04"/>
+      <field name="coap.opt.unknown" showname="Unknown: 636f7265" size="4" pos="82" show="63:6f:72:65" value="636f7265"/>
+    </field>
+  </proto>
+</packet>
+
+
+<packet>
+  <proto name="geninfo" pos="0" showname="General information" size="90">
+    <field name="num" pos="0" show="5" showname="Number" value="5" size="90"/>
+    <field name="len" pos="0" show="90" showname="Frame Length" value="5a" size="90"/>
+    <field name="caplen" pos="0" show="90" showname="Captured Length" value="5a" size="90"/>
+    <field name="timestamp" pos="0" show="Apr  9, 2012 15:48:40.773953000 CST" showname="Captured Time" value="1333957720.773953000" size="90"/>
+  </proto>
+  <proto name="frame" showname="Frame 5: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)" size="90" pos="0">
+    <field name="frame.encap_type" showname="Encapsulation type: Ethernet (1)" size="0" pos="0" show="1"/>
+    <field name="frame.time" showname="Arrival Time: Apr  9, 2012 15:48:40.773953000 CST" size="0" pos="0" show="Apr  9, 2012 15:48:40.773953000 CST"/>
+    <field name="frame.time_utc" showname="UTC Arrival Time: Apr  9, 2012 07:48:40.773953000 UTC" size="0" pos="0" show="Apr  9, 2012 07:48:40.773953000 UTC"/>
+    <field name="frame.time_epoch" showname="Epoch Arrival Time: 1333957720.773953000" size="0" pos="0" show="1333957720.773953000"/>
+    <field name="frame.offset_shift" showname="Time shift for this packet: 0.000000000 seconds" size="0" pos="0" show="0.000000000"/>
+    <field name="frame.time_delta" showname="Time delta from previous captured frame: 2.144944000 seconds" size="0" pos="0" show="2.144944000"/>
+    <field name="frame.time_delta_displayed" showname="Time delta from previous displayed frame: 2.144944000 seconds" size="0" pos="0" show="2.144944000"/>
+    <field name="frame.time_relative" showname="Time since reference or first frame: 10.480918000 seconds" size="0" pos="0" show="10.480918000"/>
+    <field name="frame.number" showname="Frame Number: 5" size="0" pos="0" show="5"/>
+    <field name="frame.len" showname="Frame Length: 90 bytes (720 bits)" size="0" pos="0" show="90"/>
+    <field name="frame.cap_len" showname="Capture Length: 90 bytes (720 bits)" size="0" pos="0" show="90"/>
+    <field name="frame.marked" showname="Frame is marked: False" size="0" pos="0" show="False"/>
+    <field name="frame.ignored" showname="Frame is ignored: False" size="0" pos="0" show="False"/>
+    <field name="frame.protocols" showname="Protocols in frame: eth:ethertype:ipv6:udp:coap" size="0" pos="0" show="eth:ethertype:ipv6:udp:coap"/>
+  </proto>
+  <proto name="eth" showname="Ethernet II, Src: AzureWaveTec_c0:97:4a (48:5d:60:c0:97:4a), Dst: H3CTechnolog_b4:cc:01 (00:23:89:b4:cc:01)" size="14" pos="0">
+    <field name="eth.dst" showname="Destination: H3CTechnolog_b4:cc:01 (00:23:89:b4:cc:01)" size="6" pos="0" show="00:23:89:b4:cc:01" value="002389b4cc01">
+      <field name="eth.dst_resolved" showname="Destination (resolved): H3CTechnolog_b4:cc:01" hide="yes" size="6" pos="0" show="H3CTechnolog_b4:cc:01" value="002389b4cc01"/>
+      <field name="eth.dst.oui" showname="Destination OUI: 00:23:89 (Hangzhou H3C Technologies Co., Limited)" hide="yes" size="3" pos="0" show="9097" value="002389"/>
+      <field name="eth.dst.oui_resolved" showname="Destination OUI (resolved): Hangzhou H3C Technologies Co., Limited" hide="yes" size="6" pos="0" show="Hangzhou H3C Technologies Co., Limited" value="002389b4cc01"/>
+      <field name="eth.dst.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+      <field name="eth.dst.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+      <field name="eth.addr" showname="Address: H3CTechnolog_b4:cc:01 (00:23:89:b4:cc:01)" hide="yes" size="6" pos="0" show="00:23:89:b4:cc:01" value="002389b4cc01"/>
+      <field name="eth.addr_resolved" showname="Address (resolved): H3CTechnolog_b4:cc:01" hide="yes" size="6" pos="0" show="H3CTechnolog_b4:cc:01" value="002389b4cc01"/>
+      <field name="eth.addr.oui" showname="Address OUI: 00:23:89 (Hangzhou H3C Technologies Co., Limited)" hide="yes" size="3" pos="0" show="9097" value="002389"/>
+      <field name="eth.addr.oui_resolved" showname="Address OUI (resolved): Hangzhou H3C Technologies Co., Limited" hide="yes" size="6" pos="0" show="Hangzhou H3C Technologies Co., Limited" value="002389b4cc01"/>
+      <field name="eth.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" hide="yes" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+      <field name="eth.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" hide="yes" size="3" pos="0" show="False" value="0" unmaskedvalue="002389"/>
+    </field>
+    <field name="eth.src" showname="Source: AzureWaveTec_c0:97:4a (48:5d:60:c0:97:4a)" size="6" pos="6" show="48:5d:60:c0:97:4a" value="485d60c0974a">
+      <field name="eth.src_resolved" showname="Source (resolved): AzureWaveTec_c0:97:4a" hide="yes" size="6" pos="6" show="AzureWaveTec_c0:97:4a" value="485d60c0974a"/>
+      <field name="eth.src.oui" showname="Source OUI: 48:5d:60 (AzureWave Technology Inc.)" hide="yes" size="3" pos="6" show="4742496" value="485d60"/>
+      <field name="eth.src.oui_resolved" showname="Source OUI (resolved): AzureWave Technology Inc." hide="yes" size="6" pos="6" show="AzureWave Technology Inc." value="485d60c0974a"/>
+      <field name="eth.src.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+      <field name="eth.src.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+      <field name="eth.addr" showname="Address: AzureWaveTec_c0:97:4a (48:5d:60:c0:97:4a)" hide="yes" size="6" pos="6" show="48:5d:60:c0:97:4a" value="485d60c0974a"/>
+      <field name="eth.addr_resolved" showname="Address (resolved): AzureWaveTec_c0:97:4a" hide="yes" size="6" pos="6" show="AzureWaveTec_c0:97:4a" value="485d60c0974a"/>
+      <field name="eth.addr.oui" showname="Address OUI: 48:5d:60 (AzureWave Technology Inc.)" hide="yes" size="3" pos="6" show="4742496" value="485d60"/>
+      <field name="eth.addr.oui_resolved" showname="Address OUI (resolved): AzureWave Technology Inc." hide="yes" size="6" pos="6" show="AzureWave Technology Inc." value="485d60c0974a"/>
+      <field name="eth.lg" showname=".... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)" hide="yes" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+      <field name="eth.ig" showname=".... ...0 .... .... .... .... = IG bit: Individual address (unicast)" hide="yes" size="3" pos="6" show="False" value="0" unmaskedvalue="485d60"/>
+    </field>
+    <field name="eth.type" showname="Type: IPv6 (0x86dd)" size="2" pos="12" show="0x86dd" value="86dd"/>
+    <field name="eth.stream" showname="Stream index: 0" size="0" pos="0" show="0"/>
+  </proto>
+  <proto name="ipv6" showname="Internet Protocol Version 6, Src: 2001:da8:215:1171:a10b:cb48:8f83:57f6, Dst: 2001:620:8:35d9::10" size="40" pos="14">
+    <field name="ipv6.version" showname="0110 .... = Version: 6" size="1" pos="14" show="6" value="60"/>
+    <field name="ip.version" showname="0110 .... = Version: 6 [This field makes the filter match on &quot;ip.version == 6&quot; possible]" hide="yes" size="1" pos="14" show="6" value="6" unmaskedvalue="60"/>
+    <field name="ipv6.tclass" showname=".... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)" size="4" pos="14" show="0x00000000" value="0" unmaskedvalue="60000000">
+      <field name="ipv6.tclass.dscp" showname=".... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)" size="4" pos="14" show="0" value="0" unmaskedvalue="60000000"/>
+      <field name="ipv6.tclass.ecn" showname=".... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)" size="4" pos="14" show="0" value="0" unmaskedvalue="60000000"/>
+    </field>
+    <field name="ipv6.flow" showname=".... 0000 0000 0000 0000 0000 = Flow Label: 0x00000" size="3" pos="15" show="0x000000" value="0" unmaskedvalue="000000"/>
+    <field name="ipv6.plen" showname="Payload Length: 36" size="2" pos="18" show="36" value="0024"/>
+    <field name="ipv6.nxt" showname="Next Header: UDP (17)" size="1" pos="20" show="17" value="11"/>
+    <field name="ipv6.hlim" showname="Hop Limit: 64" size="1" pos="21" show="64" value="40"/>
+    <field name="ipv6.src" showname="Source Address: 2001:da8:215:1171:a10b:cb48:8f83:57f6" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6">
+      <field name="ipv6.src_addr_space" showname="Address Space: Global Unicast" size="2" pos="22" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.addr" showname="Source or Destination Address: 2001:da8:215:1171:a10b:cb48:8f83:57f6" hide="yes" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6">
+      <field name="ipv6.addr_space" showname="Address Space: Global Unicast" size="2" pos="22" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.src_host" showname="Source Host: 2001:da8:215:1171:a10b:cb48:8f83:57f6" hide="yes" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6"/>
+    <field name="ipv6.host" showname="Source or Destination Host: 2001:da8:215:1171:a10b:cb48:8f83:57f6" hide="yes" size="16" pos="22" show="2001:da8:215:1171:a10b:cb48:8f83:57f6" value="20010da802151171a10bcb488f8357f6"/>
+    <field name="ipv6.dst" showname="Destination Address: 2001:620:8:35d9::10" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010">
+      <field name="ipv6.dst_addr_space" showname="Address Space: Global Unicast" size="2" pos="38" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.addr" showname="Source or Destination Address: 2001:620:8:35d9::10" hide="yes" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010">
+      <field name="ipv6.addr_space" showname="Address Space: Global Unicast" size="2" pos="38" show="Global Unicast" value="2001"/>
+    </field>
+    <field name="ipv6.dst_host" showname="Destination Host: 2001:620:8:35d9::10" hide="yes" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010"/>
+    <field name="ipv6.host" showname="Source or Destination Host: 2001:620:8:35d9::10" hide="yes" size="16" pos="38" show="2001:620:8:35d9::10" value="20010620000835d90000000000000010"/>
+    <field name="ipv6.stream" showname="Stream index: 0" size="0" pos="14" show="0"/>
+  </proto>
+  <proto name="udp" showname="User Datagram Protocol, Src Port: 61047, Dst Port: 5683" size="8" pos="54">
+    <field name="udp.srcport" showname="Source Port: 61047" size="2" pos="54" show="61047" value="ee77"/>
+    <field name="udp.dstport" showname="Destination Port: 5683" size="2" pos="56" show="5683" value="1633"/>
+    <field name="udp.port" showname="Source or Destination Port: 61047" hide="yes" size="2" pos="54" show="61047" value="ee77"/>
+    <field name="udp.port" showname="Source or Destination Port: 5683" hide="yes" size="2" pos="56" show="5683" value="1633"/>
+    <field name="udp.length" showname="Length: 36" size="2" pos="58" show="36" value="0024"/>
+    <field name="udp.checksum" showname="Checksum: 0x287e [unverified]" size="2" pos="60" show="0x287e" value="287e"/>
+    <field name="udp.checksum.status" showname="Checksum Status: Unverified" size="0" pos="60" show="2"/>
+    <field name="udp.stream" showname="Stream index: 4" size="0" pos="62" show="4"/>
+    <field name="udp.stream.pnum" showname="Stream Packet Number: 1" size="0" pos="54" show="1"/>
+    <field name="" show="Timestamps" size="0" pos="54">
+      <field name="udp.time_relative" showname="Time since first frame: 0.000000000 seconds" size="0" pos="54" show="0.000000000"/>
+      <field name="udp.time_delta" showname="Time since previous frame: 0.000000000 seconds" size="0" pos="54" show="0.000000000"/>
+    </field>
+    <field name="udp.payload" showname="UDP payload (28 bytes)" size="28" pos="62" show="45:01:8a:74:72:16:33:2b:2e:77:65:6c:6c:2d:6b:6e:6f:77:6e:04:63:6f:72:65:10:12:3d:d4" value="45018a747216332b2e77656c6c2d6b6e6f776e04636f726510123dd4"/>
+  </proto>
+  <proto name="coap" showname="Constrained Application Protocol, Confirmable, GET, MID:35444" size="28" pos="62">
+    <field name="coap.version" showname="01.. .... = Version: 1" size="1" pos="62" show="1" value="1" unmaskedvalue="45"/>
+    <field name="coap.type" showname="..00 .... = Type: Confirmable (0)" size="1" pos="62" show="0" value="0" unmaskedvalue="45"/>
+    <field name="coap.token_len" showname=".... 0101 = Token Length: 5" size="1" pos="62" show="5" value="5" unmaskedvalue="45"/>
+    <field name="coap.code" showname="Code: GET (1)" size="1" pos="63" show="1" value="01"/>
+    <field name="coap.mid" showname="Message ID: 35444" size="2" pos="64" show="35444" value="8a74"/>
+    <field name="coap.token" showname="Token: 7216332b2e" size="5" pos="66" show="72:16:33:2b:2e" value="7216332b2e"/>
+    <field name="coap.opt.name" showname="Opt Name: #1: Uri-Port: 4294967295" size="8" pos="71" show="#1: Uri-Port" value="77656c6c2d6b6e6f">
+      <field name="_ws.expert" showname="Expert Info (Warning/Malformed): Invalid Option Range: 7 (0 &lt; x &lt; 2)" size="0" pos="71">
+        <field name="coap.invalid_option_range" showname="Invalid Option Range: 7 (0 &lt; x &lt; 2)" size="0" pos="0" show="" value=""/>
+        <field name="_ws.expert.message" showname="Message: Invalid Option Range: 7 (0 &lt; x &lt; 2)" hide="yes" size="0" pos="0" show="Invalid Option Range: 7 (0 &lt; x &lt; 2)"/>
+        <field name="_ws.expert.severity" showname="Severity level: Warning" size="0" pos="0" show="6291456"/>
+        <field name="_ws.expert.group" showname="Group: Malformed" size="0" pos="0" show="117440512"/>
+      </field>
+      <proto name="_ws.malformed" showname="Malformed Packet" hide="yes" size="0" pos="71"/>
+      <field name="coap.opt.desc" showname="Opt Desc: Type 7, Critical, Unsafe" size="8" pos="71" show="Type 7, Critical, Unsafe" value="77656c6c2d6b6e6f"/>
+      <field name="coap.opt.delta" showname="0111 .... = Opt Delta: 7" size="1" pos="71" show="7" value="7" unmaskedvalue="77"/>
+      <field name="coap.opt.length" showname=".... 0111 = Opt Length: 7" size="1" pos="71" show="7" value="7" unmaskedvalue="77"/>
+      <field name="coap.opt.uri_port" showname="Uri-Port: 4294967295" size="7" pos="72" show="4294967295" value="656c6c2d6b6e6f"/>
+    </field>
+    <field name="coap.opt.name" showname="Opt Name: #2: Max-age: 4294967295" size="8" pos="79" show="#2: Max-age" value="776e04636f726510">
+      <field name="_ws.expert" showname="Expert Info (Warning/Malformed): Invalid Option Range: 7 (0 &lt; x &lt; 4)" size="0" pos="79">
+        <field name="coap.invalid_option_range" showname="Invalid Option Range: 7 (0 &lt; x &lt; 4)" size="0" pos="0" show="" value=""/>
+        <field name="_ws.expert.message" showname="Message: Invalid Option Range: 7 (0 &lt; x &lt; 4)" hide="yes" size="0" pos="0" show="Invalid Option Range: 7 (0 &lt; x &lt; 4)"/>
+        <field name="_ws.expert.severity" showname="Severity level: Warning" size="0" pos="0" show="6291456"/>
+        <field name="_ws.expert.group" showname="Group: Malformed" size="0" pos="0" show="117440512"/>
+      </field>
+      <proto name="_ws.malformed" showname="Malformed Packet" hide="yes" size="0" pos="79"/>
+      <field name="coap.opt.desc" showname="Opt Desc: Type 14, Elective, Unsafe" size="8" pos="79" show="Type 14, Elective, Unsafe" value="776e04636f726510"/>
+      <field name="coap.opt.delta" showname="0111 .... = Opt Delta: 7" size="1" pos="79" show="7" value="7" unmaskedvalue="77"/>
+      <field name="coap.opt.length" showname=".... 0111 = Opt Length: 7" size="1" pos="79" show="7" value="7" unmaskedvalue="77"/>
+      <field name="coap.opt.max_age" showname="Max-age: 4294967295" size="7" pos="80" show="4294967295" value="6e04636f726510"/>
+    </field>
+    <field name="coap.opt.name" showname="Opt Name: #3: Uri-Query: =�" size="3" pos="87" show="#3: Uri-Query" value="123dd4">
+      <field name="coap.opt.desc" showname="Opt Desc: Type 15, Critical, Unsafe" size="3" pos="87" show="Type 15, Critical, Unsafe" value="123dd4"/>
+      <field name="coap.opt.delta" showname="0001 .... = Opt Delta: 1" size="1" pos="87" show="1" value="1" unmaskedvalue="12"/>
+      <field name="coap.opt.length" showname=".... 0010 = Opt Length: 2" size="1" pos="87" show="2" value="2" unmaskedvalue="12"/>
+      <field name="coap.opt.uri_query" showname="Uri-Query: =�" size="2" pos="88" show="=�" value="3dd4"/>
+    </field>
+    <field name="coap.opt.uri_path_recon" showname="Uri-Path: :4294967295" size="0" pos="62" show=":4294967295"/>
+  </proto>
+</packet>
+
+
+</pdml>
