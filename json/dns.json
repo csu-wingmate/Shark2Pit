@@ -1,0 +1,166 @@
+{
+  "packets": [
+    {
+      "number": "1",
+      "fields": [
+        {
+          "name": "dns.id",
+          "position": 42,
+          "size": 2,
+          "value": "002b",
+          "show": "0x002b",
+          "layer": "dns"
+        },
+        {
+          "name": "dns.flags",
+          "position": 44,
+          "size": 2,
+          "value": "0100",
+          "show": "0x0100",
+          "layer": "dns"
+        },
+        {
+          "name": "dns.count.queries",
+          "position": 46,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "dns"
+        },
+        {
+          "name": "dns.count.answers",
+          "position": 48,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "dns"
+        },
+        {
+          "name": "dns.count.auth_rr",
+          "position": 50,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "dns"
+        },
+        {
+          "name": "dns.count.add_rr",
+          "position": 52,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "dns"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 21,
+          "value": "02757304706f6f6c036e7470036f72670000010001",
+          "show": "Queries",
+          "layer": "dns"
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "fields": [
+        {
+          "name": "dns.id",
+          "position": 42,
+          "size": 2,
+          "value": "002b",
+          "show": "0x002b",
+          "layer": "dns"
+        },
+        {
+          "name": "dns.response_to",
+          "position": 42,
+          "size": 0,
+          "value": "",
+          "show": "1",
+          "layer": "dns"
+        },
+        {
+          "name": "dns.time",
+          "position": 42,
+          "size": 0,
+          "value": "",
+          "show": "0.006946000",
+          "layer": "dns"
+        },
+        {
+          "name": "dns.flags",
+          "position": 44,
+          "size": 2,
+          "value": "8180",
+          "show": "0x8180",
+          "layer": "dns"
+        },
+        {
+          "name": "dns.count.queries",
+          "position": 46,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "dns"
+        },
+        {
+          "name": "dns.count.answers",
+          "position": 48,
+          "size": 2,
+          "value": "000f",
+          "show": "15",
+          "layer": "dns"
+        },
+        {
+          "name": "dns.count.auth_rr",
+          "position": 50,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "dns"
+        },
+        {
+          "name": "dns.count.add_rr",
+          "position": 52,
+          "size": 2,
+          "value": "0002",
+          "show": "2",
+          "layer": "dns"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 21,
+          "value": "02757304706f6f6c036e7470036f72670000010001",
+          "show": "Queries",
+          "layer": "dns"
+        },
+        {
+          "name": "",
+          "position": 75,
+          "size": 240,
+          "value": "c00c0001000100000d87000443814409c00c0001000100000d870004452c393cc00c0001000100000d870004cfead1b5c00c0001000100000d870004d184b004c00c0001000100000d870004d81bb92ac00c0001000100000d87000418224f2ac00c0001000100000d870004187bcae6c00c0001000100000d8700043fa43ef9c00c0001000100000d8700044070bd0bc00c0001000100000d870004417de9cec00c0001000100000d8700044221ce05c00c0001000100000d8700044221d80bc00c0001000100000d870004425c44f6c00c0001000100000d870004426f2ec8c00c0001000100000d87000442738804",
+          "show": "Answers",
+          "layer": "dns"
+        },
+        {
+          "name": "",
+          "position": 315,
+          "size": 193,
+          "value": "04504f4f4c036e7470036f72670000020001000010d60012036e7331086d61696c776f7278036e657400c11100020001000010d6000f067573656e6574036e6574026e7a00c11100020001000010d60014067a626173656c08666f72747974776f02636800c11100020001000010d60018086176656e747572610a62686d732d67726f6570026e6c00c11100020001000010d600110e736c617274696261727466617374c18bc11100020001000010d6000f0161026e73076d61646475636bc136",
+          "show": "Authoritative nameservers",
+          "layer": "dns"
+        },
+        {
+          "name": "",
+          "position": 508,
+          "size": 32,
+          "value": "c12900010001000272a500044501c844c1470001000100000daf0004ca313b06",
+          "show": "Additional records",
+          "layer": "dns"
+        }
+      ]
+    }
+  ]
+}

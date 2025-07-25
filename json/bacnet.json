@@ -1,0 +1,390 @@
+{
+  "packets": [
+    {
+      "number": "1",
+      "fields": []
+    },
+    {
+      "number": "2",
+      "fields": []
+    },
+    {
+      "number": "3",
+      "fields": [
+        {
+          "name": "bacnet.version",
+          "position": 46,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacnet"
+        },
+        {
+          "name": "bacnet.control",
+          "position": 47,
+          "size": 1,
+          "value": "04",
+          "show": "0x04",
+          "layer": "bacnet"
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "fields": [
+        {
+          "name": "bacnet.version",
+          "position": 46,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacnet"
+        },
+        {
+          "name": "bacnet.control",
+          "position": 47,
+          "size": 1,
+          "value": "00",
+          "show": "0x00",
+          "layer": "bacnet"
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "fields": [
+        {
+          "name": "bacnet.version",
+          "position": 46,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacnet"
+        },
+        {
+          "name": "bacnet.control",
+          "position": 47,
+          "size": 1,
+          "value": "04",
+          "show": "0x04",
+          "layer": "bacnet"
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "fields": [
+        {
+          "name": "bacnet.version",
+          "position": 46,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacnet"
+        },
+        {
+          "name": "bacnet.control",
+          "position": 47,
+          "size": 1,
+          "value": "00",
+          "show": "0x00",
+          "layer": "bacnet"
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "fields": [
+        {
+          "name": "bacnet.version",
+          "position": 46,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacnet"
+        },
+        {
+          "name": "bacnet.control",
+          "position": 47,
+          "size": 1,
+          "value": "04",
+          "show": "0x04",
+          "layer": "bacnet"
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "fields": [
+        {
+          "name": "bacnet.version",
+          "position": 46,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacnet"
+        },
+        {
+          "name": "bacnet.control",
+          "position": 47,
+          "size": 1,
+          "value": "00",
+          "show": "0x00",
+          "layer": "bacnet"
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "fields": [
+        {
+          "name": "bacnet.version",
+          "position": 46,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacnet"
+        },
+        {
+          "name": "bacnet.control",
+          "position": 47,
+          "size": 1,
+          "value": "04",
+          "show": "0x04",
+          "layer": "bacnet"
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "fields": [
+        {
+          "name": "bacnet.version",
+          "position": 46,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacnet"
+        },
+        {
+          "name": "bacnet.control",
+          "position": 47,
+          "size": 1,
+          "value": "00",
+          "show": "0x00",
+          "layer": "bacnet"
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "fields": [
+        {
+          "name": "bacnet.version",
+          "position": 46,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacnet"
+        },
+        {
+          "name": "bacnet.control",
+          "position": 47,
+          "size": 1,
+          "value": "04",
+          "show": "0x04",
+          "layer": "bacnet"
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "fields": [
+        {
+          "name": "bacnet.version",
+          "position": 46,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacnet"
+        },
+        {
+          "name": "bacnet.control",
+          "position": 47,
+          "size": 1,
+          "value": "00",
+          "show": "0x00",
+          "layer": "bacnet"
+        }
+      ]
+    },
+    {
+      "number": "13",
+      "fields": [
+        {
+          "name": "bacnet.version",
+          "position": 46,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacnet"
+        },
+        {
+          "name": "bacnet.control",
+          "position": 47,
+          "size": 1,
+          "value": "04",
+          "show": "0x04",
+          "layer": "bacnet"
+        }
+      ]
+    },
+    {
+      "number": "14",
+      "fields": [
+        {
+          "name": "bacnet.version",
+          "position": 46,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacnet"
+        },
+        {
+          "name": "bacnet.control",
+          "position": 47,
+          "size": 1,
+          "value": "00",
+          "show": "0x00",
+          "layer": "bacnet"
+        }
+      ]
+    },
+    {
+      "number": "15",
+      "fields": [
+        {
+          "name": "bacnet.version",
+          "position": 46,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacnet"
+        },
+        {
+          "name": "bacnet.control",
+          "position": 47,
+          "size": 1,
+          "value": "04",
+          "show": "0x04",
+          "layer": "bacnet"
+        }
+      ]
+    },
+    {
+      "number": "16",
+      "fields": [
+        {
+          "name": "bacnet.version",
+          "position": 46,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacnet"
+        },
+        {
+          "name": "bacnet.control",
+          "position": 47,
+          "size": 1,
+          "value": "00",
+          "show": "0x00",
+          "layer": "bacnet"
+        }
+      ]
+    },
+    {
+      "number": "17",
+      "fields": [
+        {
+          "name": "bacnet.version",
+          "position": 46,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacnet"
+        },
+        {
+          "name": "bacnet.control",
+          "position": 47,
+          "size": 1,
+          "value": "04",
+          "show": "0x04",
+          "layer": "bacnet"
+        }
+      ]
+    },
+    {
+      "number": "18",
+      "fields": [
+        {
+          "name": "bacnet.version",
+          "position": 46,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacnet"
+        },
+        {
+          "name": "bacnet.control",
+          "position": 47,
+          "size": 1,
+          "value": "00",
+          "show": "0x00",
+          "layer": "bacnet"
+        }
+      ]
+    },
+    {
+      "number": "19",
+      "fields": [
+        {
+          "name": "bacnet.version",
+          "position": 46,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacnet"
+        },
+        {
+          "name": "bacnet.control",
+          "position": 47,
+          "size": 1,
+          "value": "04",
+          "show": "0x04",
+          "layer": "bacnet"
+        }
+      ]
+    },
+    {
+      "number": "20",
+      "fields": [
+        {
+          "name": "bacnet.version",
+          "position": 46,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacnet"
+        },
+        {
+          "name": "bacnet.control",
+          "position": 47,
+          "size": 1,
+          "value": "00",
+          "show": "0x00",
+          "layer": "bacnet"
+        }
+      ]
+    }
+  ]
+}

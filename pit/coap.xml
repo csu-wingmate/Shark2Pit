@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<Peach xmlns="http://peachfuzzer.com/2012/Peach" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://peachfuzzer.com/2012/Peach ../peach.xsd">
+    <DataModel name="packet_1">
+        <Block name="coap">
+            <Number name="coap_version" valueType="hex" value="01" size="8"/>
+            <Number name="coap_type" valueType="hex" value="00" size="8"/>
+            <Number name="coap_token_len" valueType="hex" value="03" size="8"/>
+            <Number name="coap_code" valueType="hex" value="01" size="8"/>
+            <Number name="coap_mid" valueType="hex" value="05ca" size="16"/>
+            <Number name="coap_token" valueType="hex" value="721633" size="24"/>
+            <Blob name="coap_opt_name" valueType="hex" value="2b2e77656c6c2d6b6e6f776e" size="96"/>
+            <Number name="coap_opt_name_2" valueType="hex" value="04636f7265" size="40"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_2">
+        <Block name="coap">
+            <Number name="coap_version" valueType="hex" value="01" size="8"/>
+            <Number name="coap_type" valueType="hex" value="00" size="8"/>
+            <Number name="coap_token_len" valueType="hex" value="03" size="8"/>
+            <Number name="coap_code" valueType="hex" value="02" size="8"/>
+            <Number name="coap_mid" valueType="hex" value="ffcd" size="16"/>
+            <Number name="coap_token" valueType="hex" value="721633" size="24"/>
+            <Blob name="coap_opt_name" valueType="hex" value="2b2e77656c6c2d6b6e6f776e" size="96"/>
+            <Number name="coap_opt_name_2" valueType="hex" value="04636f7265" size="40"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_3">
+        <Block name="coap">
+            <Number name="coap_version" valueType="hex" value="01" size="8"/>
+            <Number name="coap_type" valueType="hex" value="00" size="8"/>
+            <Number name="coap_token_len" valueType="hex" value="03" size="8"/>
+            <Number name="coap_code" valueType="hex" value="03" size="8"/>
+            <Number name="coap_mid" valueType="hex" value="37fd" size="16"/>
+            <Number name="coap_token" valueType="hex" value="721633" size="24"/>
+            <Blob name="coap_opt_name" valueType="hex" value="2b2e77656c6c2d6b6e6f776e" size="96"/>
+            <Number name="coap_opt_name_2" valueType="hex" value="04636f7265" size="40"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_4">
+        <Block name="coap">
+            <Number name="coap_version" valueType="hex" value="01" size="8"/>
+            <Number name="coap_type" valueType="hex" value="00" size="8"/>
+            <Number name="coap_token_len" valueType="hex" value="03" size="8"/>
+            <Number name="coap_code" valueType="hex" value="04" size="8"/>
+            <Number name="coap_mid" valueType="hex" value="4664" size="16"/>
+            <Number name="coap_token" valueType="hex" value="721633" size="24"/>
+            <Blob name="coap_opt_name" valueType="hex" value="2b2e77656c6c2d6b6e6f776e" size="96"/>
+            <Number name="coap_opt_name_2" valueType="hex" value="04636f7265" size="40"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_5">
+        <Block name="coap">
+            <Number name="coap_version" valueType="hex" value="01" size="8"/>
+            <Number name="coap_type" valueType="hex" value="00" size="8"/>
+            <Number name="coap_token_len" valueType="hex" value="05" size="8"/>
+            <Number name="coap_code" valueType="hex" value="01" size="8"/>
+            <Number name="coap_mid" valueType="hex" value="8a74" size="16"/>
+            <Number name="coap_token" valueType="hex" value="7216332b2e" size="40"/>
+            <Number name="coap_opt_name" valueType="hex" value="77656c6c2d6b6e6f" size="64"/>
+            <Number name="coap_opt_name_2" valueType="hex" value="776e04636f726510" size="64"/>
+            <Number name="coap_opt_name_3" valueType="hex" value="123dd4" size="24"/>
+        </Block>
+    </DataModel>
+    <StateModel name="coap_StateModel" initialState="test">
+        <State name="test">
+            <Action name="Send_packet_1" type="output">
+                <DataModel ref="packet_1"/>
+            </Action>
+            <Action name="Send_packet_2" type="output">
+                <DataModel ref="packet_2"/>
+            </Action>
+            <Action name="Send_packet_3" type="output">
+                <DataModel ref="packet_3"/>
+            </Action>
+            <Action name="Send_packet_4" type="output">
+                <DataModel ref="packet_4"/>
+            </Action>
+            <Action name="Send_packet_5" type="output">
+                <DataModel ref="packet_5"/>
+            </Action>
+        </State>
+    </StateModel>
+    <Agent name="PublisherAgent">
+        <Monitor class="Process">
+            <Param name="Executable" value="/root/libcoap/examples/coap-server"/>
+            <Param name="Arguments" value="-p 5683"/>
+            <Param name="RestartOnEachTest" value="false"/>
+            <Param name="Faultonearlyexit" value="true"/>
+        </Monitor>
+    </Agent>
+    <Test name="Default">
+        <Agent ref="PublisherAgent" platform="linux"/>
+        <StateModel ref="coap_StateModel"/>
+        <Publisher class="TcpClient" name="client">
+            <Param name="Host" value="127.0.0.1"/>
+            <Param name="Port" value="5683"/>
+        </Publisher>
+        <Logger class="File">
+            <Param name="Path" value="logs"/>
+        </Logger>
+    </Test>
+</Peach>

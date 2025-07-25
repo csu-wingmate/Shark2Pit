@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<Peach xmlns="http://peachfuzzer.com/2012/Peach" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://peachfuzzer.com/2012/Peach ../peach.xsd">
+    <DataModel name="packet_1">
+        <Block name="ethernet">
+            <Blob name="ethernet_1" valueType="hex" value="6f004c000100000000000000c0a8641c0000407e00000000" size="192"/>
+            <Blob name="ethernet_2" valueType="hex" value="000000000000020000000000b2003c00540220062401059b00000000000000000e00010022f5130002000000102700001a48102700001a28010934040000000000000000200424062c022c01" size="608"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_2">
+        <Block name="ethernet">
+            <Blob name="ethernet_1" valueType="hex" value="6f004c000100000000000000c0a8641c0000403700000000" size="192"/>
+            <Blob name="ethernet_2" valueType="hex" value="000000000000020000000000b2003c00540220062401059b00000000000000000d00010022f5130002000000102700001a48102700001a28010934040000000000000000200424062c022c01" size="608"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_3">
+        <Block name="ethernet">
+            <Blob name="ethernet_1" valueType="hex" value="040000000000000000000000000000000000000000000000" size="192"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_4">
+        <Block name="ethernet">
+            <Blob name="ethernet_1" valueType="hex" value="04001a000000000000000000000000000000000000000000" size="192"/>
+            <Blob name="ethernet_2" valueType="hex" value="01000001140001002001436f6d6d756e69636174696f6e730000" size="208"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_5">
+        <Block name="ethernet">
+            <Blob name="ethernet_1" valueType="hex" value="650004000000000000000000000000000000000000000000" size="192"/>
+            <Number name="ethernet_2" valueType="hex" value="01000000" size="32"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_6">
+        <Block name="ethernet">
+            <Blob name="ethernet_1" valueType="hex" value="650004000100000000000000000000000000000000000000" size="192"/>
+            <Number name="ethernet_2" valueType="hex" value="01000000" size="32"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_7">
+        <Block name="ethernet">
+            <Blob name="ethernet_1" valueType="hex" value="6f004c000100000000000000c0a8641c0000485700000000" size="192"/>
+            <Blob name="ethernet_2" valueType="hex" value="000000000000020000000000b2003c00540220062401059b00000000000000000e00010022f5130002000000102700001a48102700001a28010934040000000000000000200424062c022c01" size="608"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_8">
+        <Block name="ethernet">
+            <Blob name="ethernet_1" valueType="hex" value="6f0056000100000000000000c0a8641c0000485700000000" size="192"/>
+            <Blob name="ethernet_2" valueType="hex" value="000000000000040000000000b2001e00d40000000200a2f10300a2f10e00010022f513001027000010270000000000801000000208ae00000000000000000000000001801000000208aeefc005800000000000000000" size="688"/>
+        </Block>
+    </DataModel>
+    <StateModel name="ethernet_StateModel" initialState="test">
+        <State name="test">
+            <Action name="Send_packet_1" type="output">
+                <DataModel ref="packet_1"/>
+            </Action>
+            <Action name="Send_packet_2" type="output">
+                <DataModel ref="packet_2"/>
+            </Action>
+            <Action name="Send_packet_3" type="output">
+                <DataModel ref="packet_3"/>
+            </Action>
+            <Action name="Send_packet_4" type="output">
+                <DataModel ref="packet_4"/>
+            </Action>
+            <Action name="Send_packet_5" type="output">
+                <DataModel ref="packet_5"/>
+            </Action>
+            <Action name="Send_packet_6" type="output">
+                <DataModel ref="packet_6"/>
+            </Action>
+            <Action name="Send_packet_7" type="output">
+                <DataModel ref="packet_7"/>
+            </Action>
+            <Action name="Send_packet_8" type="output">
+                <DataModel ref="packet_8"/>
+            </Action>
+        </State>
+    </StateModel>
+    <Agent name="PublisherAgent">
+        <Monitor class="Process">
+            <Param name="Executable" value="/root/OpENer/bin/posix/src/ports/POSIX/OpENer"/>
+            <Param name="Arguments" value="-p 44818"/>
+            <Param name="RestartOnEachTest" value="false"/>
+            <Param name="Faultonearlyexit" value="true"/>
+        </Monitor>
+    </Agent>
+    <Test name="Default">
+        <Agent ref="PublisherAgent" platform="linux"/>
+        <StateModel ref="ethernet_StateModel"/>
+        <Publisher class="Udp" name="client">
+            <Param name="Host" value="127.0.0.1"/>
+            <Param name="Port" value="44818"/>
+        </Publisher>
+        <Logger class="File">
+            <Param name="Path" value="logs"/>
+        </Logger>
+    </Test>
+</Peach>

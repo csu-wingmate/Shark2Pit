@@ -1,0 +1,4918 @@
+{
+  "packets": [
+    {
+      "number": "1",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "08d2",
+          "show": "2258",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0002",
+          "show": "2",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "2",
+          "show": "2",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0063",
+          "show": "99",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "001e",
+          "show": "30",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "2975",
+          "show": "10613",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0030",
+          "show": "48",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0028",
+          "show": "40",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "2976",
+          "show": "10614",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0030",
+          "show": "48",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0028",
+          "show": "40",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "0234",
+          "show": "564",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0030",
+          "show": "48",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0028",
+          "show": "40",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "4f4f",
+          "show": "20303",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0030",
+          "show": "48",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0028",
+          "show": "40",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "30da",
+          "show": "12506",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0030",
+          "show": "48",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0028",
+          "show": "40",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "3115",
+          "show": "12565",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0030",
+          "show": "48",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0028",
+          "show": "40",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "2977",
+          "show": "10615",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "044c",
+          "show": "1100",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0073",
+          "show": "115",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 66,
+          "size": 2,
+          "value": "2978",
+          "show": "10616",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 68,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 70,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 72,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 73,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 74,
+          "size": 2,
+          "value": "0514",
+          "show": "1300",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 76,
+          "size": 2,
+          "value": "0004",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 78,
+          "size": 2,
+          "value": "2979",
+          "show": "10617",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 80,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 82,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 84,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 85,
+          "size": 1,
+          "value": "2",
+          "show": "2",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 86,
+          "size": 2,
+          "value": "00cb",
+          "show": "203",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 88,
+          "size": 2,
+          "value": "001e",
+          "show": "30",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "0235",
+          "show": "565",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "044c",
+          "show": "1100",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0073",
+          "show": "115",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 66,
+          "size": 2,
+          "value": "0236",
+          "show": "566",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 68,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 70,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 72,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 73,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 74,
+          "size": 2,
+          "value": "0514",
+          "show": "1300",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 76,
+          "size": 2,
+          "value": "0004",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 78,
+          "size": 2,
+          "value": "0237",
+          "show": "567",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 80,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 82,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 84,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 85,
+          "size": 1,
+          "value": "2",
+          "show": "2",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 86,
+          "size": 2,
+          "value": "00cb",
+          "show": "203",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 88,
+          "size": 2,
+          "value": "001e",
+          "show": "30",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "30db",
+          "show": "12507",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "044c",
+          "show": "1100",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0073",
+          "show": "115",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 66,
+          "size": 2,
+          "value": "30dc",
+          "show": "12508",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 68,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 70,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 72,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 73,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 74,
+          "size": 2,
+          "value": "0514",
+          "show": "1300",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 76,
+          "size": 2,
+          "value": "0004",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 78,
+          "size": 2,
+          "value": "30dd",
+          "show": "12509",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 80,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 82,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 84,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 85,
+          "size": 1,
+          "value": "2",
+          "show": "2",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 86,
+          "size": 2,
+          "value": "00cb",
+          "show": "203",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 88,
+          "size": 2,
+          "value": "001e",
+          "show": "30",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "4f50",
+          "show": "20304",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "044c",
+          "show": "1100",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0073",
+          "show": "115",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 66,
+          "size": 2,
+          "value": "4f51",
+          "show": "20305",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 68,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 70,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 72,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 73,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 74,
+          "size": 2,
+          "value": "0514",
+          "show": "1300",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 76,
+          "size": 2,
+          "value": "0004",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 78,
+          "size": 2,
+          "value": "4f52",
+          "show": "20306",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 80,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 82,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 84,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 85,
+          "size": 1,
+          "value": "2",
+          "show": "2",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 86,
+          "size": 2,
+          "value": "00cb",
+          "show": "203",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 88,
+          "size": 2,
+          "value": "001e",
+          "show": "30",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "13",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "3116",
+          "show": "12566",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "044c",
+          "show": "1100",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0073",
+          "show": "115",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 66,
+          "size": 2,
+          "value": "3117",
+          "show": "12567",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 68,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 70,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 72,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 73,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 74,
+          "size": 2,
+          "value": "0514",
+          "show": "1300",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 76,
+          "size": 2,
+          "value": "0004",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 78,
+          "size": 2,
+          "value": "3118",
+          "show": "12568",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 80,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 82,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 84,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 85,
+          "size": 1,
+          "value": "2",
+          "show": "2",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 86,
+          "size": 2,
+          "value": "00cb",
+          "show": "203",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 88,
+          "size": 2,
+          "value": "001e",
+          "show": "30",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "14",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "485a",
+          "show": "18522",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0007",
+          "show": "7",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0003",
+          "show": "3",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 66,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 7 : 0",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 8 : 0",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 9 : 0",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "15",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "297a",
+          "show": "10618",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0005",
+          "show": "5",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 66,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 5 : 0",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "16",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "485b",
+          "show": "18523",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0005",
+          "show": "5",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 66,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 5 : 0",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "17",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "0591",
+          "show": "1425",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "1",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "000a",
+          "show": "10",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "18",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "6e35",
+          "show": "28213",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 66,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 0 : 0",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "19",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "0238",
+          "show": "568",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 66,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 0 : 0",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "20",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "0239",
+          "show": "569",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0005",
+          "show": "5",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 66,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 5 : 0",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "21",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "6e36",
+          "show": "28214",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0007",
+          "show": "7",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0003",
+          "show": "3",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 66,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 7 : 0",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 8 : 0",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 9 : 0",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 68,
+          "size": 2,
+          "value": "6e37",
+          "show": "28215",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 70,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 72,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 74,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 75,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 76,
+          "size": 2,
+          "value": "0005",
+          "show": "5",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 78,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 80,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 81,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 5 : 0",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "22",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "485c",
+          "show": "18524",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "018f",
+          "show": "399",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0002",
+          "show": "2",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 66,
+          "size": 2,
+          "value": "485d",
+          "show": "18525",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 68,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 70,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 72,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 73,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 74,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 76,
+          "size": 2,
+          "value": "0063",
+          "show": "99",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 78,
+          "size": 2,
+          "value": "485e",
+          "show": "18526",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 80,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 82,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 84,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 85,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 86,
+          "size": 2,
+          "value": "0029",
+          "show": "41",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 88,
+          "size": 2,
+          "value": "0002",
+          "show": "2",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 90,
+          "size": 2,
+          "value": "485f",
+          "show": "18527",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 92,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 94,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 96,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 97,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 98,
+          "size": 2,
+          "value": "08ab",
+          "show": "2219",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 100,
+          "size": 2,
+          "value": "0016",
+          "show": "22",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "23",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "0592",
+          "show": "1426",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "2",
+          "show": "2",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "000b",
+          "show": "11",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "24",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "4860",
+          "show": "18528",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "08d2",
+          "show": "2258",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0002",
+          "show": "2",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "25",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "0593",
+          "show": "1427",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0007",
+          "show": "7",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0003",
+          "show": "3",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 66,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 7 : 0",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 8 : 0",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 9 : 0",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 68,
+          "size": 2,
+          "value": "0594",
+          "show": "1428",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 70,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 72,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 74,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 75,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 76,
+          "size": 2,
+          "value": "0005",
+          "show": "5",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 78,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 80,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 81,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 5 : 0",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "26",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "0002",
+          "show": "2",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "1",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "000a",
+          "show": "10",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "27",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "2f15",
+          "show": "12053",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0005",
+          "show": "5",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 66,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 5 : 0",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "28",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "4861",
+          "show": "18529",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "2",
+          "show": "2",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0063",
+          "show": "99",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "001e",
+          "show": "30",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "29",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "6e38",
+          "show": "28216",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "1",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "000a",
+          "show": "10",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "30",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "2f16",
+          "show": "12054",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0030",
+          "show": "48",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0028",
+          "show": "40",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "31",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "6e39",
+          "show": "28217",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "2",
+          "show": "2",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "000b",
+          "show": "11",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "32",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "2f17",
+          "show": "12055",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0030",
+          "show": "48",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0028",
+          "show": "40",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "33",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "1989",
+          "show": "6537",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0030",
+          "show": "48",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0028",
+          "show": "40",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "34",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "2f18",
+          "show": "12056",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "044c",
+          "show": "1100",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0073",
+          "show": "115",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 66,
+          "size": 2,
+          "value": "2f19",
+          "show": "12057",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 68,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 70,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 72,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 73,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 74,
+          "size": 2,
+          "value": "0514",
+          "show": "1300",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 76,
+          "size": 2,
+          "value": "0004",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 78,
+          "size": 2,
+          "value": "2f1a",
+          "show": "12058",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 80,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 82,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 84,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 85,
+          "size": 1,
+          "value": "2",
+          "show": "2",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 86,
+          "size": 2,
+          "value": "00cb",
+          "show": "203",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 88,
+          "size": 2,
+          "value": "001e",
+          "show": "30",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "35",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "198a",
+          "show": "6538",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "044c",
+          "show": "1100",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0073",
+          "show": "115",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 66,
+          "size": 2,
+          "value": "198b",
+          "show": "6539",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 68,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 70,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 72,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 73,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 74,
+          "size": 2,
+          "value": "0514",
+          "show": "1300",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 76,
+          "size": 2,
+          "value": "0004",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 78,
+          "size": 2,
+          "value": "198c",
+          "show": "6540",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 80,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 82,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 84,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 85,
+          "size": 1,
+          "value": "2",
+          "show": "2",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 86,
+          "size": 2,
+          "value": "00cb",
+          "show": "203",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 88,
+          "size": 2,
+          "value": "001e",
+          "show": "30",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "36",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "198d",
+          "show": "6541",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0005",
+          "show": "5",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 66,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 5 : 0",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "37",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "0003",
+          "show": "3",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "2",
+          "show": "2",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "000b",
+          "show": "11",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 66,
+          "size": 2,
+          "value": "0004",
+          "show": "4",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 68,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 70,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 72,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 73,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 74,
+          "size": 2,
+          "value": "0007",
+          "show": "7",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 76,
+          "size": 2,
+          "value": "0003",
+          "show": "3",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 78,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 79,
+          "size": 1,
+          "value": "07",
+          "show": "Bit 7 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 79,
+          "size": 1,
+          "value": "07",
+          "show": "Bit 8 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 79,
+          "size": 1,
+          "value": "07",
+          "show": "Bit 9 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 80,
+          "size": 2,
+          "value": "0005",
+          "show": "5",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 82,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 84,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 86,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 87,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 88,
+          "size": 2,
+          "value": "0005",
+          "show": "5",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 90,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 92,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 93,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 5 : 0",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "38",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "4f53",
+          "show": "20307",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0005",
+          "show": "5",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 66,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 5 : 0",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "39",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "2ae3",
+          "show": "10979",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0009",
+          "show": "9",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0009",
+          "show": "9",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "000a",
+          "show": "10",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 66,
+          "size": 1,
+          "value": "02",
+          "show": "2",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "ff",
+          "show": "Bit 9 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "ff",
+          "show": "Bit 10 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "ff",
+          "show": "Bit 11 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "ff",
+          "show": "Bit 12 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "ff",
+          "show": "Bit 13 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "ff",
+          "show": "Bit 14 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "ff",
+          "show": "Bit 15 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "ff",
+          "show": "Bit 16 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 68,
+          "size": 1,
+          "value": "03",
+          "show": "Bit 17 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 68,
+          "size": 1,
+          "value": "03",
+          "show": "Bit 18 : 1",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "40",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "30de",
+          "show": "12510",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0005",
+          "show": "5",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 66,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 5 : 0",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "41",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "2ae4",
+          "show": "10980",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 66,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "01",
+          "show": "Bit 8 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 68,
+          "size": 2,
+          "value": "2ae5",
+          "show": "10981",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 70,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 72,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 74,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 75,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 76,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 78,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 80,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 81,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 6 : 0",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "42",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "4862",
+          "show": "18530",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "1",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "000a",
+          "show": "10",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "43",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "2998",
+          "show": "10648",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0009",
+          "show": "9",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0009",
+          "show": "9",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "000a",
+          "show": "10",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 66,
+          "size": 1,
+          "value": "02",
+          "show": "2",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "ff",
+          "show": "Bit 9 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "ff",
+          "show": "Bit 10 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "ff",
+          "show": "Bit 11 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "ff",
+          "show": "Bit 12 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "ff",
+          "show": "Bit 13 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "ff",
+          "show": "Bit 14 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "ff",
+          "show": "Bit 15 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "ff",
+          "show": "Bit 16 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 68,
+          "size": 1,
+          "value": "03",
+          "show": "Bit 17 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 68,
+          "size": 1,
+          "value": "03",
+          "show": "Bit 18 : 1",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "44",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "3119",
+          "show": "12569",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0005",
+          "show": "5",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 66,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 5 : 0",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "45",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "4863",
+          "show": "18531",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "2",
+          "show": "2",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "000b",
+          "show": "11",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "46",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "2999",
+          "show": "10649",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 66,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 67,
+          "size": 1,
+          "value": "01",
+          "show": "Bit 8 : 1",
+          "layer": "modbus"
+        },
+        {
+          "name": "mbtcp.trans_id",
+          "position": 68,
+          "size": 2,
+          "value": "299a",
+          "show": "10650",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 70,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 72,
+          "size": 2,
+          "value": "0008",
+          "show": "8",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 74,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 75,
+          "size": 1,
+          "value": "F",
+          "show": "15",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 76,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 78,
+          "size": 2,
+          "value": "0001",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.byte_cnt",
+          "position": 80,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "",
+          "position": 81,
+          "size": 1,
+          "value": "00",
+          "show": "Bit 6 : 0",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "47",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "2f1b",
+          "show": "12059",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "1",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0007",
+          "show": "7",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "48",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "2f1c",
+          "show": "12060",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "1",
+          "show": "1",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0007",
+          "show": "7",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "49",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "2f1d",
+          "show": "12061",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "2",
+          "show": "2",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.bit_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "000a",
+          "show": "10",
+          "layer": "modbus"
+        }
+      ]
+    },
+    {
+      "number": "50",
+      "fields": [
+        {
+          "name": "mbtcp.trans_id",
+          "position": 54,
+          "size": 2,
+          "value": "0595",
+          "show": "1429",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.prot_id",
+          "position": 56,
+          "size": 2,
+          "value": "0000",
+          "show": "0",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.len",
+          "position": 58,
+          "size": 2,
+          "value": "0006",
+          "show": "6",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "mbtcp.unit_id",
+          "position": 60,
+          "size": 1,
+          "value": "ff",
+          "show": "255",
+          "layer": "mbtcp"
+        },
+        {
+          "name": "modbus.func_code",
+          "position": 61,
+          "size": 1,
+          "value": "4",
+          "show": "4",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.reference_num",
+          "position": 62,
+          "size": 2,
+          "value": "018f",
+          "show": "399",
+          "layer": "modbus"
+        },
+        {
+          "name": "modbus.word_cnt",
+          "position": 64,
+          "size": 2,
+          "value": "0002",
+          "show": "2",
+          "layer": "modbus"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+{
+  "packets": [
+    {
+      "number": "1",
+      "fields": []
+    },
+    {
+      "number": "2",
+      "fields": []
+    },
+    {
+      "number": "3",
+      "fields": []
+    },
+    {
+      "number": "4",
+      "fields": []
+    },
+    {
+      "number": "5",
+      "fields": []
+    },
+    {
+      "number": "6",
+      "fields": []
+    },
+    {
+      "number": "7",
+      "fields": [
+        {
+          "name": "",
+          "position": 66,
+          "size": 10,
+          "value": "056405c900000000364c",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 0, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 76,
+          "size": 10,
+          "value": "056405c901000000de8e",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 1, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 86,
+          "size": 10,
+          "value": "056405c9020000009f84",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 2, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 96,
+          "size": 10,
+          "value": "056405c9030000007746",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 3, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 106,
+          "size": 10,
+          "value": "056405c9040000001d90",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 4, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 116,
+          "size": 10,
+          "value": "056405c905000000f552",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 5, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 126,
+          "size": 10,
+          "value": "056405c906000000b458",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 6, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 136,
+          "size": 10,
+          "value": "056405c9070000005c9a",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 7, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 146,
+          "size": 10,
+          "value": "056405c90800000019b9",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 8, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 156,
+          "size": 10,
+          "value": "056405c909000000f17b",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 9, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 166,
+          "size": 10,
+          "value": "056405c90a000000b071",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 10, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 176,
+          "size": 10,
+          "value": "056405c90b00000058b3",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 11, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 186,
+          "size": 10,
+          "value": "056405c90c0000003265",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 12, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 196,
+          "size": 10,
+          "value": "056405c90d000000daa7",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 13, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 206,
+          "size": 10,
+          "value": "056405c90e0000009bad",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 14, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 216,
+          "size": 10,
+          "value": "056405c90f000000736f",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 15, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 226,
+          "size": 10,
+          "value": "056405c91000000011eb",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 16, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 236,
+          "size": 10,
+          "value": "056405c911000000f929",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 17, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 246,
+          "size": 10,
+          "value": "056405c912000000b823",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 18, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 256,
+          "size": 10,
+          "value": "056405c91300000050e1",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 19, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 266,
+          "size": 10,
+          "value": "056405c9140000003a37",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 20, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 276,
+          "size": 10,
+          "value": "056405c915000000d2f5",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 21, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 286,
+          "size": 10,
+          "value": "056405c91600000093ff",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 22, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 296,
+          "size": 10,
+          "value": "056405c9170000007b3d",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 23, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 306,
+          "size": 10,
+          "value": "056405c9180000003e1e",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 24, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 316,
+          "size": 10,
+          "value": "056405c919000000d6dc",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 25, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 326,
+          "size": 10,
+          "value": "056405c91a00000097d6",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 26, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 336,
+          "size": 10,
+          "value": "056405c91b0000007f14",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 27, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 346,
+          "size": 10,
+          "value": "056405c91c00000015c2",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 28, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 356,
+          "size": 10,
+          "value": "056405c91d000000fd00",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 29, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 366,
+          "size": 10,
+          "value": "056405c91e000000bc0a",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 30, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 376,
+          "size": 10,
+          "value": "056405c91f00000054c8",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 31, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 386,
+          "size": 10,
+          "value": "056405c920000000014f",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 32, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 396,
+          "size": 10,
+          "value": "056405c921000000e98d",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 33, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 406,
+          "size": 10,
+          "value": "056405c922000000a887",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 34, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 416,
+          "size": 10,
+          "value": "056405c9230000004045",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 35, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 426,
+          "size": 10,
+          "value": "056405c9240000002a93",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 36, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 436,
+          "size": 10,
+          "value": "056405c925000000c251",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 37, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 446,
+          "size": 10,
+          "value": "056405c926000000835b",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 38, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 456,
+          "size": 10,
+          "value": "056405c9270000006b99",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 39, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 466,
+          "size": 10,
+          "value": "056405c9280000002eba",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 40, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 476,
+          "size": 10,
+          "value": "056405c929000000c678",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 41, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 486,
+          "size": 10,
+          "value": "056405c92a0000008772",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 42, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 496,
+          "size": 10,
+          "value": "056405c92b0000006fb0",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 43, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 506,
+          "size": 10,
+          "value": "056405c92c0000000566",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 44, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 516,
+          "size": 10,
+          "value": "056405c92d000000eda4",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 45, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 526,
+          "size": 10,
+          "value": "056405c92e000000acae",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 46, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 536,
+          "size": 10,
+          "value": "056405c92f000000446c",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 47, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 546,
+          "size": 10,
+          "value": "056405c93000000026e8",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 48, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 556,
+          "size": 10,
+          "value": "056405c931000000ce2a",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 49, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 566,
+          "size": 10,
+          "value": "056405c9320000008f20",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 50, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 576,
+          "size": 10,
+          "value": "056405c93300000067e2",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 51, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 586,
+          "size": 10,
+          "value": "056405c9340000000d34",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 52, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 596,
+          "size": 10,
+          "value": "056405c935000000e5f6",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 53, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 606,
+          "size": 10,
+          "value": "056405c936000000a4fc",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 54, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 616,
+          "size": 10,
+          "value": "056405c9370000004c3e",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 55, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 626,
+          "size": 10,
+          "value": "056405c938000000091d",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 56, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 636,
+          "size": 10,
+          "value": "056405c939000000e1df",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 57, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 646,
+          "size": 10,
+          "value": "056405c93a000000a0d5",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 58, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 656,
+          "size": 10,
+          "value": "056405c93b0000004817",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 59, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 666,
+          "size": 10,
+          "value": "056405c93c00000022c1",
+          "show": "Data Link Layer, Len: 5, From: 0, To: 60, DIR, PRM, Request Link Status",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 676,
+          "size": 10,
+          "value": "05605c93d000000ca030",
+          "show": "Data Link Layer, Len: 92, From: 3072, To: 208, DIR, DFC, Unknown function (0x03)",
+          "layer": "dnp3"
+        },
+        {
+          "name": "dnp3.tr.ctl",
+          "position": 686,
+          "size": 1,
+          "value": "56",
+          "show": "0x56",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 686,
+          "size": 18,
+          "value": "56405c93e0000008b09056405c93f0000006",
+          "show": "Data Chunks",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 785,
+          "size": 10,
+          "value": "c056405c94800000077b",
+          "show": "Data Link Layer, Len: 64, From: 0, To: 32916, PRM, FCV, Unknown function (0x0c)",
+          "layer": "dnp3"
+        },
+        {
+          "name": "dnp3.tr.ctl",
+          "position": 795,
+          "size": 1,
+          "value": "f0",
+          "show": "0xf0",
+          "layer": "dnp3"
+        },
+        {
+          "name": "",
+          "position": 795,
+          "size": 18,
+          "value": "f056405c9490000009f7d056405c94a00000",
+          "show": "Data Chunks",
+          "layer": "dnp3"
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "fields": []
+    },
+    {
+      "number": "9",
+      "fields": [
+        {
+          "name": "",
+          "position": 66,
+          "size": 10,
+          "value": "0564050b00000100baf0",
+          "show": "Data Link Layer, Len: 5, From: 1, To: 0, Status of Link",
+          "layer": "dnp3"
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "fields": []
+    },
+    {
+      "number": "11",
+      "fields": []
+    },
+    {
+      "number": "12",
+      "fields": []
+    },
+    {
+      "number": "13",
+      "fields": []
+    }
+  ]
+}
