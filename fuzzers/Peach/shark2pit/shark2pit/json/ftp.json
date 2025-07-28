@@ -1,0 +1,1039 @@
+{
+  "packets": [
+    {
+      "number": "1",
+      "fields": []
+    },
+    {
+      "number": "2",
+      "fields": []
+    },
+    {
+      "number": "3",
+      "fields": []
+    },
+    {
+      "number": "4",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 57,
+          "value": "3232302d2d2d2d2d2d2d2d2d2d2057656c636f6d6520746f20507572652d46545064205b707269767365705d202d2d2d2d2d2d2d2d2d2d0d0a",
+          "show": "220---------- Welcome to Pure-FTPd [privsep] ----------\\r\\n",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 111,
+          "size": 44,
+          "value": "3232302d596f75206172652075736572206e756d6265722031206f66203530303020616c6c6f7765642e0d0a",
+          "show": "220-You are user number 1 of 5000 allowed.\\r\\n",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 155,
+          "size": 47,
+          "value": "3232302d4c6f63616c2074696d65206973206e6f772032313a34392e2053657276657220706f72743a2032312e0d0a",
+          "show": "220-Local time is now 21:49. Server port: 21.\\r\\n",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 202,
+          "size": 51,
+          "value": "3232302d54686973206973206120707269766174652073797374656d202d204e6f20616e6f6e796d6f7573206c6f67696e0d0a",
+          "show": "220-This is a private system - No anonymous login\\r\\n",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 253,
+          "size": 55,
+          "value": "3232302d4950763620636f6e6e656374696f6e732061726520616c736f2077656c636f6d65206f6e2074686973207365727665722e0d0a",
+          "show": "220-IPv6 connections are also welcome on this server.\\r\\n",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 308,
+          "size": 62,
+          "value": "32323020596f752077696c6c20626520646973636f6e6e6563746564206166746572203135206d696e75746573206f6620696e61637469766974792e0d0a",
+          "show": "220 You will be disconnected after 15 minutes of inactivity.\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "fields": []
+    },
+    {
+      "number": "6",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 10,
+          "value": "55534552206674700d0a",
+          "show": "USER ftp\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "fields": []
+    },
+    {
+      "number": "8",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 36,
+          "value": "333331205573657220667470204f4b2e2050617373776f72642072657175697265640d0a",
+          "show": "331 User ftp OK. Password required\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "fields": []
+    },
+    {
+      "number": "10",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 14,
+          "value": "5041535320667470726f6f740d0a",
+          "show": "PASS ftproot\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "fields": []
+    },
+    {
+      "number": "12",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 32,
+          "value": "323330204f4b2e2043757272656e74206469726563746f7279206973202f0d0a",
+          "show": "230 OK. Current directory is /\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "13",
+      "fields": []
+    },
+    {
+      "number": "14",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 6,
+          "value": "535953540d0a",
+          "show": "SYST\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "15",
+      "fields": []
+    },
+    {
+      "number": "16",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 19,
+          "value": "32313520554e495820547970653a204c380d0a",
+          "show": "215 UNIX Type: L8\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "17",
+      "fields": []
+    },
+    {
+      "number": "18",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 28,
+          "value": "504f5254203139322c3136382c3233332c3132382c3231332c310d0a",
+          "show": "PORT 192,168,233,128,213,1\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "19",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 29,
+          "value": "32303020504f525420636f6d6d616e64207375636365737366756c0d0a",
+          "show": "200 PORT command successful\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "20",
+      "fields": []
+    },
+    {
+      "number": "21",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 6,
+          "value": "4c4953540d0a",
+          "show": "LIST\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "22",
+      "fields": []
+    },
+    {
+      "number": "23",
+      "fields": []
+    },
+    {
+      "number": "24",
+      "fields": []
+    },
+    {
+      "number": "25",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 30,
+          "value": "31353020436f6e6e656374696e6720746f20706f72742035343532390d0a",
+          "show": "150 Connecting to port 54529\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "26",
+      "fields": []
+    },
+    {
+      "number": "27",
+      "fields": []
+    },
+    {
+      "number": "28",
+      "fields": []
+    },
+    {
+      "number": "29",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 21,
+          "value": "3232362d4f7074696f6e733a202d61202d6c200d0a",
+          "show": "226-Options: -a -l \\r\\n",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 75,
+          "size": 21,
+          "value": "3232362033206d61746368657320746f74616c0d0a",
+          "show": "226 3 matches total\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "30",
+      "fields": []
+    },
+    {
+      "number": "31",
+      "fields": []
+    },
+    {
+      "number": "32",
+      "fields": []
+    },
+    {
+      "number": "33",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 13,
+          "value": "4357442064656661756c740d0a",
+          "show": "CWD default\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "34",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 39,
+          "value": "323530204f4b2e2043757272656e74206469726563746f7279206973202f64656661756c740d0a",
+          "show": "250 OK. Current directory is /default\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "35",
+      "fields": []
+    },
+    {
+      "number": "36",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 29,
+          "value": "504f5254203139322c3136382c3233332c3132382c3233342c31310d0a",
+          "show": "PORT 192,168,233,128,234,11\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "37",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 29,
+          "value": "32303020504f525420636f6d6d616e64207375636365737366756c0d0a",
+          "show": "200 PORT command successful\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "38",
+      "fields": []
+    },
+    {
+      "number": "39",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 6,
+          "value": "4c4953540d0a",
+          "show": "LIST\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "40",
+      "fields": []
+    },
+    {
+      "number": "41",
+      "fields": []
+    },
+    {
+      "number": "42",
+      "fields": []
+    },
+    {
+      "number": "43",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 30,
+          "value": "31353020436f6e6e656374696e6720746f20706f72742035393931350d0a",
+          "show": "150 Connecting to port 59915\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "44",
+      "fields": []
+    },
+    {
+      "number": "45",
+      "fields": []
+    },
+    {
+      "number": "46",
+      "fields": []
+    },
+    {
+      "number": "47",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 21,
+          "value": "3232362d4f7074696f6e733a202d61202d6c200d0a",
+          "show": "226-Options: -a -l \\r\\n",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 75,
+          "size": 22,
+          "value": "323236203133206d61746368657320746f74616c0d0a",
+          "show": "226 13 matches total\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "48",
+      "fields": []
+    },
+    {
+      "number": "49",
+      "fields": []
+    },
+    {
+      "number": "50",
+      "fields": []
+    },
+    {
+      "number": "51",
+      "fields": []
+    },
+    {
+      "number": "52",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 8,
+          "value": "5459504520490d0a",
+          "show": "TYPE I\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "53",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 30,
+          "value": "3230302054595045206973206e6f7720382d6269742062696e6172790d0a",
+          "show": "200 TYPE is now 8-bit binary\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "54",
+      "fields": []
+    },
+    {
+      "number": "55",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 30,
+          "value": "504f5254203139322c3136382c3233332c3132382c3139332c3231350d0a",
+          "show": "PORT 192,168,233,128,193,215\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "56",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 29,
+          "value": "32303020504f525420636f6d6d616e64207375636365737366756c0d0a",
+          "show": "200 PORT command successful\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "57",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 14,
+          "value": "52455452207777772e74677a0d0a",
+          "show": "RETR www.tgz\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "58",
+      "fields": []
+    },
+    {
+      "number": "59",
+      "fields": []
+    },
+    {
+      "number": "60",
+      "fields": []
+    },
+    {
+      "number": "61",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 30,
+          "value": "31353020436f6e6e656374696e6720746f20706f72742034393632330d0a",
+          "show": "150 Connecting to port 49623\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "62",
+      "fields": []
+    },
+    {
+      "number": "63",
+      "fields": []
+    },
+    {
+      "number": "64",
+      "fields": []
+    },
+    {
+      "number": "65",
+      "fields": []
+    },
+    {
+      "number": "66",
+      "fields": []
+    },
+    {
+      "number": "67",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 35,
+          "value": "3232362d46696c65207375636365737366756c6c79207472616e736665727265640d0a",
+          "show": "226-File successfully transferred\\r\\n",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 89,
+          "size": 59,
+          "value": "32323620302e303330207365636f6e647320286d656173757265642068657265292c20352e3232204b627974657320706572207365636f6e640d0a",
+          "show": "226 0.030 seconds (measured here), 5.22 Kbytes per second\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "68",
+      "fields": []
+    },
+    {
+      "number": "69",
+      "fields": [
+        {
+          "name": "ftp.request",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "False",
+          "layer": "ftp"
+        },
+        {
+          "name": "ftp.response",
+          "position": 54,
+          "size": 0,
+          "value": "",
+          "show": "True",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 54,
+          "size": 54,
+          "value": "3232312d476f6f646279652e20596f752075706c6f61646564203020616e6420646f776e6c6f616465642031206b62797465732e0d0a",
+          "show": "221-Goodbye. You uploaded 0 and downloaded 1 kbytes.\\r\\n",
+          "layer": "ftp"
+        },
+        {
+          "name": "",
+          "position": 108,
+          "size": 13,
+          "value": "323231204c6f676f75742e0d0a",
+          "show": "221 Logout.\\r\\n",
+          "layer": "ftp"
+        }
+      ]
+    },
+    {
+      "number": "70",
+      "fields": []
+    },
+    {
+      "number": "71",
+      "fields": []
+    },
+    {
+      "number": "72",
+      "fields": []
+    }
+  ]
+}
