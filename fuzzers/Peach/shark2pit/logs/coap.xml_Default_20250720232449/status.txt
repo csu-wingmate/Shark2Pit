@@ -1,0 +1,17 @@
+Peach Fuzzing Run
+=================
+
+Date of run: 07/20/2025 23:24:48
+Peach Version: 3.0.202.0
+Seed: 47156
+Command line: ./pit/coap.xml 
+Pit File: ./pit/coap.xml
+. Test starting: Default
+
+. Iteration 1 : 07/20/2025 23:24:49
+. Iteration 1 of 4294967295 : 07/20/2025 23:24:49
+. Iteration 100 of 4294967295 : 07/20/2025 23:24:50
+. Iteration 200 of 4294967295 : 07/20/2025 23:24:51
+. Iteration 300 of 4294967295 : 07/20/2025 23:24:52
+. Iteration 400 of 4294967295 : 07/20/2025 23:24:54
+. Iteration 500 of 4294967295 : 07/20/2025 23:24:55

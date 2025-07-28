@@ -88,12 +88,19 @@ COPY --chown=ubuntu:ubuntu Peach /root/Peach/
 # # COPY --chown=ubuntu:ubuntu --chmod=755 run.sh /root/run.sh
 # RUN sed -i 's/\r$//' run.sh
 # 复制所需目录及文件（排除fuzzers目录）
-COPY --chown=ubuntu:ubuntu shark2pit/* /root/Shark2Pit
+COPY --chown=ubuntu:ubuntu ../../branch /root/Shark2Pit/branch
+COPY --chown=ubuntu:ubuntu ../../json /root/Shark2Pit/json
+COPY --chown=ubuntu:ubuntu ../../logs /root/Shark2Pit/logs
+COPY --chown=ubuntu:ubuntu ../../pcaps /root/Shark2Pit/pcaps
+COPY --chown=ubuntu:ubuntu ../../pdml /root/Shark2Pit/pdml
+COPY --chown=ubuntu:ubuntu ../../pit /root/Shark2Pit/pit
+COPY --chown=ubuntu:ubuntu ../../subjects /root/Shark2Pit/subjects
+COPY --chown=ubuntu:ubuntu ../../tool /root/Shark2Pit/tool
 
-# # 复制根目录文件
-# # COPY --chown=ubuntu:ubuntu ../../README.md /root/Shark2Pit/
-# COPY --chown=ubuntu:ubuntu ../../run_peach.sh /root/Shark2Pit/
-# COPY --chown=ubuntu:ubuntu ../../Shark2Pit.sh /root/Shark2Pit/
+# 复制根目录文件
+# COPY --chown=ubuntu:ubuntu ../../README.md /root/Shark2Pit/
+COPY --chown=ubuntu:ubuntu ../../run_peach.sh /root/Shark2Pit/
+COPY --chown=ubuntu:ubuntu ../../Shark2Pit.sh /root/Shark2Pit/
 
 # 赋予所有.sh文件执行权限
 RUN find /root/Shark2Pit -type f -name "*.sh" -exec chmod +x {} \;
