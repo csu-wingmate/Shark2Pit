@@ -36,25 +36,16 @@ RUN apt-get update && \
 # 设置时区环境变量
 ENV TZ=Asia/Shanghai
 
-# 更新系统并安装必要依赖
 RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    ca-certificates && \
+    update-ca-certificates && \
     apt-get install -y --no-install-recommends \
     software-properties-common \
-    ca-certificates \
-    gnupg \
-    && rm -rf /var/lib/apt/lists/*
-
-# 添加 Wireshark 官方仓库
-RUN add-apt-repository -y ppa:wireshark-dev/stable
-
-# 预配置 wireshark-common 安装选项
-RUN echo "wireshark-common wireshark-common/install-setuid boolean true" | debconf-set-selections
-
-# 安装最新版 tshark
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
-    tshark \
-    && rm -rf /var/lib/apt/lists/*
+    gnupg && \
+    add-apt-repository -y ppa:wireshark-dev/stable && \
+    apt-get update && \
+    apt-get install -y --no-install-recommends tshark
 
 # 安装Mono 4.8.1
 RUN cd /usr/bin && \
@@ -85,15 +76,11 @@ WORKDIR /root/
 COPY --chown=ubuntu:ubuntu collect.py /root/collect.py
 RUN mkdir tasks
 COPY --chown=ubuntu:ubuntu Peach /root/Peach/
-# # COPY --chown=ubuntu:ubuntu --chmod=755 run.sh /root/run.sh
-# RUN sed -i 's/\r$//' run.sh
+
 # 复制所需目录及文件（排除fuzzers目录）
+RUN mkdir -p /root/Shark2Pit
 COPY --chown=ubuntu:ubuntu shark2pit/* /root/Shark2Pit
 
-# # 复制根目录文件
-# # COPY --chown=ubuntu:ubuntu ../../README.md /root/Shark2Pit/
-# COPY --chown=ubuntu:ubuntu ../../run_peach.sh /root/Shark2Pit/
-# COPY --chown=ubuntu:ubuntu ../../Shark2Pit.sh /root/Shark2Pit/
 
 # 赋予所有.sh文件执行权限
 RUN find /root/Shark2Pit -type f -name "*.sh" -exec chmod +x {} \;
