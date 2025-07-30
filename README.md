@@ -33,5 +33,21 @@ Shark2Pit
 └── run_peach.sh: start peach fuzzing
 └── README.md: this file
 ```
+# Tutorial - Fuzzing LightFTP server with Peach
+## Step-1. Set up environmental variables
+```
+git clone https://github.com/csu-wingmate/Shark2Pit.git
+cd Shark2Pit
+export Shark2Pit=$(pwd)
+```
+
+## Step-2. Build a Fuzzer and Shark2Pit Docker image
+```bash
+cd $Shark2Pit
+cd fuzzers/Peach
+docker build . -t peach
+```
+
+
 # Demo Video
 [Click to view the demo video](https://youtu.be/6tuphioX930.)
