@@ -45,9 +45,45 @@ export Shark2Pit=$(pwd)
 ```bash
 cd $Shark2Pit
 cd fuzzers/Peach
-docker build . -t peach
+docker build . -t shark2pit
+docker run -d --privileged --shm-size=2G --name shark2pit shark2pit /bin/bash -c "while true; do sleep 1; done"
+```
+## Step-3. Generate Pit file and Fuzzing
+```bash
+cd Shark2Pit
+./Shark2Pit.sh coap coap
+./run_peach.sh coap
 ```
 
+# FAQs
+## 1. How do I extend Shark2Pit?
+### 1）add a target protocol
+To add a new protocol and/or a new target server for a supported protocol, follow the folder structure outlined above and complete the following steps, using LightFTP as an example:
 
+#### Step-1. Create a new folder for the protocol/target server
+The folder for LightFTP server is located at [subjects/FTP/lightftp](https://github.com/csu-wingmate/PeachCI/tree/main/subjects/FTP/lightftp).
+
+#### Step-2. Write a Dockerfile and prepare subject-specific scripts/files
+Refer to the existing folder structure for LightFTP
+```
+subjects/FTP/LightFTP
+├── Dockerfile (required): based on this, a target-specific Docker image is built (See Step-1 in the tutorial)
+└── run.sh (required): main script to run experiment inside a container
+```
+
+### 2）add a fuzzer
+To add a new fuzzer, follow the folder structure outlined above and complete the following steps, using PeachStar as an example:
+
+#### Step-1. Create a new folder for fuzzer
+The folder for PeachStar is located at [fuzzers/PeachStar](https://github.com/csu-wingmate/PeachCI/tree/main/fuzzers/PeachStar).
+
+#### Step-2. Write a Dockerfile and prepare subject-specific scripts/files
+Refer to the existing folder structure for PeachStar
+```
+fuzzers/PeachStar
+├── Dockerfile (required): based on this, a Docker image is built (See Step-1 in the tutorial)
+└── run.sh (required): main script to run experiment inside a container
+```
+All the required files (i.e., Dockerfile, run.sh) follow some templates so that one can easily follow them to prepare files for a new fuzzer.
 # Demo Video
 [Click to view the demo video](https://youtu.be/6tuphioX930.)
