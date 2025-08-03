@@ -63,7 +63,7 @@ To add a new protocol and/or a new target server for a supported protocol, follo
 #### Step-1. Create a new folder for the protocol/target server
 The folder for LightFTP server is located at [subjects/ftp].
 
-#### Step-2. Write a prepare subject-specific scripts/files
+#### Step-2. Write a prepare subject-specific script
 Refer to the existing folder structure for ftp
 ```
 subjects/ftp/
@@ -72,14 +72,14 @@ subjects/ftp/
 #### Step-3. Add parameters in tool/shark2pit_config.json
 Add the necessary parameters in tool/shark2pit_config.json.
 ```
-    "ftp": {
+"ftp": {
         "transport": "tcp",
         "default_executable":"/root/LightFTP/Source/Release/fftp",
         "default_arguments":"/root/LightFTP/Bin/fftp.conf ",
         "default_host":"127.0.0.1",
         "default_port": 21,
         "agent_class": "TcpClient"
-    }
+      }
 ```
 
 ### 2）add a fuzzer
@@ -88,13 +88,13 @@ To add a new fuzzer, follow the folder structure outlined above and complete the
 #### Step-1. Create a new folder for fuzzer
 The folder for PeachStar is located at [fuzzers/PeachStar](https://github.com/csu-wingmate/Shark2Pit/tree/master/fuzzers/PeachStar).
 
-#### Step-2. Write a Dockerfile and prepare subject-specific scripts/files
+#### Step-2. Write a Dockerfile file
 Refer to the existing folder structure for PeachStar
 ```
 fuzzers/PeachStar
-├── Dockerfile (required): based on this, a Docker image is built (See Step-2 in the tutorial)
-└── run.sh (required): main script to run experiment inside a container
+├── Dockerfile (required): based on this, a Docker image is built (See Sdtep-2 in the tutorial)
+└── other files (required): dependencies for building Peachstar.
 ```
-All the required files (i.e., Dockerfile, run.sh) follow some templates so that one can easily follow them to prepare files for a new fuzzer.
+All the required files (i.e., Dockerfile) follow some templates so that one can easily follow them to prepare files for a new fuzzer.
 # Demo Video
 [Click to view the demo video](https://youtu.be/6tuphioX930.)
