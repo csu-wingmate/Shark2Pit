@@ -61,27 +61,38 @@ cd Shark2Pit
 To add a new protocol and/or a new target server for a supported protocol, follow the folder structure outlined above and complete the following steps, using LightFTP as an example:
 
 #### Step-1. Create a new folder for the protocol/target server
-The folder for LightFTP server is located at [subjects/FTP/lightftp](https://github.com/csu-wingmate/PeachCI/tree/main/subjects/FTP/lightftp).
+The folder for LightFTP server is located at [subjects/ftp].
 
-#### Step-2. Write a Dockerfile and prepare subject-specific scripts/files
-Refer to the existing folder structure for LightFTP
+#### Step-2. Write a prepare subject-specific scripts/files
+Refer to the existing folder structure for ftp
 ```
-subjects/FTP/LightFTP
-├── Dockerfile (required): based on this, a target-specific Docker image is built (See Step-1 in the tutorial)
-└── run.sh (required): main script to run experiment inside a container
+subjects/ftp/
+├──ftp_build.sh (required): script to build experiment inside a container 
+```
+#### Step-3. Add parameters in tool/shark2pit_config.json
+Add the necessary parameters in tool/shark2pit_config.json.
+```
+    "ftp": {
+        "transport": "tcp",
+        "default_executable":"/root/LightFTP/Source/Release/fftp",
+        "default_arguments":"/root/LightFTP/Bin/fftp.conf ",
+        "default_host":"127.0.0.1",
+        "default_port": 21,
+        "agent_class": "TcpClient"
+    }
 ```
 
 ### 2）add a fuzzer
 To add a new fuzzer, follow the folder structure outlined above and complete the following steps, using PeachStar as an example:
 
 #### Step-1. Create a new folder for fuzzer
-The folder for PeachStar is located at [fuzzers/PeachStar](https://github.com/csu-wingmate/PeachCI/tree/main/fuzzers/PeachStar).
+The folder for PeachStar is located at [fuzzers/PeachStar](https://github.com/csu-wingmate/Shark2Pit/tree/master/fuzzers/PeachStar).
 
 #### Step-2. Write a Dockerfile and prepare subject-specific scripts/files
 Refer to the existing folder structure for PeachStar
 ```
 fuzzers/PeachStar
-├── Dockerfile (required): based on this, a Docker image is built (See Step-1 in the tutorial)
+├── Dockerfile (required): based on this, a Docker image is built (See Step-2 in the tutorial)
 └── run.sh (required): main script to run experiment inside a container
 ```
 All the required files (i.e., Dockerfile, run.sh) follow some templates so that one can easily follow them to prepare files for a new fuzzer.
