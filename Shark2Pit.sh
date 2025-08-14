@@ -3,7 +3,7 @@
 # Display help information
 show_help() {
     echo "Usage: $0 [options] <protocol_name> [layer1 layer2 ...]"
-    echo "Automatically convert PCAP/PCAPNG files to PDML format and generate PIT files"
+    echo "Automatically convert PCAP/PCAPNG files to PDML format and generate Pit files"
     echo
     echo "Arguments:"
     echo "  protocol_name     Name of the protocol to process (without file extension)"
@@ -11,11 +11,11 @@ show_help() {
     echo
     echo "Options:"
     echo "  -h, --help        Show this help message"
-    echo "  -s, --synthetic   Enable packet reassembly during PIT generation"
+    echo "  -s, --synthetic   Enable packet reassembly during Pit generation"
     echo
     echo "Examples:"
     echo "  $0 coap coap"
-    echo "  $0 -s dns dns udp ip"
+    echo "  $0 -s dns dns"
     exit 0
 }
 
@@ -106,8 +106,8 @@ if [ "$synthetic" = true ]; then
     echo "Enabling packet reassembly (synthetic mode)"
 fi
 
-# Generate PIT file with Python script
-echo "Generating PIT file..."
+# Generate Pit file with Python script
+echo "Generating Pit file..."
 python3 "./tool/forpit.py" \
     "./json/$protocol.json" \
     "./pit/$protocol.xml" \
@@ -120,4 +120,4 @@ python3 "./tool/forpit.py" \
 echo "Processing completed!"
 echo "PDML file location: ./pdml/$protocol.pdml"
 echo "JSON file location: ./json/$protocol.json"
-echo "PIT file location:  ./pit/$protocol.xml"
+echo "Pit file location:  ./pit/$protocol.xml"
