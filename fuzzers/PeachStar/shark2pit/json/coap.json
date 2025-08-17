@@ -1,0 +1,365 @@
+{
+  "packets": [
+    {
+      "number": "1",
+      "fields": [
+        {
+          "name": "coap.version",
+          "position": 62,
+          "size": 1,
+          "value": "1",
+          "show": "1",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.type",
+          "position": 62,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.token_len",
+          "position": 62,
+          "size": 1,
+          "value": "3",
+          "show": "3",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.code",
+          "position": 63,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.mid",
+          "position": 64,
+          "size": 2,
+          "value": "05ca",
+          "show": "1482",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.token",
+          "position": 66,
+          "size": 3,
+          "value": "721633",
+          "show": "72:16:33",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.opt.name",
+          "position": 69,
+          "size": 12,
+          "value": "2b2e77656c6c2d6b6e6f776e",
+          "show": "#1: Unknown Option (2)",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.opt.name",
+          "position": 81,
+          "size": 5,
+          "value": "04636f7265",
+          "show": "#2: Unknown Option (2)",
+          "layer": "coap"
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "fields": [
+        {
+          "name": "coap.version",
+          "position": 62,
+          "size": 1,
+          "value": "1",
+          "show": "1",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.type",
+          "position": 62,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.token_len",
+          "position": 62,
+          "size": 1,
+          "value": "3",
+          "show": "3",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.code",
+          "position": 63,
+          "size": 1,
+          "value": "02",
+          "show": "2",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.mid",
+          "position": 64,
+          "size": 2,
+          "value": "ffcd",
+          "show": "65485",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.token",
+          "position": 66,
+          "size": 3,
+          "value": "721633",
+          "show": "72:16:33",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.opt.name",
+          "position": 69,
+          "size": 12,
+          "value": "2b2e77656c6c2d6b6e6f776e",
+          "show": "#1: Unknown Option (2)",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.opt.name",
+          "position": 81,
+          "size": 5,
+          "value": "04636f7265",
+          "show": "#2: Unknown Option (2)",
+          "layer": "coap"
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "fields": [
+        {
+          "name": "coap.version",
+          "position": 62,
+          "size": 1,
+          "value": "1",
+          "show": "1",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.type",
+          "position": 62,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.token_len",
+          "position": 62,
+          "size": 1,
+          "value": "3",
+          "show": "3",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.code",
+          "position": 63,
+          "size": 1,
+          "value": "03",
+          "show": "3",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.mid",
+          "position": 64,
+          "size": 2,
+          "value": "37fd",
+          "show": "14333",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.token",
+          "position": 66,
+          "size": 3,
+          "value": "721633",
+          "show": "72:16:33",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.opt.name",
+          "position": 69,
+          "size": 12,
+          "value": "2b2e77656c6c2d6b6e6f776e",
+          "show": "#1: Unknown Option (2)",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.opt.name",
+          "position": 81,
+          "size": 5,
+          "value": "04636f7265",
+          "show": "#2: Unknown Option (2)",
+          "layer": "coap"
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "fields": [
+        {
+          "name": "coap.version",
+          "position": 62,
+          "size": 1,
+          "value": "1",
+          "show": "1",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.type",
+          "position": 62,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.token_len",
+          "position": 62,
+          "size": 1,
+          "value": "3",
+          "show": "3",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.code",
+          "position": 63,
+          "size": 1,
+          "value": "04",
+          "show": "4",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.mid",
+          "position": 64,
+          "size": 2,
+          "value": "4664",
+          "show": "18020",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.token",
+          "position": 66,
+          "size": 3,
+          "value": "721633",
+          "show": "72:16:33",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.opt.name",
+          "position": 69,
+          "size": 12,
+          "value": "2b2e77656c6c2d6b6e6f776e",
+          "show": "#1: Unknown Option (2)",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.opt.name",
+          "position": 81,
+          "size": 5,
+          "value": "04636f7265",
+          "show": "#2: Unknown Option (2)",
+          "layer": "coap"
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "fields": [
+        {
+          "name": "coap.version",
+          "position": 62,
+          "size": 1,
+          "value": "1",
+          "show": "1",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.type",
+          "position": 62,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.token_len",
+          "position": 62,
+          "size": 1,
+          "value": "5",
+          "show": "5",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.opt.uri_path_recon",
+          "position": 62,
+          "size": 0,
+          "value": "",
+          "show": ":4294967295",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.code",
+          "position": 63,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.mid",
+          "position": 64,
+          "size": 2,
+          "value": "8a74",
+          "show": "35444",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.token",
+          "position": 66,
+          "size": 5,
+          "value": "7216332b2e",
+          "show": "72:16:33:2b:2e",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.opt.name",
+          "position": 71,
+          "size": 8,
+          "value": "77656c6c2d6b6e6f",
+          "show": "#1: Uri-Port",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.opt.name",
+          "position": 79,
+          "size": 8,
+          "value": "776e04636f726510",
+          "show": "#2: Max-age",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.opt.name",
+          "position": 87,
+          "size": 3,
+          "value": "123dd4",
+          "show": "#3: Uri-Query",
+          "layer": "coap"
+        }
+      ]
+    }
+  ]
+}
