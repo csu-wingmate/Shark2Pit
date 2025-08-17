@@ -59,6 +59,11 @@ RUN wget https://github.com/prometheus/node_exporter/releases/download/v1.7.0/no
     tar -zxvf node_exporter-1.7.0.linux-amd64.tar.gz && \
     mv node_exporter-1.7.0.linux-amd64 node_exporter
 
+# 复制所需目录及文件
+RUN mkdir -p /root/Shark2Pit
+COPY --chown=ubuntu:ubuntu shark2pit/* /root/Shark2Pit
 
+# 赋予所有.sh文件执行权限
+RUN find /root/Shark2Pit -type f -name "*.sh" -exec chmod +x {} \;
 # 容器启动命令
 CMD ["bash"]
