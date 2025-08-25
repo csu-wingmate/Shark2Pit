@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<Peach xmlns="http://peachfuzzer.com/2012/Peach" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://peachfuzzer.com/2012/Peach ../peach.xsd">
+    <DataModel name="packet_1">
+        <Block name="dnp3">
+            <Blob name="dnp3_1" valueType="hex" value="056405c900000000364c" size="80"/>
+            <Blob name="dnp3_2" valueType="hex" value="056405c901000000de8e" size="80"/>
+            <Blob name="dnp3_3" valueType="hex" value="056405c9020000009f84" size="80"/>
+            <Blob name="dnp3_4" valueType="hex" value="056405c9030000007746" size="80"/>
+            <Blob name="dnp3_5" valueType="hex" value="056405c9040000001d90" size="80"/>
+            <Blob name="dnp3_6" valueType="hex" value="056405c905000000f552" size="80"/>
+            <Blob name="dnp3_7" valueType="hex" value="056405c906000000b458" size="80"/>
+            <Blob name="dnp3_8" valueType="hex" value="056405c9070000005c9a" size="80"/>
+            <Blob name="dnp3_9" valueType="hex" value="056405c90800000019b9" size="80"/>
+            <Blob name="dnp3_10" valueType="hex" value="056405c909000000f17b" size="80"/>
+            <Blob name="dnp3_11" valueType="hex" value="056405c90a000000b071" size="80"/>
+            <Blob name="dnp3_12" valueType="hex" value="056405c90b00000058b3" size="80"/>
+            <Blob name="dnp3_13" valueType="hex" value="056405c90c0000003265" size="80"/>
+            <Blob name="dnp3_14" valueType="hex" value="056405c90d000000daa7" size="80"/>
+            <Blob name="dnp3_15" valueType="hex" value="056405c90e0000009bad" size="80"/>
+            <Blob name="dnp3_16" valueType="hex" value="056405c90f000000736f" size="80"/>
+            <Blob name="dnp3_17" valueType="hex" value="056405c91000000011eb" size="80"/>
+            <Blob name="dnp3_18" valueType="hex" value="056405c911000000f929" size="80"/>
+            <Blob name="dnp3_19" valueType="hex" value="056405c912000000b823" size="80"/>
+            <Blob name="dnp3_20" valueType="hex" value="056405c91300000050e1" size="80"/>
+            <Blob name="dnp3_21" valueType="hex" value="056405c9140000003a37" size="80"/>
+            <Blob name="dnp3_22" valueType="hex" value="056405c915000000d2f5" size="80"/>
+            <Blob name="dnp3_23" valueType="hex" value="056405c91600000093ff" size="80"/>
+            <Blob name="dnp3_24" valueType="hex" value="056405c9170000007b3d" size="80"/>
+            <Blob name="dnp3_25" valueType="hex" value="056405c9180000003e1e" size="80"/>
+            <Blob name="dnp3_26" valueType="hex" value="056405c919000000d6dc" size="80"/>
+            <Blob name="dnp3_27" valueType="hex" value="056405c91a00000097d6" size="80"/>
+            <Blob name="dnp3_28" valueType="hex" value="056405c91b0000007f14" size="80"/>
+            <Blob name="dnp3_29" valueType="hex" value="056405c91c00000015c2" size="80"/>
+            <Blob name="dnp3_30" valueType="hex" value="056405c91d000000fd00" size="80"/>
+            <Blob name="dnp3_31" valueType="hex" value="056405c91e000000bc0a" size="80"/>
+            <Blob name="dnp3_32" valueType="hex" value="056405c91f00000054c8" size="80"/>
+            <Blob name="dnp3_33" valueType="hex" value="056405c920000000014f" size="80"/>
+            <Blob name="dnp3_34" valueType="hex" value="056405c921000000e98d" size="80"/>
+            <Blob name="dnp3_35" valueType="hex" value="056405c922000000a887" size="80"/>
+            <Blob name="dnp3_36" valueType="hex" value="056405c9230000004045" size="80"/>
+            <Blob name="dnp3_37" valueType="hex" value="056405c9240000002a93" size="80"/>
+            <Blob name="dnp3_38" valueType="hex" value="056405c925000000c251" size="80"/>
+            <Blob name="dnp3_39" valueType="hex" value="056405c926000000835b" size="80"/>
+            <Blob name="dnp3_40" valueType="hex" value="056405c9270000006b99" size="80"/>
+            <Blob name="dnp3_41" valueType="hex" value="056405c9280000002eba" size="80"/>
+            <Blob name="dnp3_42" valueType="hex" value="056405c929000000c678" size="80"/>
+            <Blob name="dnp3_43" valueType="hex" value="056405c92a0000008772" size="80"/>
+            <Blob name="dnp3_44" valueType="hex" value="056405c92b0000006fb0" size="80"/>
+            <Blob name="dnp3_45" valueType="hex" value="056405c92c0000000566" size="80"/>
+            <Blob name="dnp3_46" valueType="hex" value="056405c92d000000eda4" size="80"/>
+            <Blob name="dnp3_47" valueType="hex" value="056405c92e000000acae" size="80"/>
+            <Blob name="dnp3_48" valueType="hex" value="056405c92f000000446c" size="80"/>
+            <Blob name="dnp3_49" valueType="hex" value="056405c93000000026e8" size="80"/>
+            <Blob name="dnp3_50" valueType="hex" value="056405c931000000ce2a" size="80"/>
+            <Blob name="dnp3_51" valueType="hex" value="056405c9320000008f20" size="80"/>
+            <Blob name="dnp3_52" valueType="hex" value="056405c93300000067e2" size="80"/>
+            <Blob name="dnp3_53" valueType="hex" value="056405c9340000000d34" size="80"/>
+            <Blob name="dnp3_54" valueType="hex" value="056405c935000000e5f6" size="80"/>
+            <Blob name="dnp3_55" valueType="hex" value="056405c936000000a4fc" size="80"/>
+            <Blob name="dnp3_56" valueType="hex" value="056405c9370000004c3e" size="80"/>
+            <Blob name="dnp3_57" valueType="hex" value="056405c938000000091d" size="80"/>
+            <Blob name="dnp3_58" valueType="hex" value="056405c939000000e1df" size="80"/>
+            <Blob name="dnp3_59" valueType="hex" value="056405c93a000000a0d5" size="80"/>
+            <Blob name="dnp3_60" valueType="hex" value="056405c93b0000004817" size="80"/>
+            <Blob name="dnp3_61" valueType="hex" value="056405c93c00000022c1" size="80"/>
+            <Blob name="dnp3_62" valueType="hex" value="05605c93d000000ca030" size="80"/>
+            <Number name="dnp3_tr_ctl" valueType="hex" value="56" size="8"/>
+            <Blob name="dnp3_63" valueType="hex" value="56405c93e0000008b09056405c93f0000006" size="144"/>
+            <Blob name="dnp3_64" valueType="hex" value="c056405c94800000077b" size="80"/>
+            <Number name="dnp3_tr_ctl_2" valueType="hex" value="f0" size="8"/>
+            <Blob name="dnp3_65" valueType="hex" value="f056405c9490000009f7d056405c94a00000" size="144"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_2">
+        <Block name="dnp3">
+            <Blob name="dnp3_1" valueType="hex" value="0564050b00000100baf0" size="80"/>
+        </Block>
+    </DataModel>
+    <StateModel name="dnp3_StateModel" initialState="test">
+        <State name="test">
+            <Action name="Send_packet_1" type="output">
+                <DataModel ref="packet_1"/>
+            </Action>
+            <Action name="Send_packet_2" type="output">
+                <DataModel ref="packet_2"/>
+            </Action>
+        </State>
+    </StateModel>
+    <Agent name="PublisherAgent">
+        <Monitor class="Process">
+            <Param name="Executable" value="/root/opendnp3/build/cpp/examples/outstation/outstation-demo"/>
+            <Param name="Arguments" value="-p 20000"/>
+            <Param name="RestartOnEachTest" value="false"/>
+            <Param name="Faultonearlyexit" value="true"/>
+        </Monitor>
+    </Agent>
+    <Test name="Default">
+        <Agent ref="PublisherAgent" platform="linux"/>
+        <StateModel ref="dnp3_StateModel"/>
+        <Publisher class="Tcp" name="client">
+            <Param name="Host" value="127.0.0.1"/>
+            <Param name="Port" value="20000"/>
+        </Publisher>
+        <Logger class="File">
+            <Param name="Path" value="logs"/>
+        </Logger>
+    </Test>
+</Peach>

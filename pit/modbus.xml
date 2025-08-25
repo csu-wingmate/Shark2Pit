@@ -1,0 +1,959 @@
+<?xml version="1.0" ?>
+<Peach xmlns="http://peachfuzzer.com/2012/Peach" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://peachfuzzer.com/2012/Peach ../peach.xsd">
+    <DataModel name="packet_1">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="08d2" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0002" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_2">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="0001" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="02" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0063" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="001e" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_3">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="2975" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0030" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0028" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_4">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="2976" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0030" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0028" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_5">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="0234" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0030" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0028" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_6">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="4f4f" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0030" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0028" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_7">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="30da" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0030" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0028" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_8">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="3115" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0030" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0028" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_9">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="2977" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="044c" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0073" size="16"/>
+            <Number name="mbtcp_trans_id_2" valueType="hex" value="2978" size="16"/>
+            <Number name="mbtcp_prot_id_2" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_2" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id_2" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_2" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num_2" valueType="hex" value="0514" size="16"/>
+            <Number name="modbus_word_cnt_2" valueType="hex" value="0004" size="16"/>
+            <Number name="mbtcp_trans_id_3" valueType="hex" value="2979" size="16"/>
+            <Number name="mbtcp_prot_id_3" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_3" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id_3" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_3" valueType="hex" value="02" size="8"/>
+            <Number name="modbus_reference_num_3" valueType="hex" value="00cb" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="001e" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_10">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="0235" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="044c" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0073" size="16"/>
+            <Number name="mbtcp_trans_id_2" valueType="hex" value="0236" size="16"/>
+            <Number name="mbtcp_prot_id_2" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_2" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id_2" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_2" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num_2" valueType="hex" value="0514" size="16"/>
+            <Number name="modbus_word_cnt_2" valueType="hex" value="0004" size="16"/>
+            <Number name="mbtcp_trans_id_3" valueType="hex" value="0237" size="16"/>
+            <Number name="mbtcp_prot_id_3" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_3" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id_3" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_3" valueType="hex" value="02" size="8"/>
+            <Number name="modbus_reference_num_3" valueType="hex" value="00cb" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="001e" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_11">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="30db" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="044c" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0073" size="16"/>
+            <Number name="mbtcp_trans_id_2" valueType="hex" value="30dc" size="16"/>
+            <Number name="mbtcp_prot_id_2" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_2" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id_2" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_2" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num_2" valueType="hex" value="0514" size="16"/>
+            <Number name="modbus_word_cnt_2" valueType="hex" value="0004" size="16"/>
+            <Number name="mbtcp_trans_id_3" valueType="hex" value="30dd" size="16"/>
+            <Number name="mbtcp_prot_id_3" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_3" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id_3" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_3" valueType="hex" value="02" size="8"/>
+            <Number name="modbus_reference_num_3" valueType="hex" value="00cb" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="001e" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_12">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="4f50" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="044c" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0073" size="16"/>
+            <Number name="mbtcp_trans_id_2" valueType="hex" value="4f51" size="16"/>
+            <Number name="mbtcp_prot_id_2" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_2" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id_2" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_2" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num_2" valueType="hex" value="0514" size="16"/>
+            <Number name="modbus_word_cnt_2" valueType="hex" value="0004" size="16"/>
+            <Number name="mbtcp_trans_id_3" valueType="hex" value="4f52" size="16"/>
+            <Number name="mbtcp_prot_id_3" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_3" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id_3" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_3" valueType="hex" value="02" size="8"/>
+            <Number name="modbus_reference_num_3" valueType="hex" value="00cb" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="001e" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_13">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="3116" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="044c" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0073" size="16"/>
+            <Number name="mbtcp_trans_id_2" valueType="hex" value="3117" size="16"/>
+            <Number name="mbtcp_prot_id_2" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_2" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id_2" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_2" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num_2" valueType="hex" value="0514" size="16"/>
+            <Number name="modbus_word_cnt_2" valueType="hex" value="0004" size="16"/>
+            <Number name="mbtcp_trans_id_3" valueType="hex" value="3118" size="16"/>
+            <Number name="mbtcp_prot_id_3" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_3" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id_3" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_3" valueType="hex" value="02" size="8"/>
+            <Number name="modbus_reference_num_3" valueType="hex" value="00cb" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="001e" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_14">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="485a" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0007" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="0003" size="16"/>
+            <Number name="modbus_byte_cnt" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_1" valueType="hex" value="00" size="8"/>
+            <Number name="modbus_2" valueType="hex" value="00" size="8"/>
+            <Number name="modbus_3" valueType="hex" value="00" size="8"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_15">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="297a" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0005" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="0001" size="16"/>
+            <Number name="modbus_byte_cnt" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_1" valueType="hex" value="00" size="8"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_16">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="485b" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0005" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="0001" size="16"/>
+            <Number name="modbus_byte_cnt" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_1" valueType="hex" value="00" size="8"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_17">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="0591" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0000" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="000a" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_18">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="6e35" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0000" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="0001" size="16"/>
+            <Number name="modbus_byte_cnt" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_1" valueType="hex" value="00" size="8"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_19">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="0238" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0000" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="0001" size="16"/>
+            <Number name="modbus_byte_cnt" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_1" valueType="hex" value="00" size="8"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_20">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="0239" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0005" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="0001" size="16"/>
+            <Number name="modbus_byte_cnt" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_1" valueType="hex" value="00" size="8"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_21">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="6e36" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0007" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="0003" size="16"/>
+            <Number name="modbus_byte_cnt" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_1" valueType="hex" value="00" size="8"/>
+            <Number name="modbus_2" valueType="hex" value="00" size="8"/>
+            <Number name="modbus_3" valueType="hex" value="00" size="8"/>
+            <Number name="mbtcp_trans_id_2" valueType="hex" value="6e37" size="16"/>
+            <Number name="mbtcp_prot_id_2" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_2" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id_2" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_2" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num_2" valueType="hex" value="0005" size="16"/>
+            <Number name="modbus_bit_cnt_2" valueType="hex" value="0001" size="16"/>
+            <Number name="modbus_byte_cnt_2" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_4" valueType="hex" value="00" size="8"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_22">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="485c" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="018f" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0002" size="16"/>
+            <Number name="mbtcp_trans_id_2" valueType="hex" value="485d" size="16"/>
+            <Number name="mbtcp_prot_id_2" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_2" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id_2" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_2" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num_2" valueType="hex" value="0001" size="16"/>
+            <Number name="modbus_word_cnt_2" valueType="hex" value="0063" size="16"/>
+            <Number name="mbtcp_trans_id_3" valueType="hex" value="485e" size="16"/>
+            <Number name="mbtcp_prot_id_3" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_3" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id_3" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_3" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num_3" valueType="hex" value="0029" size="16"/>
+            <Number name="modbus_word_cnt_3" valueType="hex" value="0002" size="16"/>
+            <Number name="mbtcp_trans_id_4" valueType="hex" value="485f" size="16"/>
+            <Number name="mbtcp_prot_id_4" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_4" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id_4" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_4" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num_4" valueType="hex" value="08ab" size="16"/>
+            <Number name="modbus_word_cnt_4" valueType="hex" value="0016" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_23">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="0592" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="02" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0000" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="000b" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_24">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="4860" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="08d2" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0002" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_25">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="0593" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0007" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="0003" size="16"/>
+            <Number name="modbus_byte_cnt" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_1" valueType="hex" value="00" size="8"/>
+            <Number name="modbus_2" valueType="hex" value="00" size="8"/>
+            <Number name="modbus_3" valueType="hex" value="00" size="8"/>
+            <Number name="mbtcp_trans_id_2" valueType="hex" value="0594" size="16"/>
+            <Number name="mbtcp_prot_id_2" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_2" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id_2" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_2" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num_2" valueType="hex" value="0005" size="16"/>
+            <Number name="modbus_bit_cnt_2" valueType="hex" value="0001" size="16"/>
+            <Number name="modbus_byte_cnt_2" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_4" valueType="hex" value="00" size="8"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_26">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="0002" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0000" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="000a" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_27">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="2f15" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0005" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="0001" size="16"/>
+            <Number name="modbus_byte_cnt" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_1" valueType="hex" value="00" size="8"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_28">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="4861" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="02" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0063" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="001e" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_29">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="6e38" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0000" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="000a" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_30">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="2f16" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0030" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0028" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_31">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="6e39" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="02" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0000" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="000b" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_32">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="2f17" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0030" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0028" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_33">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="1989" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0030" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0028" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_34">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="2f18" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="044c" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0073" size="16"/>
+            <Number name="mbtcp_trans_id_2" valueType="hex" value="2f19" size="16"/>
+            <Number name="mbtcp_prot_id_2" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_2" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id_2" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_2" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num_2" valueType="hex" value="0514" size="16"/>
+            <Number name="modbus_word_cnt_2" valueType="hex" value="0004" size="16"/>
+            <Number name="mbtcp_trans_id_3" valueType="hex" value="2f1a" size="16"/>
+            <Number name="mbtcp_prot_id_3" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_3" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id_3" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_3" valueType="hex" value="02" size="8"/>
+            <Number name="modbus_reference_num_3" valueType="hex" value="00cb" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="001e" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_35">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="198a" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="044c" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0073" size="16"/>
+            <Number name="mbtcp_trans_id_2" valueType="hex" value="198b" size="16"/>
+            <Number name="mbtcp_prot_id_2" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_2" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id_2" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_2" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num_2" valueType="hex" value="0514" size="16"/>
+            <Number name="modbus_word_cnt_2" valueType="hex" value="0004" size="16"/>
+            <Number name="mbtcp_trans_id_3" valueType="hex" value="198c" size="16"/>
+            <Number name="mbtcp_prot_id_3" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_3" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id_3" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_3" valueType="hex" value="02" size="8"/>
+            <Number name="modbus_reference_num_3" valueType="hex" value="00cb" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="001e" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_36">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="198d" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0005" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="0001" size="16"/>
+            <Number name="modbus_byte_cnt" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_1" valueType="hex" value="00" size="8"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_37">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="0003" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="02" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0000" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="000b" size="16"/>
+            <Number name="mbtcp_trans_id_2" valueType="hex" value="0004" size="16"/>
+            <Number name="mbtcp_prot_id_2" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_2" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id_2" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_2" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num_2" valueType="hex" value="0007" size="16"/>
+            <Number name="modbus_bit_cnt_2" valueType="hex" value="0003" size="16"/>
+            <Number name="modbus_byte_cnt" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_1" valueType="hex" value="07" size="8"/>
+            <Number name="modbus_2" valueType="hex" value="07" size="8"/>
+            <Number name="modbus_3" valueType="hex" value="07" size="8"/>
+            <Number name="mbtcp_trans_id_3" valueType="hex" value="0005" size="16"/>
+            <Number name="mbtcp_prot_id_3" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_3" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id_3" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_3" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num_3" valueType="hex" value="0005" size="16"/>
+            <Number name="modbus_bit_cnt_3" valueType="hex" value="0001" size="16"/>
+            <Number name="modbus_byte_cnt_2" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_4" valueType="hex" value="00" size="8"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_38">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="4f53" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0005" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="0001" size="16"/>
+            <Number name="modbus_byte_cnt" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_1" valueType="hex" value="00" size="8"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_39">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="2ae3" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0009" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0009" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="000a" size="16"/>
+            <Number name="modbus_byte_cnt" valueType="hex" value="02" size="8"/>
+            <Number name="modbus_1" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_2" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_3" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_4" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_5" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_6" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_7" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_8" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_9" valueType="hex" value="03" size="8"/>
+            <Number name="modbus_10" valueType="hex" value="03" size="8"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_40">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="30de" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0005" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="0001" size="16"/>
+            <Number name="modbus_byte_cnt" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_1" valueType="hex" value="00" size="8"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_41">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="2ae4" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0008" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="0001" size="16"/>
+            <Number name="modbus_byte_cnt" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_1" valueType="hex" value="01" size="8"/>
+            <Number name="mbtcp_trans_id_2" valueType="hex" value="2ae5" size="16"/>
+            <Number name="mbtcp_prot_id_2" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_2" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id_2" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_2" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num_2" valueType="hex" value="0006" size="16"/>
+            <Number name="modbus_bit_cnt_2" valueType="hex" value="0001" size="16"/>
+            <Number name="modbus_byte_cnt_2" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_2" valueType="hex" value="00" size="8"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_42">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="4862" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0000" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="000a" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_43">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="2998" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0009" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0009" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="000a" size="16"/>
+            <Number name="modbus_byte_cnt" valueType="hex" value="02" size="8"/>
+            <Number name="modbus_1" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_2" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_3" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_4" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_5" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_6" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_7" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_8" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_9" valueType="hex" value="03" size="8"/>
+            <Number name="modbus_10" valueType="hex" value="03" size="8"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_44">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="3119" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0005" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="0001" size="16"/>
+            <Number name="modbus_byte_cnt" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_1" valueType="hex" value="00" size="8"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_45">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="4863" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="02" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0000" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="000b" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_46">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="2999" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0008" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="0001" size="16"/>
+            <Number name="modbus_byte_cnt" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_1" valueType="hex" value="01" size="8"/>
+            <Number name="mbtcp_trans_id_2" valueType="hex" value="299a" size="16"/>
+            <Number name="mbtcp_prot_id_2" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len_2" valueType="hex" value="0008" size="16"/>
+            <Number name="mbtcp_unit_id_2" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code_2" valueType="hex" value="0F" size="8"/>
+            <Number name="modbus_reference_num_2" valueType="hex" value="0006" size="16"/>
+            <Number name="modbus_bit_cnt_2" valueType="hex" value="0001" size="16"/>
+            <Number name="modbus_byte_cnt_2" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_2" valueType="hex" value="00" size="8"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_47">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="2f1b" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0000" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="0007" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_48">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="2f1c" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="01" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0000" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="0007" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_49">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="2f1d" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="02" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="0000" size="16"/>
+            <Number name="modbus_bit_cnt" valueType="hex" value="000a" size="16"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_50">
+        <Block name="modbus">
+            <Number name="mbtcp_trans_id" valueType="hex" value="0595" size="16"/>
+            <Number name="mbtcp_prot_id" valueType="hex" value="0000" size="16"/>
+            <Number name="mbtcp_len" valueType="hex" value="0006" size="16"/>
+            <Number name="mbtcp_unit_id" valueType="hex" value="ff" size="8"/>
+            <Number name="modbus_func_code" valueType="hex" value="04" size="8"/>
+            <Number name="modbus_reference_num" valueType="hex" value="018f" size="16"/>
+            <Number name="modbus_word_cnt" valueType="hex" value="0002" size="16"/>
+        </Block>
+    </DataModel>
+    <StateModel name="modbus_StateModel" initialState="test">
+        <State name="test">
+            <Action name="Send_packet_1" type="output">
+                <DataModel ref="packet_1"/>
+            </Action>
+            <Action name="Send_packet_2" type="output">
+                <DataModel ref="packet_2"/>
+            </Action>
+            <Action name="Send_packet_3" type="output">
+                <DataModel ref="packet_3"/>
+            </Action>
+            <Action name="Send_packet_4" type="output">
+                <DataModel ref="packet_4"/>
+            </Action>
+            <Action name="Send_packet_5" type="output">
+                <DataModel ref="packet_5"/>
+            </Action>
+            <Action name="Send_packet_6" type="output">
+                <DataModel ref="packet_6"/>
+            </Action>
+            <Action name="Send_packet_7" type="output">
+                <DataModel ref="packet_7"/>
+            </Action>
+            <Action name="Send_packet_8" type="output">
+                <DataModel ref="packet_8"/>
+            </Action>
+            <Action name="Send_packet_9" type="output">
+                <DataModel ref="packet_9"/>
+            </Action>
+            <Action name="Send_packet_10" type="output">
+                <DataModel ref="packet_10"/>
+            </Action>
+            <Action name="Send_packet_11" type="output">
+                <DataModel ref="packet_11"/>
+            </Action>
+            <Action name="Send_packet_12" type="output">
+                <DataModel ref="packet_12"/>
+            </Action>
+            <Action name="Send_packet_13" type="output">
+                <DataModel ref="packet_13"/>
+            </Action>
+            <Action name="Send_packet_14" type="output">
+                <DataModel ref="packet_14"/>
+            </Action>
+            <Action name="Send_packet_15" type="output">
+                <DataModel ref="packet_15"/>
+            </Action>
+            <Action name="Send_packet_16" type="output">
+                <DataModel ref="packet_16"/>
+            </Action>
+            <Action name="Send_packet_17" type="output">
+                <DataModel ref="packet_17"/>
+            </Action>
+            <Action name="Send_packet_18" type="output">
+                <DataModel ref="packet_18"/>
+            </Action>
+            <Action name="Send_packet_19" type="output">
+                <DataModel ref="packet_19"/>
+            </Action>
+            <Action name="Send_packet_20" type="output">
+                <DataModel ref="packet_20"/>
+            </Action>
+            <Action name="Send_packet_21" type="output">
+                <DataModel ref="packet_21"/>
+            </Action>
+            <Action name="Send_packet_22" type="output">
+                <DataModel ref="packet_22"/>
+            </Action>
+            <Action name="Send_packet_23" type="output">
+                <DataModel ref="packet_23"/>
+            </Action>
+            <Action name="Send_packet_24" type="output">
+                <DataModel ref="packet_24"/>
+            </Action>
+            <Action name="Send_packet_25" type="output">
+                <DataModel ref="packet_25"/>
+            </Action>
+            <Action name="Send_packet_26" type="output">
+                <DataModel ref="packet_26"/>
+            </Action>
+            <Action name="Send_packet_27" type="output">
+                <DataModel ref="packet_27"/>
+            </Action>
+            <Action name="Send_packet_28" type="output">
+                <DataModel ref="packet_28"/>
+            </Action>
+            <Action name="Send_packet_29" type="output">
+                <DataModel ref="packet_29"/>
+            </Action>
+            <Action name="Send_packet_30" type="output">
+                <DataModel ref="packet_30"/>
+            </Action>
+            <Action name="Send_packet_31" type="output">
+                <DataModel ref="packet_31"/>
+            </Action>
+            <Action name="Send_packet_32" type="output">
+                <DataModel ref="packet_32"/>
+            </Action>
+            <Action name="Send_packet_33" type="output">
+                <DataModel ref="packet_33"/>
+            </Action>
+            <Action name="Send_packet_34" type="output">
+                <DataModel ref="packet_34"/>
+            </Action>
+            <Action name="Send_packet_35" type="output">
+                <DataModel ref="packet_35"/>
+            </Action>
+            <Action name="Send_packet_36" type="output">
+                <DataModel ref="packet_36"/>
+            </Action>
+            <Action name="Send_packet_37" type="output">
+                <DataModel ref="packet_37"/>
+            </Action>
+            <Action name="Send_packet_38" type="output">
+                <DataModel ref="packet_38"/>
+            </Action>
+            <Action name="Send_packet_39" type="output">
+                <DataModel ref="packet_39"/>
+            </Action>
+            <Action name="Send_packet_40" type="output">
+                <DataModel ref="packet_40"/>
+            </Action>
+            <Action name="Send_packet_41" type="output">
+                <DataModel ref="packet_41"/>
+            </Action>
+            <Action name="Send_packet_42" type="output">
+                <DataModel ref="packet_42"/>
+            </Action>
+            <Action name="Send_packet_43" type="output">
+                <DataModel ref="packet_43"/>
+            </Action>
+            <Action name="Send_packet_44" type="output">
+                <DataModel ref="packet_44"/>
+            </Action>
+            <Action name="Send_packet_45" type="output">
+                <DataModel ref="packet_45"/>
+            </Action>
+            <Action name="Send_packet_46" type="output">
+                <DataModel ref="packet_46"/>
+            </Action>
+            <Action name="Send_packet_47" type="output">
+                <DataModel ref="packet_47"/>
+            </Action>
+            <Action name="Send_packet_48" type="output">
+                <DataModel ref="packet_48"/>
+            </Action>
+            <Action name="Send_packet_49" type="output">
+                <DataModel ref="packet_49"/>
+            </Action>
+            <Action name="Send_packet_50" type="output">
+                <DataModel ref="packet_50"/>
+            </Action>
+        </State>
+    </StateModel>
+    <Agent name="PublisherAgent">
+        <Monitor class="Process">
+            <Param name="Executable" value="/root/libmodbus/tests/bandwidth-server-many-up"/>
+            <Param name="Arguments" value="-p 1502"/>
+            <Param name="RestartOnEachTest" value="false"/>
+            <Param name="Faultonearlyexit" value="true"/>
+        </Monitor>
+    </Agent>
+    <Test name="Default">
+        <Agent ref="PublisherAgent" platform="linux"/>
+        <StateModel ref="modbus_StateModel"/>
+        <Publisher class="TcpClient" name="client">
+            <Param name="Host" value="127.0.0.1"/>
+            <Param name="Port" value="1502"/>
+        </Publisher>
+        <Logger class="File">
+            <Param name="Path" value="logs"/>
+        </Logger>
+    </Test>
+</Peach>

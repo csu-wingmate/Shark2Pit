@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<Peach xmlns="http://peachfuzzer.com/2012/Peach" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://peachfuzzer.com/2012/Peach ../peach.xsd">
+    <DataModel name="packet_1">
+        <Block name="opcua">
+            <Number name="opcua_transport_type" valueType="hex" value="48454c" size="24"/>
+            <Number name="opcua_transport_chunk" valueType="hex" value="46" size="8"/>
+            <Number name="opcua_transport_size" valueType="hex" value="38000000" size="32"/>
+            <Number name="opcua_transport_ver" valueType="hex" value="00000000" size="32"/>
+            <Number name="opcua_transport_rbs" valueType="hex" value="00000100" size="32"/>
+            <Number name="opcua_transport_sbs" valueType="hex" value="00000100" size="32"/>
+            <Number name="opcua_transport_mms" valueType="hex" value="00000020" size="32"/>
+            <Number name="opcua_transport_mcc" valueType="hex" value="00400000" size="32"/>
+            <Blob name="opcua_transport_endpoint" valueType="hex" value="6f70632e7463703a2f2f6c6f63616c686f73743a34383430" size="192"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_2">
+        <Block name="opcua">
+            <Number name="opcua_transport_type" valueType="hex" value="4f504e" size="24"/>
+            <Number name="opcua_transport_chunk" valueType="hex" value="46" size="8"/>
+            <Number name="opcua_transport_size" valueType="hex" value="84000000" size="32"/>
+            <Number name="opcua_transport_scid" valueType="hex" value="00000000" size="32"/>
+            <Blob name="opcua_security_spu" valueType="hex" value="687474703a2f2f6f7063666f756e646174696f6e2e6f72672f55412f5365637572697479506f6c696379234e6f6e65" size="376"/>
+            <Number name="opcua_security_scert" valueType="hex" value="ffffffff" size="32"/>
+            <Number name="opcua_security_rcthumb" valueType="hex" value="ffffffff" size="32"/>
+            <Number name="opcua_sequence_seq" valueType="hex" value="01000000" size="32"/>
+            <Number name="opcua_sequence_rqid" valueType="hex" value="01000000" size="32"/>
+            <Blob name="opcua_1" valueType="hex" value="0100be0100007fb78e77c2f0db010000000000000000ffffffff00000000000000000000000000000001000000ffffffffc0270900" size="424"/>
+        </Block>
+    </DataModel>
+    <StateModel name="opcua_StateModel" initialState="test">
+        <State name="test">
+            <Action name="Send_packet_1" type="output">
+                <DataModel ref="packet_1"/>
+            </Action>
+            <Action name="Send_packet_2" type="output">
+                <DataModel ref="packet_2"/>
+            </Action>
+        </State>
+    </StateModel>
+    <Agent name="PublisherAgent">
+        <Monitor class="Process">
+            <Param name="Executable" value="/root/open62541/build/bin/examples/ci_server"/>
+            <Param name="Arguments" value="-p 4840"/>
+            <Param name="RestartOnEachTest" value="false"/>
+            <Param name="Faultonearlyexit" value="true"/>
+        </Monitor>
+    </Agent>
+    <Test name="Default">
+        <Agent ref="PublisherAgent" platform="linux"/>
+        <StateModel ref="opcua_StateModel"/>
+        <Publisher class="TcpClient" name="client">
+            <Param name="Host" value="127.0.0.1"/>
+            <Param name="Port" value="4840"/>
+        </Publisher>
+        <Logger class="File">
+            <Param name="Path" value="logs"/>
+        </Logger>
+    </Test>
+</Peach>
