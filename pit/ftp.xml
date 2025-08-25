@@ -1,0 +1,251 @@
+<?xml version="1.0" ?>
+<Peach xmlns="http://peachfuzzer.com/2012/Peach" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://peachfuzzer.com/2012/Peach ../peach.xsd">
+    <DataModel name="packet_1">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="3232302d2d2d2d2d2d2d2d2d2d2057656c636f6d6520746f20507572652d46545064205b707269767365705d202d2d2d2d2d2d2d2d2d2d0d0a" size="456"/>
+            <Blob name="ftp_2" valueType="hex" value="3232302d596f75206172652075736572206e756d6265722031206f66203530303020616c6c6f7765642e0d0a" size="352"/>
+            <Blob name="ftp_3" valueType="hex" value="3232302d4c6f63616c2074696d65206973206e6f772032313a34392e2053657276657220706f72743a2032312e0d0a" size="376"/>
+            <Blob name="ftp_4" valueType="hex" value="3232302d54686973206973206120707269766174652073797374656d202d204e6f20616e6f6e796d6f7573206c6f67696e0d0a" size="408"/>
+            <Blob name="ftp_5" valueType="hex" value="3232302d4950763620636f6e6e656374696f6e732061726520616c736f2077656c636f6d65206f6e2074686973207365727665722e0d0a" size="440"/>
+            <Blob name="ftp_6" valueType="hex" value="32323020596f752077696c6c20626520646973636f6e6e6563746564206166746572203135206d696e75746573206f6620696e61637469766974792e0d0a" size="496"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_2">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="55534552206674700d0a" size="80"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_3">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="333331205573657220667470204f4b2e2050617373776f72642072657175697265640d0a" size="288"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_4">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="5041535320667470726f6f740d0a" size="112"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_5">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="323330204f4b2e2043757272656e74206469726563746f7279206973202f0d0a" size="256"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_6">
+        <Block name="ftp">
+            <Number name="ftp_1" valueType="hex" value="535953540d0a" size="48"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_7">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="32313520554e495820547970653a204c380d0a" size="152"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_8">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="504f5254203139322c3136382c3233332c3132382c3231332c310d0a" size="224"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_9">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="32303020504f525420636f6d6d616e64207375636365737366756c0d0a" size="232"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_10">
+        <Block name="ftp">
+            <Number name="ftp_1" valueType="hex" value="4c4953540d0a" size="48"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_11">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="31353020436f6e6e656374696e6720746f20706f72742035343532390d0a" size="240"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_12">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="3232362d4f7074696f6e733a202d61202d6c200d0a" size="168"/>
+            <Blob name="ftp_2" valueType="hex" value="3232362033206d61746368657320746f74616c0d0a" size="168"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_13">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="4357442064656661756c740d0a" size="104"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_14">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="323530204f4b2e2043757272656e74206469726563746f7279206973202f64656661756c740d0a" size="312"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_15">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="504f5254203139322c3136382c3233332c3132382c3233342c31310d0a" size="232"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_16">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="32303020504f525420636f6d6d616e64207375636365737366756c0d0a" size="232"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_17">
+        <Block name="ftp">
+            <Number name="ftp_1" valueType="hex" value="4c4953540d0a" size="48"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_18">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="31353020436f6e6e656374696e6720746f20706f72742035393931350d0a" size="240"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_19">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="3232362d4f7074696f6e733a202d61202d6c200d0a" size="168"/>
+            <Blob name="ftp_2" valueType="hex" value="323236203133206d61746368657320746f74616c0d0a" size="176"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_20">
+        <Block name="ftp">
+            <Number name="ftp_1" valueType="hex" value="5459504520490d0a" size="64"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_21">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="3230302054595045206973206e6f7720382d6269742062696e6172790d0a" size="240"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_22">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="504f5254203139322c3136382c3233332c3132382c3139332c3231350d0a" size="240"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_23">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="32303020504f525420636f6d6d616e64207375636365737366756c0d0a" size="232"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_24">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="52455452207777772e74677a0d0a" size="112"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_25">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="31353020436f6e6e656374696e6720746f20706f72742034393632330d0a" size="240"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_26">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="3232362d46696c65207375636365737366756c6c79207472616e736665727265640d0a" size="280"/>
+            <Blob name="ftp_2" valueType="hex" value="32323620302e303330207365636f6e647320286d656173757265642068657265292c20352e3232204b627974657320706572207365636f6e640d0a" size="472"/>
+        </Block>
+    </DataModel>
+    <DataModel name="packet_27">
+        <Block name="ftp">
+            <Blob name="ftp_1" valueType="hex" value="3232312d476f6f646279652e20596f752075706c6f61646564203020616e6420646f776e6c6f616465642031206b62797465732e0d0a" size="432"/>
+            <Blob name="ftp_2" valueType="hex" value="323231204c6f676f75742e0d0a" size="104"/>
+        </Block>
+    </DataModel>
+    <StateModel name="ftp_StateModel" initialState="test">
+        <State name="test">
+            <Action name="Send_packet_1" type="output">
+                <DataModel ref="packet_1"/>
+            </Action>
+            <Action name="Send_packet_2" type="output">
+                <DataModel ref="packet_2"/>
+            </Action>
+            <Action name="Send_packet_3" type="output">
+                <DataModel ref="packet_3"/>
+            </Action>
+            <Action name="Send_packet_4" type="output">
+                <DataModel ref="packet_4"/>
+            </Action>
+            <Action name="Send_packet_5" type="output">
+                <DataModel ref="packet_5"/>
+            </Action>
+            <Action name="Send_packet_6" type="output">
+                <DataModel ref="packet_6"/>
+            </Action>
+            <Action name="Send_packet_7" type="output">
+                <DataModel ref="packet_7"/>
+            </Action>
+            <Action name="Send_packet_8" type="output">
+                <DataModel ref="packet_8"/>
+            </Action>
+            <Action name="Send_packet_9" type="output">
+                <DataModel ref="packet_9"/>
+            </Action>
+            <Action name="Send_packet_10" type="output">
+                <DataModel ref="packet_10"/>
+            </Action>
+            <Action name="Send_packet_11" type="output">
+                <DataModel ref="packet_11"/>
+            </Action>
+            <Action name="Send_packet_12" type="output">
+                <DataModel ref="packet_12"/>
+            </Action>
+            <Action name="Send_packet_13" type="output">
+                <DataModel ref="packet_13"/>
+            </Action>
+            <Action name="Send_packet_14" type="output">
+                <DataModel ref="packet_14"/>
+            </Action>
+            <Action name="Send_packet_15" type="output">
+                <DataModel ref="packet_15"/>
+            </Action>
+            <Action name="Send_packet_16" type="output">
+                <DataModel ref="packet_16"/>
+            </Action>
+            <Action name="Send_packet_17" type="output">
+                <DataModel ref="packet_17"/>
+            </Action>
+            <Action name="Send_packet_18" type="output">
+                <DataModel ref="packet_18"/>
+            </Action>
+            <Action name="Send_packet_19" type="output">
+                <DataModel ref="packet_19"/>
+            </Action>
+            <Action name="Send_packet_20" type="output">
+                <DataModel ref="packet_20"/>
+            </Action>
+            <Action name="Send_packet_21" type="output">
+                <DataModel ref="packet_21"/>
+            </Action>
+            <Action name="Send_packet_22" type="output">
+                <DataModel ref="packet_22"/>
+            </Action>
+            <Action name="Send_packet_23" type="output">
+                <DataModel ref="packet_23"/>
+            </Action>
+            <Action name="Send_packet_24" type="output">
+                <DataModel ref="packet_24"/>
+            </Action>
+            <Action name="Send_packet_25" type="output">
+                <DataModel ref="packet_25"/>
+            </Action>
+            <Action name="Send_packet_26" type="output">
+                <DataModel ref="packet_26"/>
+            </Action>
+            <Action name="Send_packet_27" type="output">
+                <DataModel ref="packet_27"/>
+            </Action>
+        </State>
+    </StateModel>
+    <Agent name="PublisherAgent">
+        <Monitor class="Process">
+            <Param name="Executable" value="/root/LightFTP/Source/Release/fftp"/>
+            <Param name="Arguments" value="/root/LightFTP/Bin/fftp.conf "/>
+            <Param name="RestartOnEachTest" value="false"/>
+            <Param name="Faultonearlyexit" value="true"/>
+        </Monitor>
+    </Agent>
+    <Test name="Default">
+        <Agent ref="PublisherAgent" platform="linux"/>
+        <StateModel ref="ftp_StateModel"/>
+        <Publisher class="TcpClient" name="client">
+            <Param name="Host" value="127.0.0.1"/>
+            <Param name="Port" value="21"/>
+        </Publisher>
+        <Logger class="File">
+            <Param name="Path" value="logs"/>
+        </Logger>
+    </Test>
+</Peach>
