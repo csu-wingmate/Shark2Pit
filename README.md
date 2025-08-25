@@ -49,6 +49,7 @@ docker build . -t shark2pit
 docker run -d --privileged --shm-size=2G --name shark2pit shark2pit /bin/bash -c "while true; do sleep 1; done"
 ```
 ## Step-3. Generate Pit file and Fuzzing
+To learn how to use Shark2Pit, you can execute the command `./Shark2Pit.sh -h `to view the help documentation.
 ```bash
 cd Shark2Pit
 ./Shark2Pit.sh coap coap
