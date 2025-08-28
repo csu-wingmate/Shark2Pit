@@ -45,4 +45,4 @@ mkdir -p /var/log/dnsmasq
 touch /var/log/dnsmasq/dnsmasq.log
 
 # Copy configuration file
-cp -f /root/dnsmasq.conf /root/dnsmasq/dnsmasq.conf
+cp -f /root/Shark2Pit/subjects/dns/dnsmasq.conf /root/dnsmasq/dnsmasq.conf
