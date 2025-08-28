@@ -97,7 +97,7 @@ for i in $(seq 1 ${worker_num}); do
         LUCKY_GLOBAL_MMAP_FILE=${cov_edge_path} SHM_ENV_VAR=${cov_bitmap_path} \
         PATH=${FUZZER_PATH}:$PATH LD_LIBRARY_PATH=${FUZZER_PATH}:$LD_LIBRARY_PATH \
         timeout 86400 mono ${FUZZER_PATH}/bin/peach.exe \
-            /root/shared/test/pit/${protocol}.xml &
+            /root/Shark2Pit/pit/${protocol}.xml &
         
         peach_pid=\$!
         echo \$peach_pid > /tmp/peach_${netns}.pid
