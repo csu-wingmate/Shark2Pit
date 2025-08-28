@@ -1,40 +1,48 @@
 #!/bin/bash
-set -euxo pipefail
+##sed -i 's@//security.ubuntu.com@//mirrors.aliyun.com@g' /etc/apt/sources.list
+## Set non-interactive frontend to prevent interactive prompts during installation
+export DEBIAN_FRONTEND=noninteractive
 
-# 安装依赖项 (使用非交互模式)
-sudo DEBIAN_FRONTEND=noninteractive apt-get update
-sudo DEBIAN_FRONTEND=noninteractive apt-get upgrade -y
-sudo DEBIAN_FRONTEND=noninteractive apt-get install -y \
-    openssl \
-    unzip \
-    git build-essential cmake \
+# Update system and install basic dependencies
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install -y \
+    openssl unzip  \
+    git build-essential \
     libglib2.0-dev libcairo2-dev \
     autoconf \
-    llvm llvm-dev clang \
+    llvm llvm-dev clang
+
+# Create working directory
+mkdir -p /root/
+cd /root/
+
+# Install additional dependency packages
+sudo apt-get install -y \
     gnutls-dev libgnutls28-dev lcov wget
 
-# 创建工作目录
-mkdir -p ~/cyclonedds_build
-cd ~/cyclonedds_build
+# Clone dnsmasq repository
+git clone git://thekelleys.org.uk/dnsmasq.git 
+cd /root/dnsmasq
 
-# 克隆仓库
-git clone https://github.com/eclipse-cyclonedds/cyclonedds.git
-cd cyclonedds
-mkdir -p build
-cd build
-
-# 注意：以下路径需要根据你的 AFL 实际安装位置修改
+# Compile and install dnsmasq
+# Compile and install dnsmasq
 AFL_PATH="/root/pcguard-cov"
 
-# 运行 CMake 和构建
-cmake \
-    -DBUILD_EXAMPLES=ON \
-    -DCMAKE_C_COMPILER="$AFL_PATH/afl-clang-fast" \
-    -DCMAKE_CXX_COMPILER="$AFL_PATH/afl-clang-fast++" \
-    -DCMAKE_C_FLAGS="-Wall -O1 -g -fsanitize=address,undefined -fno-omit-frame-pointer -fsanitize-coverage=trace-pc-guard" \
-    -DCMAKE_CXX_FLAGS="-Wall -O1 -g -fsanitize=address,undefined -fno-omit-frame-pointer -fsanitize-coverage=trace-pc-guard" \
-    ..
+# Set AFL compiler and sanitizer options
+export CC=$AFL_PATH/afl-clang-fast
+export CXX=$AFL_PATH/afl-clang-fast++
+export AFL_USE_ASAN=1
+export CFLAGS="-Wall -O2 -g -fsanitize=address,undefined -fno-omit-frame-pointer -fsanitize-coverage=trace-pc-guard"
+export CXXFLAGS="$CFLAGS"
 
-cmake --build . --parallel
+# Execute compilation
+make
+make install
 
-echo "success"
+# Create log directory and file
+mkdir -p /var/log/dnsmasq
+touch /var/log/dnsmasq/dnsmasq.log
+
+# Copy configuration file
+cp -f /root/dnsmasq.conf /root/dnsmasq/dnsmasq.conf
