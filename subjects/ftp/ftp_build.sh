@@ -29,9 +29,10 @@ for url in "${REPO_URLS[@]}"; do
         git clone "$url"
     fi
 done
-
+cd /root/LightFTP
+git checkout 8b453c2
 # 编译 LightFTP
-cd LightFTP/Source/Release
+cd /root/LightFTP/Source/Release
 
 # 设置 AFL 编译器路径（根据实际安装位置调整）
 AFL_PATH="/root/pcguard-cov"
