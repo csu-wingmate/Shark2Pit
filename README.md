@@ -33,25 +33,32 @@ Shark2Pit
 └── run_peach.sh: start peach fuzzing
 └── README.md: this file
 ```
-# Tutorial - Fuzzing LightFTP server with Peach
-## Step-1. Set up environmental variables
+# Shark2Pit
 ```
+apt update
+apt install -y tshark tcpdump
+cd /root
 git clone https://github.com/csu-wingmate/Shark2Pit.git
-cd Shark2Pit
-export Shark2Pit=$(pwd)
-```
-
-## Step-2. Build a Fuzzer and Shark2Pit Docker image
-```bash
-cd $Shark2Pit
-cd fuzzers/Peach
+cd /root/Shark2Pit/fuzzers/Peach
 docker build . -t shark2pit
 docker run -d --privileged --shm-size=2G --name shark2pit shark2pit /bin/bash -c "while true; do sleep 1; done"
+docker exec -it shark2pit /bin/bash
+```
+# Tutorial - Fuzzing libcoap server with Peach
+## Step-1. Set up environmental variables
+```
+cd /root/Shark2Pit
+export Shark2Pit=$(pwd)
+```
+## Step-2. Building the libcoap Protocol Implementation
+```bash
+cd $Shark2Pit/subjects/coap
+./coap_build.sh
 ```
 ## Step-3. Generate Pit file and Fuzzing
 To learn how to use Shark2Pit, you can execute the command `./Shark2Pit.sh -h `to view the help documentation.
 ```bash
-cd Shark2Pit
+cd $Shark2Pit
 ./Shark2Pit.sh coap coap
 ./run_peach.sh coap
 ```
