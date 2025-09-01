@@ -33,20 +33,19 @@ Shark2Pit
 └── run_peach.sh: start peach fuzzing
 └── README.md: this file
 ```
-# Prerequisites
+# Shark2Pit
 ```
 apt update
-apt install -y tshark
+apt install -y tshark tcpdump
+cd /root
+git clone https://github.com/csu-wingmate/Shark2Pit.git
 ```
 # Tutorial - Fuzzing libcoap server with Peach
 ## Step-1. Set up environmental variables
 ```
-cd /root
-git clone https://github.com/csu-wingmate/Shark2Pit.git
-cd Shark2Pit
+cd /root/Shark2Pit
 export Shark2Pit=$(pwd)
 ```
-
 ## Step-2. Build a Fuzzer and Shark2Pit Docker image
 ```bash
 cd $Shark2Pit
