@@ -39,6 +39,10 @@ apt update
 apt install -y tshark tcpdump
 cd /root
 git clone https://github.com/csu-wingmate/Shark2Pit.git
+cd /root/Shark2Pit/fuzzers/Peach
+docker build . -t shark2pit
+docker run -d --privileged --shm-size=2G --name shark2pit shark2pit /bin/bash -c "while true; do sleep 1; done"
+docker exec -it shark2pit /bin/bash
 ```
 # Tutorial - Fuzzing libcoap server with Peach
 ## Step-1. Set up environmental variables
