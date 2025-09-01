@@ -33,7 +33,12 @@ Shark2Pit
 └── run_peach.sh: start peach fuzzing
 └── README.md: this file
 ```
-# Tutorial - Fuzzing LightFTP server with Peach
+# Prerequisites
+```
+apt update
+apt install -y tshark
+```
+# Tutorial - Fuzzing libcoap server with Peach
 ## Step-1. Set up environmental variables
 ```
 cd /root
