@@ -36,6 +36,7 @@ Shark2Pit
 # Tutorial - Fuzzing LightFTP server with Peach
 ## Step-1. Set up environmental variables
 ```
+cd /root
 git clone https://github.com/csu-wingmate/Shark2Pit.git
 cd Shark2Pit
 export Shark2Pit=$(pwd)
