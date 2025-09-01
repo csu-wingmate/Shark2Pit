@@ -50,17 +50,15 @@ docker exec -it shark2pit /bin/bash
 cd /root/Shark2Pit
 export Shark2Pit=$(pwd)
 ```
-## Step-2. Build a Fuzzer and Shark2Pit Docker image
+## Step-2. Building the libcoap Protocol Implementation
 ```bash
-cd $Shark2Pit
-cd fuzzers/Peach
-docker build . -t shark2pit
-docker run -d --privileged --shm-size=2G --name shark2pit shark2pit /bin/bash -c "while true; do sleep 1; done"
+cd $Shark2Pit/subjects/coap
+./coap_build.sh
 ```
 ## Step-3. Generate Pit file and Fuzzing
 To learn how to use Shark2Pit, you can execute the command `./Shark2Pit.sh -h `to view the help documentation.
 ```bash
-cd Shark2Pit
+cd $Shark2Pit
 ./Shark2Pit.sh coap coap
 ./run_peach.sh coap
 ```
