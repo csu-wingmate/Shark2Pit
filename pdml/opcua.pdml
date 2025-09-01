@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="pdml2html.xsl"?>
+<!-- You can find pdml2html.xsl in /usr/share/doc/wireshark or at https://gitlab.com/wireshark/wireshark/-/tree/master/resources/share/doc/wireshark/pdml2html.xsl. -->
+<pdml version="0" creator="wireshark/4.4.7" time="Mon Aug 25 17:20:11 2025" capture_file="./pcaps/opcua.pcap">
+<packet>
+  <proto name="geninfo" pos="0" showname="General information" size="144">
+    <field name="num" pos="0" show="1" showname="Number" value="1" size="144"/>
+    <field name="len" pos="0" show="144" showname="Frame Length" value="90" size="144"/>
+    <field name="caplen" pos="0" show="144" showname="Captured Length" value="90" size="144"/>
+    <field name="timestamp" pos="0" show="Jul  9, 2025 19:13:15.772345000 CST" showname="Captured Time" value="1752059595.772345000" size="144"/>
+  </proto>
+  <proto name="frame" showname="Frame 1: 144 bytes on wire (1152 bits), 144 bytes captured (1152 bits)" size="144" pos="0">
+    <field name="frame.encap_type" showname="Encapsulation type: Linux cooked-mode capture v1 (25)" size="0" pos="0" show="25"/>
+    <field name="frame.time" showname="Arrival Time: Jul  9, 2025 19:13:15.772345000 CST" size="0" pos="0" show="Jul  9, 2025 19:13:15.772345000 CST"/>
+    <field name="frame.time_utc" showname="UTC Arrival Time: Jul  9, 2025 11:13:15.772345000 UTC" size="0" pos="0" show="Jul  9, 2025 11:13:15.772345000 UTC"/>
+    <field name="frame.time_epoch" showname="Epoch Arrival Time: 1752059595.772345000" size="0" pos="0" show="1752059595.772345000"/>
+    <field name="frame.offset_shift" showname="Time shift for this packet: 0.000000000 seconds" size="0" pos="0" show="0.000000000"/>
+    <field name="frame.time_delta" showname="Time delta from previous captured frame: 0.000000000 seconds" size="0" pos="0" show="0.000000000"/>
+    <field name="frame.time_delta_displayed" showname="Time delta from previous displayed frame: 0.000000000 seconds" size="0" pos="0" show="0.000000000"/>
+    <field name="frame.time_relative" showname="Time since reference or first frame: 0.000000000 seconds" size="0" pos="0" show="0.000000000"/>
+    <field name="frame.number" showname="Frame Number: 1" size="0" pos="0" show="1"/>
+    <field name="frame.len" showname="Frame Length: 144 bytes (1152 bits)" size="0" pos="0" show="144"/>
+    <field name="frame.cap_len" showname="Capture Length: 144 bytes (1152 bits)" size="0" pos="0" show="144"/>
+    <field name="frame.marked" showname="Frame is marked: False" size="0" pos="0" show="False"/>
+    <field name="frame.ignored" showname="Frame is ignored: False" size="0" pos="0" show="False"/>
+    <field name="frame.protocols" showname="Protocols in frame: sll:ethertype:ipv6:tcp:opcua" size="0" pos="0" show="sll:ethertype:ipv6:tcp:opcua"/>
+  </proto>
+  <proto name="sll" showname="Linux cooked capture v1" size="16" pos="0">
+    <field name="sll.pkttype" showname="Packet type: Unicast to us (0)" size="2" pos="0" show="0" value="0000"/>
+    <field name="sll.hatype" showname="Link-layer address type: Loopback (772)" size="2" pos="2" show="772" value="0304"/>
+    <field name="sll.halen" showname="Link-layer address length: 6" size="2" pos="4" show="6" value="0006"/>
+    <field name="sll.src.eth" showname="Source: 00:00:00_00:00:00 (00:00:00:00:00:00)" size="6" pos="6" show="00:00:00:00:00:00" value="000000000000"/>
+    <field name="sll.unused" showname="Unused: 0000" size="2" pos="12" show="00:00" value="0000"/>
+    <field name="sll.etype" showname="Protocol: IPv6 (0x86dd)" size="2" pos="14" show="0x86dd" value="86dd"/>
+  </proto>
+  <proto name="ipv6" showname="Internet Protocol Version 6, Src: ::1, Dst: ::1" size="40" pos="16">
+    <field name="ipv6.version" showname="0110 .... = Version: 6" size="1" pos="16" show="6" value="60"/>
+    <field name="ip.version" showname="0110 .... = Version: 6 [This field makes the filter match on &quot;ip.version == 6&quot; possible]" hide="yes" size="1" pos="16" show="6" value="6" unmaskedvalue="60"/>
+    <field name="ipv6.tclass" showname=".... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)" size="4" pos="16" show="0x00000000" value="0" unmaskedvalue="6002d7f1">
+      <field name="ipv6.tclass.dscp" showname=".... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)" size="4" pos="16" show="0" value="0" unmaskedvalue="6002d7f1"/>
+      <field name="ipv6.tclass.ecn" showname=".... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)" size="4" pos="16" show="0" value="0" unmaskedvalue="6002d7f1"/>
+    </field>
+    <field name="ipv6.flow" showname=".... 0010 1101 0111 1111 0001 = Flow Label: 0x2d7f1" size="3" pos="17" show="0x02d7f1" value="2D7F1" unmaskedvalue="02d7f1"/>
+    <field name="ipv6.plen" showname="Payload Length: 88" size="2" pos="20" show="88" value="0058"/>
+    <field name="ipv6.nxt" showname="Next Header: TCP (6)" size="1" pos="22" show="6" value="06"/>
+    <field name="ipv6.hlim" showname="Hop Limit: 64" size="1" pos="23" show="64" value="40"/>
+    <field name="ipv6.src" showname="Source Address: ::1" size="16" pos="24" show="::1" value="00000000000000000000000000000001">
+      <field name="ipv6.src_addr_space" showname="Address Space: Reserved by IETF" size="2" pos="24" show="Reserved by IETF" value="0000"/>
+      <field name="ipv6.src_special_purpose" showname="Special-Purpose Allocation: Loopback Address" size="16" pos="24" show="Loopback Address" value="00000000000000000000000000000001">
+        <field name="ipv6.src_special_purpose_source" showname="Source: False" size="16" pos="24" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.src_special_purpose_destination" showname="Destination: False" size="16" pos="24" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.src_special_purpose_forwardable" showname="Forwardable: False" size="16" pos="24" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.src_special_purpose_global" showname="Globally Reachable: False" size="16" pos="24" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.src_special_purpose_reserved" showname="Reserved-by-Protocol: True" size="16" pos="24" show="True" value="00000000000000000000000000000001"/>
+      </field>
+    </field>
+    <field name="ipv6.addr" showname="Source or Destination Address: ::1" hide="yes" size="16" pos="24" show="::1" value="00000000000000000000000000000001">
+      <field name="ipv6.addr_space" showname="Address Space: Reserved by IETF" size="2" pos="24" show="Reserved by IETF" value="0000"/>
+      <field name="ipv6.addr_special_purpose" showname="Special-Purpose Allocation: Loopback Address" size="16" pos="24" show="Loopback Address" value="00000000000000000000000000000001">
+        <field name="ipv6.addr_special_purpose_source" showname="Source: False" size="16" pos="24" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.addr_special_purpose_destination" showname="Destination: False" size="16" pos="24" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.addr_special_purpose_forwardable" showname="Forwardable: False" size="16" pos="24" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.addr_special_purpose_global" showname="Globally Reachable: False" size="16" pos="24" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.addr_special_purpose_reserved" showname="Reserved-by-Protocol: True" size="16" pos="24" show="True" value="00000000000000000000000000000001"/>
+      </field>
+    </field>
+    <field name="ipv6.src_host" showname="Source Host: ::1" hide="yes" size="16" pos="24" show="::1" value="00000000000000000000000000000001"/>
+    <field name="ipv6.host" showname="Source or Destination Host: ::1" hide="yes" size="16" pos="24" show="::1" value="00000000000000000000000000000001"/>
+    <field name="ipv6.dst" showname="Destination Address: ::1" size="16" pos="40" show="::1" value="00000000000000000000000000000001">
+      <field name="ipv6.dst_addr_space" showname="Address Space: Reserved by IETF" size="2" pos="40" show="Reserved by IETF" value="0000"/>
+      <field name="ipv6.dst_special_purpose" showname="Special-Purpose Allocation: Loopback Address" size="16" pos="40" show="Loopback Address" value="00000000000000000000000000000001">
+        <field name="ipv6.dst_special_purpose_source" showname="Source: False" size="16" pos="40" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.dst_special_purpose_destination" showname="Destination: False" size="16" pos="40" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.dst_special_purpose_forwardable" showname="Forwardable: False" size="16" pos="40" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.dst_special_purpose_global" showname="Globally Reachable: False" size="16" pos="40" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.dst_special_purpose_reserved" showname="Reserved-by-Protocol: True" size="16" pos="40" show="True" value="00000000000000000000000000000001"/>
+      </field>
+    </field>
+    <field name="ipv6.addr" showname="Source or Destination Address: ::1" hide="yes" size="16" pos="40" show="::1" value="00000000000000000000000000000001">
+      <field name="ipv6.addr_space" showname="Address Space: Reserved by IETF" size="2" pos="40" show="Reserved by IETF" value="0000"/>
+      <field name="ipv6.addr_special_purpose" showname="Special-Purpose Allocation: Loopback Address" size="16" pos="40" show="Loopback Address" value="00000000000000000000000000000001">
+        <field name="ipv6.addr_special_purpose_source" showname="Source: False" size="16" pos="40" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.addr_special_purpose_destination" showname="Destination: False" size="16" pos="40" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.addr_special_purpose_forwardable" showname="Forwardable: False" size="16" pos="40" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.addr_special_purpose_global" showname="Globally Reachable: False" size="16" pos="40" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.addr_special_purpose_reserved" showname="Reserved-by-Protocol: True" size="16" pos="40" show="True" value="00000000000000000000000000000001"/>
+      </field>
+    </field>
+    <field name="ipv6.dst_host" showname="Destination Host: ::1" hide="yes" size="16" pos="40" show="::1" value="00000000000000000000000000000001"/>
+    <field name="ipv6.host" showname="Source or Destination Host: ::1" hide="yes" size="16" pos="40" show="::1" value="00000000000000000000000000000001"/>
+    <field name="ipv6.stream" showname="Stream index: 0" size="0" pos="16" show="0"/>
+  </proto>
+  <proto name="tcp" showname="Transmission Control Protocol, Src Port: 42622, Dst Port: 4840, Seq: 1, Ack: 1, Len: 56" size="32" pos="56">
+    <field name="tcp.srcport" showname="Source Port: 42622" size="2" pos="56" show="42622" value="a67e"/>
+    <field name="tcp.dstport" showname="Destination Port: 4840" size="2" pos="58" show="4840" value="12e8"/>
+    <field name="tcp.port" showname="Source or Destination Port: 42622" hide="yes" size="2" pos="56" show="42622" value="a67e"/>
+    <field name="tcp.port" showname="Source or Destination Port: 4840" hide="yes" size="2" pos="58" show="4840" value="12e8"/>
+    <field name="tcp.stream" showname="Stream index: 0" size="0" pos="56" show="0"/>
+    <field name="tcp.stream.pnum" showname="Stream Packet Number: 1" size="0" pos="56" show="1"/>
+    <field name="tcp.completeness" showname="Conversation completeness: Incomplete (0)" size="0" pos="56" show="0">
+      <field name="tcp.completeness.rst" showname="..0. .... = RST: Absent" size="0" pos="0" show="False"/>
+      <field name="tcp.completeness.fin" showname="...0 .... = FIN: Absent" size="0" pos="0" show="False"/>
+      <field name="tcp.completeness.data" showname=".... 0... = Data: Absent" size="0" pos="0" show="False"/>
+      <field name="tcp.completeness.ack" showname=".... .0.. = ACK: Absent" size="0" pos="0" show="False"/>
+      <field name="tcp.completeness.syn-ack" showname=".... ..0. = SYN-ACK: Absent" size="0" pos="0" show="False"/>
+      <field name="tcp.completeness.syn" showname=".... ...0 = SYN: Absent" size="0" pos="0" show="False"/>
+      <field name="tcp.completeness.str" showname="Completeness Flags: [ Null ]" size="0" pos="56" show="[ Null ]"/>
+    </field>
+    <field name="tcp.len" showname="TCP Segment Len: 56" size="0" pos="56" show="56"/>
+    <field name="tcp.seq" showname="Sequence Number: 1    (relative sequence number)" size="4" pos="60" show="1" value="219eb58e"/>
+    <field name="tcp.seq_raw" showname="Sequence Number (raw): 564049294" size="4" pos="60" show="564049294" value="219eb58e"/>
+    <field name="tcp.nxtseq" showname="Next Sequence Number: 57    (relative sequence number)" size="0" pos="56" show="57"/>
+    <field name="tcp.ack" showname="Acknowledgment Number: 1    (relative ack number)" size="4" pos="64" show="1" value="2490cbb9"/>
+    <field name="tcp.ack_raw" showname="Acknowledgment number (raw): 613469113" size="4" pos="64" show="613469113" value="2490cbb9"/>
+    <field name="tcp.hdr_len" showname="1000 .... = Header Length: 32 bytes (8)" size="1" pos="68" show="32" value="80"/>
+    <field name="tcp.flags" showname="Flags: 0x018 (PSH, ACK)" size="2" pos="68" show="0x0018" value="18" unmaskedvalue="8018">
+      <field name="tcp.flags.res" showname="000. .... .... = Reserved: Not set" size="1" pos="68" show="False" value="0" unmaskedvalue="80"/>
+      <field name="tcp.flags.ae" showname="...0 .... .... = Accurate ECN: Not set" size="1" pos="68" show="False" value="0" unmaskedvalue="80"/>
+      <field name="tcp.flags.cwr" showname=".... 0... .... = Congestion Window Reduced: Not set" size="1" pos="69" show="False" value="0" unmaskedvalue="18"/>
+      <field name="tcp.flags.ece" showname=".... .0.. .... = ECN-Echo: Not set" size="1" pos="69" show="False" value="0" unmaskedvalue="18"/>
+      <field name="tcp.flags.urg" showname=".... ..0. .... = Urgent: Not set" size="1" pos="69" show="False" value="0" unmaskedvalue="18"/>
+      <field name="tcp.flags.ack" showname=".... ...1 .... = Acknowledgment: Set" size="1" pos="69" show="True" value="1" unmaskedvalue="18"/>
+      <field name="tcp.flags.push" showname=".... .... 1... = Push: Set" size="1" pos="69" show="True" value="1" unmaskedvalue="18"/>
+      <field name="tcp.flags.reset" showname=".... .... .0.. = Reset: Not set" size="1" pos="69" show="False" value="0" unmaskedvalue="18"/>
+      <field name="tcp.flags.syn" showname=".... .... ..0. = Syn: Not set" size="1" pos="69" show="False" value="0" unmaskedvalue="18"/>
+      <field name="tcp.flags.fin" showname=".... .... ...0 = Fin: Not set" size="1" pos="69" show="False" value="0" unmaskedvalue="18"/>
+      <field name="tcp.flags.str" showname="TCP Flags: ·······AP···" size="2" pos="68" show="·······AP···" value="8018"/>
+    </field>
+    <field name="tcp.window_size_value" showname="Window: 512" size="2" pos="70" show="512" value="0200"/>
+    <field name="tcp.window_size" showname="Calculated window size: 512" size="2" pos="70" show="512" value="0200"/>
+    <field name="tcp.window_size_scalefactor" showname="Window size scaling factor: -1 (unknown)" size="2" pos="70" show="-1" value="0200"/>
+    <field name="tcp.checksum" showname="Checksum: 0x0060 [unverified]" size="2" pos="72" show="0x0060" value="0060"/>
+    <field name="tcp.checksum.status" showname="Checksum Status: Unverified" size="0" pos="72" show="2"/>
+    <field name="tcp.urgent_pointer" showname="Urgent Pointer: 0" size="2" pos="74" show="0" value="0000"/>
+    <field name="tcp.options" showname="Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps" size="12" pos="76" show="01:01:08:0a:2c:13:3c:82:2c:13:3c:82" value="0101080a2c133c822c133c82">
+      <field name="tcp.options.nop" showname="TCP Option - No-Operation (NOP)" size="1" pos="76" show="01" value="01">
+        <field name="tcp.option_kind" showname="Kind: No-Operation (1)" size="1" pos="76" show="1" value="01"/>
+      </field>
+      <field name="tcp.options.nop" showname="TCP Option - No-Operation (NOP)" size="1" pos="77" show="01" value="01">
+        <field name="tcp.option_kind" showname="Kind: No-Operation (1)" size="1" pos="77" show="1" value="01"/>
+      </field>
+      <field name="tcp.options.timestamp" showname="TCP Option - Timestamps: TSval 739458178, TSecr 739458178" size="10" pos="78" show="08:0a:2c:13:3c:82:2c:13:3c:82" value="080a2c133c822c133c82">
+        <field name="tcp.option_kind" showname="Kind: Time Stamp Option (8)" size="1" pos="78" show="8" value="08"/>
+        <field name="tcp.option_len" showname="Length: 10" size="1" pos="79" show="10" value="0a"/>
+        <field name="tcp.options.timestamp.tsval" showname="Timestamp value: 739458178" size="4" pos="80" show="739458178" value="2c133c82"/>
+        <field name="tcp.options.timestamp.tsecr" showname="Timestamp echo reply: 739458178" size="4" pos="84" show="739458178" value="2c133c82"/>
+      </field>
+    </field>
+    <field name="" show="Timestamps" size="0" pos="56">
+      <field name="tcp.time_relative" showname="Time since first frame in this TCP stream: 0.000000000 seconds" size="0" pos="56" show="0.000000000"/>
+      <field name="tcp.time_delta" showname="Time since previous frame in this TCP stream: 0.000000000 seconds" size="0" pos="56" show="0.000000000"/>
+    </field>
+    <field name="tcp.analysis" showname="SEQ/ACK analysis" size="0" pos="56" show="" value="">
+      <field name="tcp.analysis.bytes_in_flight" showname="Bytes in flight: 56" size="0" pos="56" show="56"/>
+      <field name="tcp.analysis.push_bytes_sent" showname="Bytes sent since last PSH flag: 56" size="0" pos="56" show="56"/>
+    </field>
+    <field name="tcp.payload" showname="TCP payload (56 bytes)" size="56" pos="88" show="48:45:4c:46:38:00:00:00:00:00:00:00:00:00:01:00:00:00:01:00:00:00:00:20:00:40:00:00:18:00:00:00:6f:70:63:2e:74:63:70:3a:2f:2f:6c:6f:63:61:6c:68:6f:73:74:3a:34:38:34:30" value="48454c46380000000000000000000100000001000000002000400000180000006f70632e7463703a2f2f6c6f63616c686f73743a34383430"/>
+    <field name="tcp.pdu.size" showname="PDU Size: 56" size="56" pos="88" show="56" value="48454c46380000000000000000000100000001000000002000400000180000006f70632e7463703a2f2f6c6f63616c686f73743a34383430"/>
+  </proto>
+  <proto name="opcua" showname="OpcUa Binary Protocol" size="56" pos="88">
+    <field name="opcua.transport.type" showname="Message Type: HEL" size="3" pos="88" show="HEL" value="48454c"/>
+    <field name="opcua.transport.chunk" showname="Chunk Type: F" size="1" pos="91" show="F" value="46"/>
+    <field name="opcua.transport.size" showname="Message Size: 56" size="4" pos="92" show="56" value="38000000"/>
+    <field name="opcua.transport.ver" showname="Version: 0" size="4" pos="96" show="0" value="00000000"/>
+    <field name="opcua.transport.rbs" showname="ReceiveBufferSize: 65536" size="4" pos="100" show="65536" value="00000100"/>
+    <field name="opcua.transport.sbs" showname="SendBufferSize: 65536" size="4" pos="104" show="65536" value="00000100"/>
+    <field name="opcua.transport.mms" showname="MaxMessageSize: 536870912" size="4" pos="108" show="536870912" value="00000020"/>
+    <field name="opcua.transport.mcc" showname="MaxChunkCount: 16384" size="4" pos="112" show="16384" value="00400000"/>
+    <field name="opcua.transport.endpoint" showname="EndpointUrl: opc.tcp://localhost:4840" size="24" pos="120" show="opc.tcp://localhost:4840" value="6f70632e7463703a2f2f6c6f63616c686f73743a34383430"/>
+  </proto>
+</packet>
+
+
+<packet>
+  <proto name="geninfo" pos="0" showname="General information" size="220">
+    <field name="num" pos="0" show="2" showname="Number" value="2" size="220"/>
+    <field name="len" pos="0" show="220" showname="Frame Length" value="dc" size="220"/>
+    <field name="caplen" pos="0" show="220" showname="Captured Length" value="dc" size="220"/>
+    <field name="timestamp" pos="0" show="Jul  9, 2025 19:13:15.772568000 CST" showname="Captured Time" value="1752059595.772568000" size="220"/>
+  </proto>
+  <proto name="frame" showname="Frame 2: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits)" size="220" pos="0">
+    <field name="frame.encap_type" showname="Encapsulation type: Linux cooked-mode capture v1 (25)" size="0" pos="0" show="25"/>
+    <field name="frame.time" showname="Arrival Time: Jul  9, 2025 19:13:15.772568000 CST" size="0" pos="0" show="Jul  9, 2025 19:13:15.772568000 CST"/>
+    <field name="frame.time_utc" showname="UTC Arrival Time: Jul  9, 2025 11:13:15.772568000 UTC" size="0" pos="0" show="Jul  9, 2025 11:13:15.772568000 UTC"/>
+    <field name="frame.time_epoch" showname="Epoch Arrival Time: 1752059595.772568000" size="0" pos="0" show="1752059595.772568000"/>
+    <field name="frame.offset_shift" showname="Time shift for this packet: 0.000000000 seconds" size="0" pos="0" show="0.000000000"/>
+    <field name="frame.time_delta" showname="Time delta from previous captured frame: 0.000223000 seconds" size="0" pos="0" show="0.000223000"/>
+    <field name="frame.time_delta_displayed" showname="Time delta from previous displayed frame: 0.000223000 seconds" size="0" pos="0" show="0.000223000"/>
+    <field name="frame.time_relative" showname="Time since reference or first frame: 0.000223000 seconds" size="0" pos="0" show="0.000223000"/>
+    <field name="frame.number" showname="Frame Number: 2" size="0" pos="0" show="2"/>
+    <field name="frame.len" showname="Frame Length: 220 bytes (1760 bits)" size="0" pos="0" show="220"/>
+    <field name="frame.cap_len" showname="Capture Length: 220 bytes (1760 bits)" size="0" pos="0" show="220"/>
+    <field name="frame.marked" showname="Frame is marked: False" size="0" pos="0" show="False"/>
+    <field name="frame.ignored" showname="Frame is ignored: False" size="0" pos="0" show="False"/>
+    <field name="frame.protocols" showname="Protocols in frame: sll:ethertype:ipv6:tcp:opcua" size="0" pos="0" show="sll:ethertype:ipv6:tcp:opcua"/>
+  </proto>
+  <proto name="sll" showname="Linux cooked capture v1" size="16" pos="0">
+    <field name="sll.pkttype" showname="Packet type: Unicast to us (0)" size="2" pos="0" show="0" value="0000"/>
+    <field name="sll.hatype" showname="Link-layer address type: Loopback (772)" size="2" pos="2" show="772" value="0304"/>
+    <field name="sll.halen" showname="Link-layer address length: 6" size="2" pos="4" show="6" value="0006"/>
+    <field name="sll.src.eth" showname="Source: 00:00:00_00:00:00 (00:00:00:00:00:00)" size="6" pos="6" show="00:00:00:00:00:00" value="000000000000"/>
+    <field name="sll.unused" showname="Unused: 0000" size="2" pos="12" show="00:00" value="0000"/>
+    <field name="sll.etype" showname="Protocol: IPv6 (0x86dd)" size="2" pos="14" show="0x86dd" value="86dd"/>
+  </proto>
+  <proto name="ipv6" showname="Internet Protocol Version 6, Src: ::1, Dst: ::1" size="40" pos="16">
+    <field name="ipv6.version" showname="0110 .... = Version: 6" size="1" pos="16" show="6" value="60"/>
+    <field name="ip.version" showname="0110 .... = Version: 6 [This field makes the filter match on &quot;ip.version == 6&quot; possible]" hide="yes" size="1" pos="16" show="6" value="6" unmaskedvalue="60"/>
+    <field name="ipv6.tclass" showname=".... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)" size="4" pos="16" show="0x00000000" value="0" unmaskedvalue="6002d7f1">
+      <field name="ipv6.tclass.dscp" showname=".... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)" size="4" pos="16" show="0" value="0" unmaskedvalue="6002d7f1"/>
+      <field name="ipv6.tclass.ecn" showname=".... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)" size="4" pos="16" show="0" value="0" unmaskedvalue="6002d7f1"/>
+    </field>
+    <field name="ipv6.flow" showname=".... 0010 1101 0111 1111 0001 = Flow Label: 0x2d7f1" size="3" pos="17" show="0x02d7f1" value="2D7F1" unmaskedvalue="02d7f1"/>
+    <field name="ipv6.plen" showname="Payload Length: 164" size="2" pos="20" show="164" value="00a4"/>
+    <field name="ipv6.nxt" showname="Next Header: TCP (6)" size="1" pos="22" show="6" value="06"/>
+    <field name="ipv6.hlim" showname="Hop Limit: 64" size="1" pos="23" show="64" value="40"/>
+    <field name="ipv6.src" showname="Source Address: ::1" size="16" pos="24" show="::1" value="00000000000000000000000000000001">
+      <field name="ipv6.src_addr_space" showname="Address Space: Reserved by IETF" size="2" pos="24" show="Reserved by IETF" value="0000"/>
+      <field name="ipv6.src_special_purpose" showname="Special-Purpose Allocation: Loopback Address" size="16" pos="24" show="Loopback Address" value="00000000000000000000000000000001">
+        <field name="ipv6.src_special_purpose_source" showname="Source: False" size="16" pos="24" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.src_special_purpose_destination" showname="Destination: False" size="16" pos="24" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.src_special_purpose_forwardable" showname="Forwardable: False" size="16" pos="24" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.src_special_purpose_global" showname="Globally Reachable: False" size="16" pos="24" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.src_special_purpose_reserved" showname="Reserved-by-Protocol: True" size="16" pos="24" show="True" value="00000000000000000000000000000001"/>
+      </field>
+    </field>
+    <field name="ipv6.addr" showname="Source or Destination Address: ::1" hide="yes" size="16" pos="24" show="::1" value="00000000000000000000000000000001">
+      <field name="ipv6.addr_space" showname="Address Space: Reserved by IETF" size="2" pos="24" show="Reserved by IETF" value="0000"/>
+      <field name="ipv6.addr_special_purpose" showname="Special-Purpose Allocation: Loopback Address" size="16" pos="24" show="Loopback Address" value="00000000000000000000000000000001">
+        <field name="ipv6.addr_special_purpose_source" showname="Source: False" size="16" pos="24" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.addr_special_purpose_destination" showname="Destination: False" size="16" pos="24" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.addr_special_purpose_forwardable" showname="Forwardable: False" size="16" pos="24" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.addr_special_purpose_global" showname="Globally Reachable: False" size="16" pos="24" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.addr_special_purpose_reserved" showname="Reserved-by-Protocol: True" size="16" pos="24" show="True" value="00000000000000000000000000000001"/>
+      </field>
+    </field>
+    <field name="ipv6.src_host" showname="Source Host: ::1" hide="yes" size="16" pos="24" show="::1" value="00000000000000000000000000000001"/>
+    <field name="ipv6.host" showname="Source or Destination Host: ::1" hide="yes" size="16" pos="24" show="::1" value="00000000000000000000000000000001"/>
+    <field name="ipv6.dst" showname="Destination Address: ::1" size="16" pos="40" show="::1" value="00000000000000000000000000000001">
+      <field name="ipv6.dst_addr_space" showname="Address Space: Reserved by IETF" size="2" pos="40" show="Reserved by IETF" value="0000"/>
+      <field name="ipv6.dst_special_purpose" showname="Special-Purpose Allocation: Loopback Address" size="16" pos="40" show="Loopback Address" value="00000000000000000000000000000001">
+        <field name="ipv6.dst_special_purpose_source" showname="Source: False" size="16" pos="40" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.dst_special_purpose_destination" showname="Destination: False" size="16" pos="40" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.dst_special_purpose_forwardable" showname="Forwardable: False" size="16" pos="40" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.dst_special_purpose_global" showname="Globally Reachable: False" size="16" pos="40" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.dst_special_purpose_reserved" showname="Reserved-by-Protocol: True" size="16" pos="40" show="True" value="00000000000000000000000000000001"/>
+      </field>
+    </field>
+    <field name="ipv6.addr" showname="Source or Destination Address: ::1" hide="yes" size="16" pos="40" show="::1" value="00000000000000000000000000000001">
+      <field name="ipv6.addr_space" showname="Address Space: Reserved by IETF" size="2" pos="40" show="Reserved by IETF" value="0000"/>
+      <field name="ipv6.addr_special_purpose" showname="Special-Purpose Allocation: Loopback Address" size="16" pos="40" show="Loopback Address" value="00000000000000000000000000000001">
+        <field name="ipv6.addr_special_purpose_source" showname="Source: False" size="16" pos="40" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.addr_special_purpose_destination" showname="Destination: False" size="16" pos="40" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.addr_special_purpose_forwardable" showname="Forwardable: False" size="16" pos="40" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.addr_special_purpose_global" showname="Globally Reachable: False" size="16" pos="40" show="False" value="00000000000000000000000000000001"/>
+        <field name="ipv6.addr_special_purpose_reserved" showname="Reserved-by-Protocol: True" size="16" pos="40" show="True" value="00000000000000000000000000000001"/>
+      </field>
+    </field>
+    <field name="ipv6.dst_host" showname="Destination Host: ::1" hide="yes" size="16" pos="40" show="::1" value="00000000000000000000000000000001"/>
+    <field name="ipv6.host" showname="Source or Destination Host: ::1" hide="yes" size="16" pos="40" show="::1" value="00000000000000000000000000000001"/>
+    <field name="ipv6.stream" showname="Stream index: 0" size="0" pos="16" show="0"/>
+  </proto>
+  <proto name="tcp" showname="Transmission Control Protocol, Src Port: 42622, Dst Port: 4840, Seq: 57, Ack: 29, Len: 132" size="32" pos="56">
+    <field name="tcp.srcport" showname="Source Port: 42622" size="2" pos="56" show="42622" value="a67e"/>
+    <field name="tcp.dstport" showname="Destination Port: 4840" size="2" pos="58" show="4840" value="12e8"/>
+    <field name="tcp.port" showname="Source or Destination Port: 42622" hide="yes" size="2" pos="56" show="42622" value="a67e"/>
+    <field name="tcp.port" showname="Source or Destination Port: 4840" hide="yes" size="2" pos="58" show="4840" value="12e8"/>
+    <field name="tcp.stream" showname="Stream index: 0" size="0" pos="56" show="0"/>
+    <field name="tcp.stream.pnum" showname="Stream Packet Number: 2" size="0" pos="56" show="2"/>
+    <field name="tcp.completeness" showname="Conversation completeness: Incomplete (8)" size="0" pos="56" show="8">
+      <field name="tcp.completeness.rst" showname="..0. .... = RST: Absent" size="0" pos="0" show="False"/>
+      <field name="tcp.completeness.fin" showname="...0 .... = FIN: Absent" size="0" pos="0" show="False"/>
+      <field name="tcp.completeness.data" showname=".... 1... = Data: Present" size="0" pos="0" show="True"/>
+      <field name="tcp.completeness.ack" showname=".... .0.. = ACK: Absent" size="0" pos="0" show="False"/>
+      <field name="tcp.completeness.syn-ack" showname=".... ..0. = SYN-ACK: Absent" size="0" pos="0" show="False"/>
+      <field name="tcp.completeness.syn" showname=".... ...0 = SYN: Absent" size="0" pos="0" show="False"/>
+      <field name="tcp.completeness.str" showname="Completeness Flags: ··D···" size="0" pos="56" show="··D···"/>
+    </field>
+    <field name="tcp.len" showname="TCP Segment Len: 132" size="0" pos="56" show="132"/>
+    <field name="tcp.seq" showname="Sequence Number: 57    (relative sequence number)" size="4" pos="60" show="57" value="219eb5c6"/>
+    <field name="tcp.seq_raw" showname="Sequence Number (raw): 564049350" size="4" pos="60" show="564049350" value="219eb5c6"/>
+    <field name="tcp.nxtseq" showname="Next Sequence Number: 189    (relative sequence number)" size="0" pos="56" show="189"/>
+    <field name="tcp.ack" showname="Acknowledgment Number: 29    (relative ack number)" size="4" pos="64" show="29" value="2490cbd5"/>
+    <field name="tcp.ack_raw" showname="Acknowledgment number (raw): 613469141" size="4" pos="64" show="613469141" value="2490cbd5"/>
+    <field name="tcp.hdr_len" showname="1000 .... = Header Length: 32 bytes (8)" size="1" pos="68" show="32" value="80"/>
+    <field name="tcp.flags" showname="Flags: 0x018 (PSH, ACK)" size="2" pos="68" show="0x0018" value="18" unmaskedvalue="8018">
+      <field name="tcp.flags.res" showname="000. .... .... = Reserved: Not set" size="1" pos="68" show="False" value="0" unmaskedvalue="80"/>
+      <field name="tcp.flags.ae" showname="...0 .... .... = Accurate ECN: Not set" size="1" pos="68" show="False" value="0" unmaskedvalue="80"/>
+      <field name="tcp.flags.cwr" showname=".... 0... .... = Congestion Window Reduced: Not set" size="1" pos="69" show="False" value="0" unmaskedvalue="18"/>
+      <field name="tcp.flags.ece" showname=".... .0.. .... = ECN-Echo: Not set" size="1" pos="69" show="False" value="0" unmaskedvalue="18"/>
+      <field name="tcp.flags.urg" showname=".... ..0. .... = Urgent: Not set" size="1" pos="69" show="False" value="0" unmaskedvalue="18"/>
+      <field name="tcp.flags.ack" showname=".... ...1 .... = Acknowledgment: Set" size="1" pos="69" show="True" value="1" unmaskedvalue="18"/>
+      <field name="tcp.flags.push" showname=".... .... 1... = Push: Set" size="1" pos="69" show="True" value="1" unmaskedvalue="18"/>
+      <field name="tcp.flags.reset" showname=".... .... .0.. = Reset: Not set" size="1" pos="69" show="False" value="0" unmaskedvalue="18"/>
+      <field name="tcp.flags.syn" showname=".... .... ..0. = Syn: Not set" size="1" pos="69" show="False" value="0" unmaskedvalue="18"/>
+      <field name="tcp.flags.fin" showname=".... .... ...0 = Fin: Not set" size="1" pos="69" show="False" value="0" unmaskedvalue="18"/>
+      <field name="tcp.flags.str" showname="TCP Flags: ·······AP···" size="2" pos="68" show="·······AP···" value="8018"/>
+    </field>
+    <field name="tcp.window_size_value" showname="Window: 512" size="2" pos="70" show="512" value="0200"/>
+    <field name="tcp.window_size" showname="Calculated window size: 512" size="2" pos="70" show="512" value="0200"/>
+    <field name="tcp.window_size_scalefactor" showname="Window size scaling factor: -1 (unknown)" size="2" pos="70" show="-1" value="0200"/>
+    <field name="tcp.checksum" showname="Checksum: 0x00ac [unverified]" size="2" pos="72" show="0x00ac" value="00ac"/>
+    <field name="tcp.checksum.status" showname="Checksum Status: Unverified" size="0" pos="72" show="2"/>
+    <field name="tcp.urgent_pointer" showname="Urgent Pointer: 0" size="2" pos="74" show="0" value="0000"/>
+    <field name="tcp.options" showname="Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps" size="12" pos="76" show="01:01:08:0a:2c:13:3c:83:2c:13:3c:82" value="0101080a2c133c832c133c82">
+      <field name="tcp.options.nop" showname="TCP Option - No-Operation (NOP)" size="1" pos="76" show="01" value="01">
+        <field name="tcp.option_kind" showname="Kind: No-Operation (1)" size="1" pos="76" show="1" value="01"/>
+      </field>
+      <field name="tcp.options.nop" showname="TCP Option - No-Operation (NOP)" size="1" pos="77" show="01" value="01">
+        <field name="tcp.option_kind" showname="Kind: No-Operation (1)" size="1" pos="77" show="1" value="01"/>
+      </field>
+      <field name="tcp.options.timestamp" showname="TCP Option - Timestamps: TSval 739458179, TSecr 739458178" size="10" pos="78" show="08:0a:2c:13:3c:83:2c:13:3c:82" value="080a2c133c832c133c82">
+        <field name="tcp.option_kind" showname="Kind: Time Stamp Option (8)" size="1" pos="78" show="8" value="08"/>
+        <field name="tcp.option_len" showname="Length: 10" size="1" pos="79" show="10" value="0a"/>
+        <field name="tcp.options.timestamp.tsval" showname="Timestamp value: 739458179" size="4" pos="80" show="739458179" value="2c133c83"/>
+        <field name="tcp.options.timestamp.tsecr" showname="Timestamp echo reply: 739458178" size="4" pos="84" show="739458178" value="2c133c82"/>
+      </field>
+    </field>
+    <field name="" show="Timestamps" size="0" pos="56">
+      <field name="tcp.time_relative" showname="Time since first frame in this TCP stream: 0.000223000 seconds" size="0" pos="56" show="0.000223000"/>
+      <field name="tcp.time_delta" showname="Time since previous frame in this TCP stream: 0.000223000 seconds" size="0" pos="56" show="0.000223000"/>
+    </field>
+    <field name="tcp.analysis" showname="SEQ/ACK analysis" size="0" pos="56" show="" value="">
+      <field name="tcp.analysis.bytes_in_flight" showname="Bytes in flight: 188" size="0" pos="56" show="188"/>
+      <field name="tcp.analysis.push_bytes_sent" showname="Bytes sent since last PSH flag: 132" size="0" pos="56" show="132"/>
+    </field>
+    <field name="tcp.payload" showname="TCP payload (132 bytes)" size="132" pos="88" show="4f:50:4e:46:84:00:00:00:00:00:00:00:2f:00:00:00:68:74:74:70:3a:2f:2f:6f:70:63:66:6f:75:6e:64:61:74:69:6f:6e:2e:6f:72:67:2f:55:41:2f:53:65:63:75:72:69:74:79:50:6f:6c:69:63:79:23:4e:6f:6e:65:ff:ff:ff:ff:ff:ff:ff:ff:01:00:00:00:01:00:00:00:01:00:be:01:00:00:7f:b7:8e:77:c2:f0:db:01:00:00:00:00:00:00:00:00:ff:ff:ff:ff:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:01:00:00:00:ff:ff:ff:ff:c0:27:09:00" value="4f504e4684000000000000002f000000687474703a2f2f6f7063666f756e646174696f6e2e6f72672f55412f5365637572697479506f6c696379234e6f6e65ffffffffffffffff01000000010000000100be0100007fb78e77c2f0db010000000000000000ffffffff00000000000000000000000000000001000000ffffffffc0270900"/>
+    <field name="tcp.pdu.size" showname="PDU Size: 132" size="132" pos="88" show="132" value="4f504e4684000000000000002f000000687474703a2f2f6f7063666f756e646174696f6e2e6f72672f55412f5365637572697479506f6c696379234e6f6e65ffffffffffffffff01000000010000000100be0100007fb78e77c2f0db010000000000000000ffffffff00000000000000000000000000000001000000ffffffffc0270900"/>
+  </proto>
+  <proto name="opcua" showname="OpcUa Binary Protocol" size="132" pos="88">
+    <field name="opcua.transport.type" showname="Message Type: OPN" size="3" pos="88" show="OPN" value="4f504e"/>
+    <field name="opcua.transport.chunk" showname="Chunk Type: F" size="1" pos="91" show="F" value="46"/>
+    <field name="opcua.transport.size" showname="Message Size: 132" size="4" pos="92" show="132" value="84000000"/>
+    <field name="opcua.transport.scid" showname="SecureChannelId: 0" size="4" pos="96" show="0" value="00000000"/>
+    <field name="opcua.security.spu" showname="SecurityPolicyUri: http://opcfoundation.org/UA/SecurityPolicy#None" size="47" pos="104" show="http://opcfoundation.org/UA/SecurityPolicy#None" value="687474703a2f2f6f7063666f756e646174696f6e2e6f72672f55412f5365637572697479506f6c696379234e6f6e65"/>
+    <field name="opcua.security.scert" showname="SenderCertificate: &lt;MISSING&gt;[OpcUa Null ByteString]" size="4" pos="151" show="" value="ffffffff"/>
+    <field name="opcua.security.rcthumb" showname="ReceiverCertificateThumbprint: &lt;MISSING&gt;[OpcUa Null ByteString]" size="4" pos="155" show="" value="ffffffff"/>
+    <field name="opcua.sequence.seq" showname="Sequence Number: 1" size="4" pos="159" show="1" value="01000000"/>
+    <field name="opcua.sequence.rqid" showname="RequestId: 1" size="4" pos="163" show="1" value="01000000"/>
+    <field name="" show="Message: Encodeable Object" size="53" pos="167" value="0100be0100007fb78e77c2f0db010000000000000000ffffffff00000000000000000000000000000001000000ffffffffc0270900">
+      <field name="" show="TypeId: ExpandedNodeId" size="4" pos="167" value="0100be01">
+        <field name="opcua.servicenodeid.encodingmask" showname="NodeId EncodingMask: Four byte encoded Numeric (0x01)" size="1" pos="167" show="0x01" value="01"/>
+        <field name="opcua.servicenodeid.nsid" showname="NodeId Namespace Index: 0" size="1" pos="168" show="0" value="00"/>
+        <field name="opcua.servicenodeid.numeric" showname="NodeId Identifier Numeric: OpenSecureChannelRequest (446)" size="2" pos="169" show="446" value="be01"/>
+      </field>
+      <field name="" show="OpenSecureChannelRequest" size="49" pos="171" value="00007fb78e77c2f0db010000000000000000ffffffff00000000000000000000000000000001000000ffffffffc0270900">
+        <field name="" show="RequestHeader: RequestHeader" size="29" pos="171" value="00007fb78e77c2f0db010000000000000000ffffffff00000000000000">
+          <field name="" show="AuthenticationToken: NodeId" size="2" pos="171" value="0000">
+            <field name="opcua.nodeid.encodingmask" showname=".... 0000 = EncodingMask: Two byte encoded Numeric (0x0)" size="1" pos="171" show="0x00" value="0" unmaskedvalue="00"/>
+            <field name="opcua.nodeid.numeric" showname="Identifier Numeric: 0" size="1" pos="172" show="0" value="00"/>
+          </field>
+          <field name="opcua.Timestamp" showname="Timestamp: Jul  9, 2025 19:13:15.772505500 CST" size="8" pos="173" show="Jul  9, 2025 19:13:15.772505500 CST" value="7fb78e77c2f0db01"/>
+          <field name="opcua.RequestHandle" showname="RequestHandle: 0" size="4" pos="181" show="0" value="00000000"/>
+          <field name="opcua.returndiag" showname="Return Diagnostics: 0x00000000" size="4" pos="185" show="0x00000000" value="00000000">
+            <field name="opcua.returndiag.servicelevel.symbolicid" showname=".... .... .... ...0 = ServiceLevel / SymbolicId: False" size="4" pos="185" show="False" value="0" unmaskedvalue="00000000"/>
+            <field name="opcua.returndiag.servicelevel.localizedtext" showname=".... .... .... ..0. = ServiceLevel / LocalizedText: False" size="4" pos="185" show="False" value="0" unmaskedvalue="00000000"/>
+            <field name="opcua.returndiag.servicelevel.additionalinfo" showname=".... .... .... .0.. = ServiceLevel / AdditionalInfo: False" size="4" pos="185" show="False" value="0" unmaskedvalue="00000000"/>
+            <field name="opcua.returndiag.servicelevel.innerstatuscode" showname=".... .... .... 0... = ServiceLevel / Inner StatusCode: False" size="4" pos="185" show="False" value="0" unmaskedvalue="00000000"/>
+            <field name="opcua.returndiag.servicelevel.innerdiagnostics" showname=".... .... ...0 .... = ServiceLevel / Inner Diagnostics: False" size="4" pos="185" show="False" value="0" unmaskedvalue="00000000"/>
+            <field name="opcua.returndiag.operationlevel.symbolicid" showname=".... .... ..0. .... = OperationLevel / SymbolicId: False" size="4" pos="185" show="False" value="0" unmaskedvalue="00000000"/>
+            <field name="opcua.returndiag.operationlevel.localizedtext" showname=".... .... .0.. .... = OperationLevel / LocalizedText: False" size="4" pos="185" show="False" value="0" unmaskedvalue="00000000"/>
+            <field name="opcua.returndiag.operationlevel.additionalinfo" showname=".... .... 0... .... = OperationLevel / AdditionalInfo: False" size="4" pos="185" show="False" value="0" unmaskedvalue="00000000"/>
+            <field name="opcua.returndiag.operationlevel.innerstatuscode" showname=".... ...0 .... .... = OperationLevel / Inner StatusCode: False" size="4" pos="185" show="False" value="0" unmaskedvalue="00000000"/>
+            <field name="opcua.returndiag.operationlevel.innerdiagnostics" showname=".... ..0. .... .... = OperationLevel / Inner Diagnostics: False" size="4" pos="185" show="False" value="0" unmaskedvalue="00000000"/>
+          </field>
+          <field name="opcua.AuditEntryId" showname="AuditEntryId: [OpcUa Null String]" size="4" pos="189" show="" value="ffffffff"/>
+          <field name="opcua.TimeoutHint" showname="TimeoutHint: 0" size="4" pos="193" show="0" value="00000000"/>
+          <field name="" show="AdditionalHeader: ExtensionObject" size="3" pos="197" value="000000">
+            <field name="" show="TypeId: NodeId" size="2" pos="197" value="0000">
+              <field name="opcua.nodeid.encodingmask" showname=".... 0000 = EncodingMask: Two byte encoded Numeric (0x0)" size="1" pos="197" show="0x00" value="0" unmaskedvalue="00"/>
+              <field name="opcua.nodeid.numeric" showname="Identifier Numeric: 0" size="1" pos="198" show="0" value="00"/>
+            </field>
+            <field name="opcua.extobj.mask" showname="EncodingMask: 0x00" size="1" pos="199" show="0x00" value="00">
+              <field name="opcua.extobj.has_binary_body" showname=".... ...0 = has binary body: False" size="1" pos="199" show="False" value="0" unmaskedvalue="00"/>
+              <field name="opcua.extobj.has_xml_body" showname=".... ..0. = has xml body: False" size="1" pos="199" show="False" value="0" unmaskedvalue="00"/>
+            </field>
+          </field>
+        </field>
+        <field name="opcua.ClientProtocolVersion" showname="ClientProtocolVersion: 0" size="4" pos="200" show="0" value="00000000"/>
+        <field name="opcua.SecurityTokenRequestType" showname="SecurityTokenRequestType: Issue (0x00000000)" size="4" pos="204" show="0x00000000" value="00000000"/>
+        <field name="opcua.MessageSecurityMode" showname="MessageSecurityMode: None (0x00000001)" size="4" pos="208" show="0x00000001" value="01000000"/>
+        <field name="opcua.ClientNonce" showname="ClientNonce: &lt;MISSING&gt;[OpcUa Null ByteString]" size="4" pos="212" show="" value="ffffffff"/>
+        <field name="opcua.RequestedLifetime" showname="RequestedLifetime: 600000" size="4" pos="216" show="600000" value="c0270900"/>
+      </field>
+    </field>
+  </proto>
+</packet>
+
+
+</pdml>

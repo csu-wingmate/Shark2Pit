@@ -12,6 +12,30 @@
       "number": "3",
       "fields": [
         {
+          "name": "bvlc.type",
+          "position": 42,
+          "size": 1,
+          "value": "81",
+          "show": "0x81",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.function",
+          "position": 43,
+          "size": 1,
+          "value": "0a",
+          "show": "0x0a",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.length",
+          "position": 44,
+          "size": 2,
+          "value": "0011",
+          "show": "4",
+          "layer": "bvlc"
+        },
+        {
           "name": "bacnet.version",
           "position": 46,
           "size": 1,
@@ -26,6 +50,70 @@
           "value": "04",
           "show": "0x04",
           "layer": "bacnet"
+        },
+        {
+          "name": "bacapp.type",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.pduflags",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0x00",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.response_segments",
+          "position": 49,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.max_adpu_size",
+          "position": 49,
+          "size": 1,
+          "value": "5",
+          "show": "5",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.invoke_id",
+          "position": 50,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.confirmed_service",
+          "position": 51,
+          "size": 1,
+          "value": "0c",
+          "show": "12",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 52,
+          "size": 5,
+          "value": "0c023fffff",
+          "show": "ObjectIdentifier: device, 4194303",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 57,
+          "size": 2,
+          "value": "194b",
+          "show": "Property Identifier: object-identifier (75)",
+          "layer": "bacapp"
         }
       ]
     },
@@ -33,6 +121,30 @@
       "number": "4",
       "fields": [
         {
+          "name": "bvlc.type",
+          "position": 42,
+          "size": 1,
+          "value": "81",
+          "show": "0x81",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.function",
+          "position": 43,
+          "size": 1,
+          "value": "0a",
+          "show": "0x0a",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.length",
+          "position": 44,
+          "size": 2,
+          "value": "0017",
+          "show": "4",
+          "layer": "bvlc"
+        },
+        {
           "name": "bacnet.version",
           "position": 46,
           "size": 1,
@@ -47,6 +159,78 @@
           "value": "00",
           "show": "0x00",
           "layer": "bacnet"
+        },
+        {
+          "name": "bacapp.type",
+          "position": 48,
+          "size": 1,
+          "value": "3",
+          "show": "3",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.pduflags",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0x00",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.invoke_id",
+          "position": 49,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.confirmed_service",
+          "position": 50,
+          "size": 1,
+          "value": "0c",
+          "show": "12",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 51,
+          "size": 5,
+          "value": "0c0202980f",
+          "show": "ObjectIdentifier: device, 169999",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 56,
+          "size": 2,
+          "value": "194b",
+          "show": "Property Identifier: object-identifier (75)",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 58,
+          "size": 1,
+          "value": "3e",
+          "show": "{[3]",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 59,
+          "size": 5,
+          "value": "c40202980f",
+          "show": "ObjectIdentifier: device, 169999",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 64,
+          "size": 1,
+          "value": "3f",
+          "show": "}[3]",
+          "layer": "bacapp"
         }
       ]
     },
@@ -54,6 +238,30 @@
       "number": "5",
       "fields": [
         {
+          "name": "bvlc.type",
+          "position": 42,
+          "size": 1,
+          "value": "81",
+          "show": "0x81",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.function",
+          "position": 43,
+          "size": 1,
+          "value": "0a",
+          "show": "0x0a",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.length",
+          "position": 44,
+          "size": 2,
+          "value": "0011",
+          "show": "4",
+          "layer": "bvlc"
+        },
+        {
           "name": "bacnet.version",
           "position": 46,
           "size": 1,
@@ -68,6 +276,70 @@
           "value": "04",
           "show": "0x04",
           "layer": "bacnet"
+        },
+        {
+          "name": "bacapp.type",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.pduflags",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0x00",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.response_segments",
+          "position": 49,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.max_adpu_size",
+          "position": 49,
+          "size": 1,
+          "value": "5",
+          "show": "5",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.invoke_id",
+          "position": 50,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.confirmed_service",
+          "position": 51,
+          "size": 1,
+          "value": "0c",
+          "show": "12",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 52,
+          "size": 5,
+          "value": "0c023fffff",
+          "show": "ObjectIdentifier: device, 4194303",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 57,
+          "size": 2,
+          "value": "1978",
+          "show": "Property Identifier: vendor-identifier (120)",
+          "layer": "bacapp"
         }
       ]
     },
@@ -75,6 +347,30 @@
       "number": "6",
       "fields": [
         {
+          "name": "bvlc.type",
+          "position": 42,
+          "size": 1,
+          "value": "81",
+          "show": "0x81",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.function",
+          "position": 43,
+          "size": 1,
+          "value": "0a",
+          "show": "0x0a",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.length",
+          "position": 44,
+          "size": 2,
+          "value": "0014",
+          "show": "4",
+          "layer": "bvlc"
+        },
+        {
           "name": "bacnet.version",
           "position": 46,
           "size": 1,
@@ -89,6 +385,78 @@
           "value": "00",
           "show": "0x00",
           "layer": "bacnet"
+        },
+        {
+          "name": "bacapp.type",
+          "position": 48,
+          "size": 1,
+          "value": "3",
+          "show": "3",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.pduflags",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0x00",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.invoke_id",
+          "position": 49,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.confirmed_service",
+          "position": 50,
+          "size": 1,
+          "value": "0c",
+          "show": "12",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 51,
+          "size": 5,
+          "value": "0c0202980f",
+          "show": "ObjectIdentifier: device, 169999",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 56,
+          "size": 2,
+          "value": "1978",
+          "show": "Property Identifier: vendor-identifier (120)",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 58,
+          "size": 1,
+          "value": "3e",
+          "show": "{[3]",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 59,
+          "size": 2,
+          "value": "2110",
+          "show": "vendor-identifier: (Unsigned) 16",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 61,
+          "size": 1,
+          "value": "3f",
+          "show": "}[3]",
+          "layer": "bacapp"
         }
       ]
     },
@@ -96,6 +464,30 @@
       "number": "7",
       "fields": [
         {
+          "name": "bvlc.type",
+          "position": 42,
+          "size": 1,
+          "value": "81",
+          "show": "0x81",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.function",
+          "position": 43,
+          "size": 1,
+          "value": "0a",
+          "show": "0x0a",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.length",
+          "position": 44,
+          "size": 2,
+          "value": "0011",
+          "show": "4",
+          "layer": "bvlc"
+        },
+        {
           "name": "bacnet.version",
           "position": 46,
           "size": 1,
@@ -110,6 +502,70 @@
           "value": "04",
           "show": "0x04",
           "layer": "bacnet"
+        },
+        {
+          "name": "bacapp.type",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.pduflags",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0x00",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.response_segments",
+          "position": 49,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.max_adpu_size",
+          "position": 49,
+          "size": 1,
+          "value": "5",
+          "show": "5",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.invoke_id",
+          "position": 50,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.confirmed_service",
+          "position": 51,
+          "size": 1,
+          "value": "0c",
+          "show": "12",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 52,
+          "size": 5,
+          "value": "0c023fffff",
+          "show": "ObjectIdentifier: device, 4194303",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 57,
+          "size": 2,
+          "value": "1979",
+          "show": "Property Identifier: vendor-name (121)",
+          "layer": "bacapp"
         }
       ]
     },
@@ -117,6 +573,30 @@
       "number": "8",
       "fields": [
         {
+          "name": "bvlc.type",
+          "position": 42,
+          "size": 1,
+          "value": "81",
+          "show": "0x81",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.function",
+          "position": 43,
+          "size": 1,
+          "value": "0a",
+          "show": "0x0a",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.length",
+          "position": 44,
+          "size": 2,
+          "value": "0028",
+          "show": "4",
+          "layer": "bvlc"
+        },
+        {
           "name": "bacnet.version",
           "position": 46,
           "size": 1,
@@ -131,6 +611,78 @@
           "value": "00",
           "show": "0x00",
           "layer": "bacnet"
+        },
+        {
+          "name": "bacapp.type",
+          "position": 48,
+          "size": 1,
+          "value": "3",
+          "show": "3",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.pduflags",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0x00",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.invoke_id",
+          "position": 49,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.confirmed_service",
+          "position": 50,
+          "size": 1,
+          "value": "0c",
+          "show": "12",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 51,
+          "size": 5,
+          "value": "0c0202980f",
+          "show": "ObjectIdentifier: device, 169999",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 56,
+          "size": 2,
+          "value": "1979",
+          "show": "Property Identifier: vendor-name (121)",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 58,
+          "size": 1,
+          "value": "3e",
+          "show": "{[3]",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 62,
+          "size": 19,
+          "value": "4361727269657220436f72706f726174696f6e",
+          "show": "vendor-name: UTF-8 'Carrier Corporation'",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 81,
+          "size": 1,
+          "value": "3f",
+          "show": "}[3]",
+          "layer": "bacapp"
         }
       ]
     },
@@ -138,6 +690,30 @@
       "number": "9",
       "fields": [
         {
+          "name": "bvlc.type",
+          "position": 42,
+          "size": 1,
+          "value": "81",
+          "show": "0x81",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.function",
+          "position": 43,
+          "size": 1,
+          "value": "0a",
+          "show": "0x0a",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.length",
+          "position": 44,
+          "size": 2,
+          "value": "0011",
+          "show": "4",
+          "layer": "bvlc"
+        },
+        {
           "name": "bacnet.version",
           "position": 46,
           "size": 1,
@@ -152,6 +728,70 @@
           "value": "04",
           "show": "0x04",
           "layer": "bacnet"
+        },
+        {
+          "name": "bacapp.type",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.pduflags",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0x00",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.response_segments",
+          "position": 49,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.max_adpu_size",
+          "position": 49,
+          "size": 1,
+          "value": "5",
+          "show": "5",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.invoke_id",
+          "position": 50,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.confirmed_service",
+          "position": 51,
+          "size": 1,
+          "value": "0c",
+          "show": "12",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 52,
+          "size": 5,
+          "value": "0c023fffff",
+          "show": "ObjectIdentifier: device, 4194303",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 57,
+          "size": 2,
+          "value": "192c",
+          "show": "Property Identifier: firmware-revision (44)",
+          "layer": "bacapp"
         }
       ]
     },
@@ -159,6 +799,30 @@
       "number": "10",
       "fields": [
         {
+          "name": "bvlc.type",
+          "position": 42,
+          "size": 1,
+          "value": "81",
+          "show": "0x81",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.function",
+          "position": 43,
+          "size": 1,
+          "value": "0a",
+          "show": "0x0a",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.length",
+          "position": 44,
+          "size": 2,
+          "value": "0017",
+          "show": "4",
+          "layer": "bvlc"
+        },
+        {
           "name": "bacnet.version",
           "position": 46,
           "size": 1,
@@ -173,6 +837,78 @@
           "value": "00",
           "show": "0x00",
           "layer": "bacnet"
+        },
+        {
+          "name": "bacapp.type",
+          "position": 48,
+          "size": 1,
+          "value": "3",
+          "show": "3",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.pduflags",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0x00",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.invoke_id",
+          "position": 49,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.confirmed_service",
+          "position": 50,
+          "size": 1,
+          "value": "0c",
+          "show": "12",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 51,
+          "size": 5,
+          "value": "0c0202980f",
+          "show": "ObjectIdentifier: device, 169999",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 56,
+          "size": 2,
+          "value": "192c",
+          "show": "Property Identifier: firmware-revision (44)",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 58,
+          "size": 1,
+          "value": "3e",
+          "show": "{[3]",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 61,
+          "size": 3,
+          "value": "302e30",
+          "show": "firmware-revision: UTF-8 '0.0'",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 64,
+          "size": 1,
+          "value": "3f",
+          "show": "}[3]",
+          "layer": "bacapp"
         }
       ]
     },
@@ -180,6 +916,30 @@
       "number": "11",
       "fields": [
         {
+          "name": "bvlc.type",
+          "position": 42,
+          "size": 1,
+          "value": "81",
+          "show": "0x81",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.function",
+          "position": 43,
+          "size": 1,
+          "value": "0a",
+          "show": "0x0a",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.length",
+          "position": 44,
+          "size": 2,
+          "value": "0011",
+          "show": "4",
+          "layer": "bvlc"
+        },
+        {
           "name": "bacnet.version",
           "position": 46,
           "size": 1,
@@ -194,6 +954,70 @@
           "value": "04",
           "show": "0x04",
           "layer": "bacnet"
+        },
+        {
+          "name": "bacapp.type",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.pduflags",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0x00",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.response_segments",
+          "position": 49,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.max_adpu_size",
+          "position": 49,
+          "size": 1,
+          "value": "5",
+          "show": "5",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.invoke_id",
+          "position": 50,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.confirmed_service",
+          "position": 51,
+          "size": 1,
+          "value": "0c",
+          "show": "12",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 52,
+          "size": 5,
+          "value": "0c023fffff",
+          "show": "ObjectIdentifier: device, 4194303",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 57,
+          "size": 2,
+          "value": "190c",
+          "show": "Property Identifier: application-software-version (12)",
+          "layer": "bacapp"
         }
       ]
     },
@@ -201,6 +1025,30 @@
       "number": "12",
       "fields": [
         {
+          "name": "bvlc.type",
+          "position": 42,
+          "size": 1,
+          "value": "81",
+          "show": "0x81",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.function",
+          "position": 43,
+          "size": 1,
+          "value": "0a",
+          "show": "0x0a",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.length",
+          "position": 44,
+          "size": 2,
+          "value": "002c",
+          "show": "4",
+          "layer": "bvlc"
+        },
+        {
           "name": "bacnet.version",
           "position": 46,
           "size": 1,
@@ -215,6 +1063,78 @@
           "value": "00",
           "show": "0x00",
           "layer": "bacnet"
+        },
+        {
+          "name": "bacapp.type",
+          "position": 48,
+          "size": 1,
+          "value": "3",
+          "show": "3",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.pduflags",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0x00",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.invoke_id",
+          "position": 49,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.confirmed_service",
+          "position": 50,
+          "size": 1,
+          "value": "0c",
+          "show": "12",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 51,
+          "size": 5,
+          "value": "0c0202980f",
+          "show": "ObjectIdentifier: device, 169999",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 56,
+          "size": 2,
+          "value": "190c",
+          "show": "Property Identifier: application-software-version (12)",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 58,
+          "size": 1,
+          "value": "3e",
+          "show": "{[3]",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 62,
+          "size": 23,
+          "value": "362e302e3030332e32303133303931302d353535363520",
+          "show": "application-software-version: UTF-8 '6.0.003.20130910-55565 '",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 85,
+          "size": 1,
+          "value": "3f",
+          "show": "}[3]",
+          "layer": "bacapp"
         }
       ]
     },
@@ -222,6 +1142,30 @@
       "number": "13",
       "fields": [
         {
+          "name": "bvlc.type",
+          "position": 42,
+          "size": 1,
+          "value": "81",
+          "show": "0x81",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.function",
+          "position": 43,
+          "size": 1,
+          "value": "0a",
+          "show": "0x0a",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.length",
+          "position": 44,
+          "size": 2,
+          "value": "0011",
+          "show": "4",
+          "layer": "bvlc"
+        },
+        {
           "name": "bacnet.version",
           "position": 46,
           "size": 1,
@@ -236,6 +1180,70 @@
           "value": "04",
           "show": "0x04",
           "layer": "bacnet"
+        },
+        {
+          "name": "bacapp.type",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.pduflags",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0x00",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.response_segments",
+          "position": 49,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.max_adpu_size",
+          "position": 49,
+          "size": 1,
+          "value": "5",
+          "show": "5",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.invoke_id",
+          "position": 50,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.confirmed_service",
+          "position": 51,
+          "size": 1,
+          "value": "0c",
+          "show": "12",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 52,
+          "size": 5,
+          "value": "0c023fffff",
+          "show": "ObjectIdentifier: device, 4194303",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 57,
+          "size": 2,
+          "value": "194d",
+          "show": "Property Identifier: object-name (77)",
+          "layer": "bacapp"
         }
       ]
     },
@@ -243,6 +1251,30 @@
       "number": "14",
       "fields": [
         {
+          "name": "bvlc.type",
+          "position": 42,
+          "size": 1,
+          "value": "81",
+          "show": "0x81",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.function",
+          "position": 43,
+          "size": 1,
+          "value": "0a",
+          "show": "0x0a",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.length",
+          "position": 44,
+          "size": 2,
+          "value": "0025",
+          "show": "4",
+          "layer": "bvlc"
+        },
+        {
           "name": "bacnet.version",
           "position": 46,
           "size": 1,
@@ -257,6 +1289,78 @@
           "value": "00",
           "show": "0x00",
           "layer": "bacnet"
+        },
+        {
+          "name": "bacapp.type",
+          "position": 48,
+          "size": 1,
+          "value": "3",
+          "show": "3",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.pduflags",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0x00",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.invoke_id",
+          "position": 49,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.confirmed_service",
+          "position": 50,
+          "size": 1,
+          "value": "0c",
+          "show": "12",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 51,
+          "size": 5,
+          "value": "0c0202980f",
+          "show": "ObjectIdentifier: device, 169999",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 56,
+          "size": 2,
+          "value": "194d",
+          "show": "Property Identifier: object-name (77)",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 58,
+          "size": 1,
+          "value": "3e",
+          "show": "{[3]",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 62,
+          "size": 16,
+          "value": "692d567520506c757320313639393939",
+          "show": "Object Name",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 78,
+          "size": 1,
+          "value": "3f",
+          "show": "}[3]",
+          "layer": "bacapp"
         }
       ]
     },
@@ -264,6 +1368,30 @@
       "number": "15",
       "fields": [
         {
+          "name": "bvlc.type",
+          "position": 42,
+          "size": 1,
+          "value": "81",
+          "show": "0x81",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.function",
+          "position": 43,
+          "size": 1,
+          "value": "0a",
+          "show": "0x0a",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.length",
+          "position": 44,
+          "size": 2,
+          "value": "0011",
+          "show": "4",
+          "layer": "bvlc"
+        },
+        {
           "name": "bacnet.version",
           "position": 46,
           "size": 1,
@@ -278,6 +1406,70 @@
           "value": "04",
           "show": "0x04",
           "layer": "bacnet"
+        },
+        {
+          "name": "bacapp.type",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.pduflags",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0x00",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.response_segments",
+          "position": 49,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.max_adpu_size",
+          "position": 49,
+          "size": 1,
+          "value": "5",
+          "show": "5",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.invoke_id",
+          "position": 50,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.confirmed_service",
+          "position": 51,
+          "size": 1,
+          "value": "0c",
+          "show": "12",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 52,
+          "size": 5,
+          "value": "0c023fffff",
+          "show": "ObjectIdentifier: device, 4194303",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 57,
+          "size": 2,
+          "value": "1946",
+          "show": "Property Identifier: model-name (70)",
+          "layer": "bacapp"
         }
       ]
     },
@@ -285,6 +1477,30 @@
       "number": "16",
       "fields": [
         {
+          "name": "bvlc.type",
+          "position": 42,
+          "size": 1,
+          "value": "81",
+          "show": "0x81",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.function",
+          "position": 43,
+          "size": 1,
+          "value": "0a",
+          "show": "0x0a",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.length",
+          "position": 44,
+          "size": 2,
+          "value": "0019",
+          "show": "4",
+          "layer": "bvlc"
+        },
+        {
           "name": "bacnet.version",
           "position": 46,
           "size": 1,
@@ -299,6 +1515,78 @@
           "value": "00",
           "show": "0x00",
           "layer": "bacnet"
+        },
+        {
+          "name": "bacapp.type",
+          "position": 48,
+          "size": 1,
+          "value": "3",
+          "show": "3",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.pduflags",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0x00",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.invoke_id",
+          "position": 49,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.confirmed_service",
+          "position": 50,
+          "size": 1,
+          "value": "0c",
+          "show": "12",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 51,
+          "size": 5,
+          "value": "0c0202980f",
+          "show": "ObjectIdentifier: device, 169999",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 56,
+          "size": 2,
+          "value": "1946",
+          "show": "Property Identifier: model-name (70)",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 58,
+          "size": 1,
+          "value": "3e",
+          "show": "{[3]",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 62,
+          "size": 4,
+          "value": "50563137",
+          "show": "model-name: UTF-8 'PV17'",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 66,
+          "size": 1,
+          "value": "3f",
+          "show": "}[3]",
+          "layer": "bacapp"
         }
       ]
     },
@@ -306,6 +1594,30 @@
       "number": "17",
       "fields": [
         {
+          "name": "bvlc.type",
+          "position": 42,
+          "size": 1,
+          "value": "81",
+          "show": "0x81",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.function",
+          "position": 43,
+          "size": 1,
+          "value": "0a",
+          "show": "0x0a",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.length",
+          "position": 44,
+          "size": 2,
+          "value": "0011",
+          "show": "4",
+          "layer": "bvlc"
+        },
+        {
           "name": "bacnet.version",
           "position": 46,
           "size": 1,
@@ -320,6 +1632,70 @@
           "value": "04",
           "show": "0x04",
           "layer": "bacnet"
+        },
+        {
+          "name": "bacapp.type",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.pduflags",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0x00",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.response_segments",
+          "position": 49,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.max_adpu_size",
+          "position": 49,
+          "size": 1,
+          "value": "5",
+          "show": "5",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.invoke_id",
+          "position": 50,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.confirmed_service",
+          "position": 51,
+          "size": 1,
+          "value": "0c",
+          "show": "12",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 52,
+          "size": 5,
+          "value": "0c023fffff",
+          "show": "ObjectIdentifier: device, 4194303",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 57,
+          "size": 2,
+          "value": "191c",
+          "show": "Property Identifier: description (28)",
+          "layer": "bacapp"
         }
       ]
     },
@@ -327,6 +1703,30 @@
       "number": "18",
       "fields": [
         {
+          "name": "bvlc.type",
+          "position": 42,
+          "size": 1,
+          "value": "81",
+          "show": "0x81",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.function",
+          "position": 43,
+          "size": 1,
+          "value": "0a",
+          "show": "0x0a",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.length",
+          "position": 44,
+          "size": 2,
+          "value": "0029",
+          "show": "4",
+          "layer": "bvlc"
+        },
+        {
           "name": "bacnet.version",
           "position": 46,
           "size": 1,
@@ -341,12 +1741,108 @@
           "value": "00",
           "show": "0x00",
           "layer": "bacnet"
+        },
+        {
+          "name": "bacapp.type",
+          "position": 48,
+          "size": 1,
+          "value": "3",
+          "show": "3",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.pduflags",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0x00",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.invoke_id",
+          "position": 49,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.confirmed_service",
+          "position": 50,
+          "size": 1,
+          "value": "0c",
+          "show": "12",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 51,
+          "size": 5,
+          "value": "0c0202980f",
+          "show": "ObjectIdentifier: device, 169999",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 56,
+          "size": 2,
+          "value": "191c",
+          "show": "Property Identifier: description (28)",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 58,
+          "size": 1,
+          "value": "3e",
+          "show": "{[3]",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 62,
+          "size": 20,
+          "value": "692d567520506c75732053657276657220362e30",
+          "show": "description: UTF-8 'i-Vu Plus Server 6.0'",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 82,
+          "size": 1,
+          "value": "3f",
+          "show": "}[3]",
+          "layer": "bacapp"
         }
       ]
     },
     {
       "number": "19",
       "fields": [
+        {
+          "name": "bvlc.type",
+          "position": 42,
+          "size": 1,
+          "value": "81",
+          "show": "0x81",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.function",
+          "position": 43,
+          "size": 1,
+          "value": "0a",
+          "show": "0x0a",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.length",
+          "position": 44,
+          "size": 2,
+          "value": "0011",
+          "show": "4",
+          "layer": "bvlc"
+        },
         {
           "name": "bacnet.version",
           "position": 46,
@@ -362,12 +1858,100 @@
           "value": "04",
           "show": "0x04",
           "layer": "bacnet"
+        },
+        {
+          "name": "bacapp.type",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.pduflags",
+          "position": 48,
+          "size": 1,
+          "value": "0",
+          "show": "0x00",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.response_segments",
+          "position": 49,
+          "size": 1,
+          "value": "0",
+          "show": "0",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.max_adpu_size",
+          "position": 49,
+          "size": 1,
+          "value": "5",
+          "show": "5",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.invoke_id",
+          "position": 50,
+          "size": 1,
+          "value": "01",
+          "show": "1",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.confirmed_service",
+          "position": 51,
+          "size": 1,
+          "value": "0c",
+          "show": "12",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 52,
+          "size": 5,
+          "value": "0c023fffff",
+          "show": "ObjectIdentifier: device, 4194303",
+          "layer": "bacapp"
+        },
+        {
+          "name": "",
+          "position": 57,
+          "size": 2,
+          "value": "193a",
+          "show": "Property Identifier: location (58)",
+          "layer": "bacapp"
         }
       ]
     },
     {
       "number": "20",
       "fields": [
+        {
+          "name": "bvlc.type",
+          "position": 42,
+          "size": 1,
+          "value": "81",
+          "show": "0x81",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.function",
+          "position": 43,
+          "size": 1,
+          "value": "0a",
+          "show": "0x0a",
+          "layer": "bvlc"
+        },
+        {
+          "name": "bvlc.length",
+          "position": 44,
+          "size": 2,
+          "value": "000d",
+          "show": "4",
+          "layer": "bvlc"
+        },
         {
           "name": "bacnet.version",
           "position": 46,
@@ -383,6 +1967,30 @@
           "value": "00",
           "show": "0x00",
           "layer": "bacnet"
+        },
+        {
+          "name": "bacapp.type",
+          "position": 48,
+          "size": 1,
+          "value": "5",
+          "show": "5",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.error_class",
+          "position": 51,
+          "size": 2,
+          "value": "9102",
+          "show": "2",
+          "layer": "bacapp"
+        },
+        {
+          "name": "bacapp.error_code",
+          "position": 53,
+          "size": 2,
+          "value": "9120",
+          "show": "32",
+          "layer": "bacapp"
         }
       ]
     }

@@ -1,0 +1,166 @@
+{
+  "packets": [
+    {
+      "number": "1",
+      "fields": [
+        {
+          "name": "opcua.transport.type",
+          "position": 88,
+          "size": 3,
+          "value": "48454c",
+          "show": "HEL",
+          "layer": "opcua"
+        },
+        {
+          "name": "opcua.transport.chunk",
+          "position": 91,
+          "size": 1,
+          "value": "46",
+          "show": "F",
+          "layer": "opcua"
+        },
+        {
+          "name": "opcua.transport.size",
+          "position": 92,
+          "size": 4,
+          "value": "38000000",
+          "show": "56",
+          "layer": "opcua"
+        },
+        {
+          "name": "opcua.transport.ver",
+          "position": 96,
+          "size": 4,
+          "value": "00000000",
+          "show": "0",
+          "layer": "opcua"
+        },
+        {
+          "name": "opcua.transport.rbs",
+          "position": 100,
+          "size": 4,
+          "value": "00000100",
+          "show": "65536",
+          "layer": "opcua"
+        },
+        {
+          "name": "opcua.transport.sbs",
+          "position": 104,
+          "size": 4,
+          "value": "00000100",
+          "show": "65536",
+          "layer": "opcua"
+        },
+        {
+          "name": "opcua.transport.mms",
+          "position": 108,
+          "size": 4,
+          "value": "00000020",
+          "show": "536870912",
+          "layer": "opcua"
+        },
+        {
+          "name": "opcua.transport.mcc",
+          "position": 112,
+          "size": 4,
+          "value": "00400000",
+          "show": "16384",
+          "layer": "opcua"
+        },
+        {
+          "name": "opcua.transport.endpoint",
+          "position": 120,
+          "size": 24,
+          "value": "6f70632e7463703a2f2f6c6f63616c686f73743a34383430",
+          "show": "opc.tcp://localhost:4840",
+          "layer": "opcua"
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "fields": [
+        {
+          "name": "opcua.transport.type",
+          "position": 88,
+          "size": 3,
+          "value": "4f504e",
+          "show": "OPN",
+          "layer": "opcua"
+        },
+        {
+          "name": "opcua.transport.chunk",
+          "position": 91,
+          "size": 1,
+          "value": "46",
+          "show": "F",
+          "layer": "opcua"
+        },
+        {
+          "name": "opcua.transport.size",
+          "position": 92,
+          "size": 4,
+          "value": "84000000",
+          "show": "132",
+          "layer": "opcua"
+        },
+        {
+          "name": "opcua.transport.scid",
+          "position": 96,
+          "size": 4,
+          "value": "00000000",
+          "show": "0",
+          "layer": "opcua"
+        },
+        {
+          "name": "opcua.security.spu",
+          "position": 104,
+          "size": 47,
+          "value": "687474703a2f2f6f7063666f756e646174696f6e2e6f72672f55412f5365637572697479506f6c696379234e6f6e65",
+          "show": "http://opcfoundation.org/UA/SecurityPolicy#None",
+          "layer": "opcua"
+        },
+        {
+          "name": "opcua.security.scert",
+          "position": 151,
+          "size": 4,
+          "value": "ffffffff",
+          "show": "",
+          "layer": "opcua"
+        },
+        {
+          "name": "opcua.security.rcthumb",
+          "position": 155,
+          "size": 4,
+          "value": "ffffffff",
+          "show": "",
+          "layer": "opcua"
+        },
+        {
+          "name": "opcua.sequence.seq",
+          "position": 159,
+          "size": 4,
+          "value": "01000000",
+          "show": "1",
+          "layer": "opcua"
+        },
+        {
+          "name": "opcua.sequence.rqid",
+          "position": 163,
+          "size": 4,
+          "value": "01000000",
+          "show": "1",
+          "layer": "opcua"
+        },
+        {
+          "name": "",
+          "position": 167,
+          "size": 53,
+          "value": "0100be0100007fb78e77c2f0db010000000000000000ffffffff00000000000000000000000000000001000000ffffffffc0270900",
+          "show": "Message: Encodeable Object",
+          "layer": "opcua"
+        }
+      ]
+    }
+  ]
+}

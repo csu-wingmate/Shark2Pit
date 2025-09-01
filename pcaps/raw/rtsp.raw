@@ -1,0 +1,49 @@
+OPTIONS rtsp://192.168.31.64:554//Streaming/Channels/101 RTSP/1.0
+CSeq: 2
+User-Agent: LibVLC/3.0.21 (LIVE555 Streaming Media v2016.11.28)
+
+DESCRIBE rtsp://192.168.31.64:554//Streaming/Channels/101 RTSP/1.0
+CSeq: 3
+User-Agent: LibVLC/3.0.21 (LIVE555 Streaming Media v2016.11.28)
+Accept: application/sdp
+
+DESCRIBE rtsp://192.168.31.64:554//Streaming/Channels/101 RTSP/1.0
+CSeq: 4
+Authorization: Digest username="", realm="IP Camera(P1813)", nonce="f40e60b5d3b27180cb0ba049bc12dab7", uri="rtsp://192.168.31.64:554//Streaming/Channels/101", response="9d0db15033a9d9038a63203708058e92"
+User-Agent: LibVLC/3.0.21 (LIVE555 Streaming Media v2016.11.28)
+Accept: application/sdp
+
+OPTIONS rtsp://192.168.31.64:554//Streaming/Channels/101 RTSP/1.0
+CSeq: 5
+User-Agent: LibVLC/3.0.21 (LIVE555 Streaming Media v2016.11.28)
+
+DESCRIBE rtsp://192.168.31.64:554//Streaming/Channels/101 RTSP/1.0
+CSeq: 6
+User-Agent: LibVLC/3.0.21 (LIVE555 Streaming Media v2016.11.28)
+Accept: application/sdp
+
+DESCRIBE rtsp://192.168.31.64:554//Streaming/Channels/101 RTSP/1.0
+CSeq: 7
+Authorization: Digest username="admin", realm="IP Camera(P1813)", nonce="b2c318459ef6a4850922c5aa75f2fd43", uri="rtsp://192.168.31.64:554//Streaming/Channels/101", response="91c6800bb5d36b3d2a8c7a60470f741a"
+User-Agent: LibVLC/3.0.21 (LIVE555 Streaming Media v2016.11.28)
+Accept: application/sdp
+
+SETUP rtsp://192.168.31.64:554//Streaming/Channels/101/trackID=1 RTSP/1.0
+CSeq: 8
+Authorization: Digest username="admin", realm="IP Camera(P1813)", nonce="b2c318459ef6a4850922c5aa75f2fd43", uri="rtsp://192.168.31.64:554//Streaming/Channels/101/", response="69ff5b72b956fb950254bdff5919930d"
+User-Agent: LibVLC/3.0.21 (LIVE555 Streaming Media v2016.11.28)
+Transport: RTP/AVP;unicast;client_port=54722-54723
+
+PLAY rtsp://192.168.31.64:554//Streaming/Channels/101/ RTSP/1.0
+CSeq: 9
+Authorization: Digest username="admin", realm="IP Camera(P1813)", nonce="b2c318459ef6a4850922c5aa75f2fd43", uri="rtsp://192.168.31.64:554//Streaming/Channels/101/", response="f70a04e80622620bacf634b4431d53ac"
+User-Agent: LibVLC/3.0.21 (LIVE555 Streaming Media v2016.11.28)
+Session: 1985534176
+Range: npt=0.000-
+
+TEARDOWN rtsp://192.168.31.64:554//Streaming/Channels/101/ RTSP/1.0
+CSeq: 10
+Authorization: Digest username="admin", realm="IP Camera(P1813)", nonce="b2c318459ef6a4850922c5aa75f2fd43", uri="rtsp://192.168.31.64:554//Streaming/Channels/101/", response="a63f651d2691840713b92fb3a6fb20e2"
+User-Agent: LibVLC/3.0.21 (LIVE555 Streaming Media v2016.11.28)
+Session: 1985534176
+
