@@ -100,7 +100,7 @@ The folder for PeachStar is located at [fuzzers/PeachStar](https://github.com/cs
 Refer to the existing folder structure for PeachStar
 ```
 fuzzers/PeachStar
-├── Dockerfile (required): based on this, a Docker image is built (See Sdtep-2 in the tutorial)
+├── Dockerfile (required): based on this, a Docker image is built (See Shark2Pit)
 └── other files (required): dependencies for building Peachstar.
 ```
 All the required files (i.e., Dockerfile) follow some templates so that one can easily follow them to prepare files for a new fuzzer.
