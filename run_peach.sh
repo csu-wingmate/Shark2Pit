@@ -1,97 +1,97 @@
 #!/bin/bash
 
-# 存储所有后台进程PID
+# Store all background process PIDs
 declare -a BACKGROUND_PIDS=()
-declare -A NETNS_PEACH_PIDS  # 存储每个网络命名空间中的Peach进程PID
+declare -A NETNS_PEACH_PIDS  # Store Peach process PIDs in each network namespace
 
-# 增强版清理函数
+# Enhanced cleanup function
 cleanup() {
-    echo "Worker: 收到中断信号，开始清理..."
+    echo "Worker: Received interrupt signal, starting cleanup..."
     
-    # 第一步：终止所有后台进程（包括收集器）
+    # Step 1: Terminate all background processes (including collector)
     for pid in "${BACKGROUND_PIDS[@]}"; do
         if ps -p "$pid" > /dev/null; then
-            echo "终止进程 $pid"
+            echo "Terminating process $pid"
             kill -TERM "$pid" 2>/dev/null
         fi
     done
     
-    # 第二步：终止所有Peach进程（包括Pit文件启动的子进程）
+    # Step 2: Terminate all Peach processes (including child processes started by Pit files)
     for netns in "${!NETNS_PEACH_PIDS[@]}"; do
         pid=${NETNS_PEACH_PIDS[$netns]}
         if ps -p "$pid" > /dev/null; then
-            echo "终止Peach主进程 $pid (${netns})"
+            echo "Terminating Peach main process $pid (${netns})"
             kill -TERM "$pid" 2>/dev/null
             
-            # 终止整个进程组（包括Pit文件启动的所有子进程）
+            # Terminate entire process group (including all child processes started by Pit files)
             pkill -9 -g $(ps -o pgid= $pid | tr -d ' ') 2>/dev/null
         fi
     done
     
-    # 第三步：清理网络命名空间
+    # Step 3: Clean up network namespaces
     for i in $(seq 1 ${worker_num}); do
         netns="netns-peach-${index}-${protocol}-${i}"
         if ip netns list | grep -q "${netns}"; then
-            # 强制终止命名空间中的所有进程
+            # Force terminate all processes in the namespace
             ip netns pids ${netns} | xargs -r kill -9 2>/dev/null
             
-            # 删除命名空间
+            # Delete namespace
             ip netns del ${netns} 2>/dev/null && \
-            echo "已删除网络命名空间: ${netns}" || \
-            echo "删除 ${netns} 失败（可能已不存在）"
+            echo "Deleted network namespace: ${netns}" || \
+            echo "Failed to delete ${netns} (may not exist)"
         fi
     done
     
-    # 第四步：清理临时文件
+    # Step 4: Clean up temporary files
     rm -f ${cov_edge_path} ${cov_bitmap_path} /tmp/peach_*.pid
-    echo "Worker: 清理完成，退出脚本"
+    echo "Worker: Cleanup completed, exiting script"
     exit 0
 }
 
-# 设置中断信号处理
+# Set interrupt signal handling
 trap cleanup SIGINT SIGTERM
 
-# 工作进程数量
+# Number of worker processes
 protocol=${1:-coap}
 worker_num=${2:-1}
 index=${3:-1}
 
-# 当前时间
+# Current time
 ttime=$(date +%Y-%m-%d-%T)
 t="peach_${protocol}-${ttime}"
 
-# 创建临时文件路径
+# Create temporary file paths
 cov_edge_path="/dev/shm/cov_edge_${t}"
 cov_bitmap_path="/dev/shm/cov_bitmap_${t}"
 
-# 创建临时文件
+# Create temporary files
 dd if=/dev/zero of=${cov_edge_path} bs=10M count=1
 dd if=/dev/zero of=${cov_bitmap_path} bs=10M count=1
 export LUCKY_GLOBAL_MMAP_FILE=${cov_edge_path}
 
-# 创建临时目录
+# Create temporary directory
 mkdir -p branch
 
-# 运行收集器（保存PID）
+# Run collector (save PID)
 python3 /root/collect.py ${cov_edge_path} \
     "./branch/collect_branch_peach_${protocol}_${t}" &
 BACKGROUND_PIDS+=($!)
 
-# Peach 模糊测试的路径
+# Path to Peach fuzzer
 FUZZER_PATH=/root/Peach
 
-# 启动工作进程
+# Start worker processes
 for i in $(seq 1 ${worker_num}); do
     netns="netns-peach-${index}-${protocol}-${i}"
-    echo "启动工作进程 ${i} (${netns})"
+    echo "Starting worker process ${i} (${netns})"
 
-    # 创建网络命名空间
+    # Create network namespace
     ip netns add ${netns}
     ip netns exec ${netns} ip link set lo up
 
-    # 在工作进程中启动Peach（保存PID到文件）
+    # Start Peach in worker process (save PID to file)
     ip netns exec ${netns} bash -c "
-        # 设置进程组ID以便终止整个组
+        # Set process group ID for terminating entire group
         set -m
         
         LUCKY_GLOBAL_MMAP_FILE=${cov_edge_path} SHM_ENV_VAR=${cov_bitmap_path} \
@@ -104,23 +104,23 @@ for i in $(seq 1 ${worker_num}); do
         wait \$peach_pid
     " &
     
-    # 保存网络命名空间进程PID
+    # Save network namespace process PID
     ns_pid=$!
     BACKGROUND_PIDS+=($ns_pid)
     
-    # 等待PID文件创建并记录Peach PID
+    # Wait for PID file creation and record Peach PID
     sleep 0.5
     if [ -f "/tmp/peach_${netns}.pid" ]; then
         peach_pid=$(cat "/tmp/peach_${netns}.pid")
         NETNS_PEACH_PIDS[$netns]=$peach_pid
-        echo "记录Peach PID: ${peach_pid} (${netns})"
+        echo "Recorded Peach PID: ${peach_pid} (${netns})"
     fi
 done
 
-# 关键：等待中断信号
-echo "主进程已启动，按 Ctrl+C 终止所有工作进程"
-echo "监控中的Peach PIDs: ${NETNS_PEACH_PIDS[@]}"
+# Key: Wait for interrupt signal
+echo "Main process started. Press Ctrl+C to terminate all worker processes"
+echo "Monitored Peach PIDs: ${NETNS_PEACH_PIDS[@]}"
 while true; do
-    sleep 3600 &  # 使用后台sleep
-    wait $!       # 等待sleep完成或被中断
+    sleep 3600 &  # Use background sleep
+    wait $!       # Wait for sleep to complete or be interrupted
 done
