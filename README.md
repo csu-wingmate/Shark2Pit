@@ -1,5 +1,5 @@
 # Shark2Pit - Automated Pit Template Generation For Protocol Fuzzing Based on Packet Parser
-
+Shark2Pit is an automated tool that generates Pit template files for generation-based protocol fuzzing, such as Peach and its variants. It parses real network traffic (in pcap/pcapng format) and uses Tshark to extract protocol field information, automatically constructing data models and state models while synthesizing new test cases that comply with the protocol structure. The tool ultimately outputs Pit files that can be directly used for fuzzing. Key features include automated modeling, which eliminates the need for manually writing Pit files and significantly reduces the barrier and labor cost of protocol fuzzing; structure-preserving synthesis, which generates diverse test cases while maintaining protocol semantics to improve code path coverage; and multi-protocol support, allowing extension to any protocol supported by Tshark. Shark2Pit enables a fully automated workflow from traffic to test template generation, making it suitable for security testing and vulnerability mining in protocol implementations.
 # Folder Structure
 ```
 Shark2Pit
@@ -100,7 +100,7 @@ The folder for PeachStar is located at [fuzzers/PeachStar](https://github.com/cs
 Refer to the existing folder structure for PeachStar
 ```
 fuzzers/PeachStar
-├── Dockerfile (required): based on this, a Docker image is built (See Sdtep-2 in the tutorial)
+├── Dockerfile (required): based on this, a Docker image is built (See Shark2Pit)
 └── other files (required): dependencies for building Peachstar.
 ```
 All the required files (i.e., Dockerfile) follow some templates so that one can easily follow them to prepare files for a new fuzzer.
