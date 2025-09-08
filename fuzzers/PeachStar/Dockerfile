@@ -52,8 +52,8 @@ RUN clang control.c -fPIC -shared -o libpeachControl.so && \
 ENV LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 WORKDIR /root/
 COPY --chown=ubuntu:ubuntu collect.py /root/collect.py
-COPY --chown=ubuntu:ubuntu --chmod=755 run.sh /root/run.sh
-RUN sed -i 's/\r$//' run.sh
+COPY --chown=ubuntu:ubuntu --chmod=755 run_peachstar.sh /root/run_peachstar.sh
+RUN sed -i 's/\r$//' run_peachstar.sh
 
 RUN wget https://github.com/prometheus/node_exporter/releases/download/v1.7.0/node_exporter-1.7.0.linux-amd64.tar.gz && \
     tar -zxvf node_exporter-1.7.0.linux-amd64.tar.gz && \
@@ -64,6 +64,6 @@ RUN mkdir -p /root/Shark2Pit
 COPY --chown=ubuntu:ubuntu shark2pit/* /root/Shark2Pit
 
 # 赋予所有.sh文件执行权限
-RUN find /root/Shark2Pit -type f -name "*.sh" -exec chmod +x {} \;
+RUN find /root/ -type f -name "*.sh" -exec chmod +x {} \;
 # 容器启动命令
 CMD ["bash"]
