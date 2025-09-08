@@ -74,16 +74,15 @@ RUN /bin/bash /etc/profile
 # 切换到源代码目录
 WORKDIR /root/
 COPY --chown=ubuntu:ubuntu collect.py /root/collect.py
-RUN mkdir tasks
 COPY --chown=ubuntu:ubuntu Peach /root/Peach/
-
+COPY --chown=ubuntu:ubuntu run_peach.sh /root/run_peach.sh
 # 复制所需目录及文件（排除fuzzers目录）
 RUN mkdir -p /root/Shark2Pit
 COPY --chown=ubuntu:ubuntu shark2pit/* /root/Shark2Pit
 
 
 # 赋予所有.sh文件执行权限
-RUN find /root/Shark2Pit -type f -name "*.sh" -exec chmod +x {} \;
+RUN find /root/ -type f -name "*.sh" -exec chmod +x {} \;
 
 
 # 容器启动命令
