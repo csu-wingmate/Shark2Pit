@@ -26,11 +26,14 @@ Shark2Pit
 │   └── other folders (e.g.coap)
 ├── fuzzers: contains folders for different generation-based fuzzing tool
 │   └── Peach
-│       └── Dockerfile: for building the Docker image specific to the fuzzing tool
-│       └── run.sh: main script to fuzzing inside a Docker container
+│       └── Dockerfile: for building the Docker image of the Peach fuzzer
+│       └── run_peach.sh: start Peach fuzzing
+│       └── other necessary files (e.g.scripts)
+│   └── PeachStar
+│       └── Dockerfile: for building the Docker image of the PeachStar fuzzer
+│       └── run_peachstar.sh: start Peachstar fuzzing
 │       └── other necessary files (e.g.scripts)
 └── Shark2Pit.sh: start Shark2Pit
-└── run_peach.sh: start peach fuzzing
 └── README.md: this file
 ```
 # Shark2Pit
