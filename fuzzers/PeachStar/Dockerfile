@@ -55,10 +55,6 @@ COPY --chown=ubuntu:ubuntu collect.py /root/collect.py
 COPY --chown=ubuntu:ubuntu --chmod=755 run_peachstar.sh /root/run_peachstar.sh
 RUN sed -i 's/\r$//' run_peachstar.sh
 
-RUN wget https://github.com/prometheus/node_exporter/releases/download/v1.7.0/node_exporter-1.7.0.linux-amd64.tar.gz && \
-    tar -zxvf node_exporter-1.7.0.linux-amd64.tar.gz && \
-    mv node_exporter-1.7.0.linux-amd64 node_exporter
-
 # 复制所需目录及文件
 RUN mkdir -p /root/Shark2Pit
 COPY --chown=ubuntu:ubuntu shark2pit/* /root/Shark2Pit
