@@ -1,0 +1,98 @@
+{
+    "modbus": {
+        "transport": "tcp",
+        "default_executable":"/root/libmodbus/tests/bandwidth-server-many-up",
+        "default_arguments":"-p 1502",
+        "default_host":"127.0.0.1",
+        "default_port": 1502,
+        "agent_class": "TcpClient"
+    },
+    "ethernet": {
+        "transport": "Udp",
+        "default_executable":"/root/OpENer/bin/posix/src/ports/POSIX/OpENer",
+        "default_arguments":"-p 44818",
+        "default_host":"127.0.0.1",
+        "default_port": 44818,
+        "agent_class": "Udp"
+    },
+    "mqtt": {
+        "transport": "tcp",
+        "default_executable":"/root/protocolFuzz/mqtt/mosquitto-pc-guard/src/mosquitto",
+        "default_arguments":"-p 1883",
+        "default_host":"127.0.0.1",
+        "default_port": 1883,
+        "agent_class": "TcpClient"
+    },
+    "opcua": {
+        "transport": "tcp",
+        "default_executable":"/root/open62541/build/bin/examples/ci_server",
+        "default_arguments":"-p 4840",
+        "default_host":"127.0.0.1",
+        "default_port": 4840,
+        "agent_class": "TcpClient"
+    },
+    "ftp": {
+        "transport": "tcp",
+        "default_executable":"/root/LightFTP/Source/Release/fftp",
+        "default_arguments":"/root/LightFTP/Bin/fftp.conf ",
+        "default_host":"127.0.0.1",
+        "default_port": 21,
+        "agent_class": "TcpClient"
+    },
+    "coap": {
+        "transport": "tcp",
+        "default_executable":"/root/libcoap/examples/coap-server",
+        "default_arguments":"-p 5683",
+        "default_host":"127.0.0.1",
+        "default_port": 5683,
+        "agent_class": "TcpClient"
+    },
+    "bacnet": {
+        "transport": "udp",
+        "default_executable":"/root/bacnet-stack/build/server",
+        "default_arguments":"-p 47808",
+        "default_host":"172.17.0.2",
+        "default_port": 47808,
+        "agent_class": "Udp"
+    },
+    "dns": {
+        "transport": "udp",
+        "default_executable":"/usr/local/sbin/dnsmasq",
+        "default_arguments":"-p 5353 -d -C /root/dnsmasq/dnsmasq.conf -8 /var/log/dnsmasq/dnsmasq.log",
+        "default_host":"127.0.0.1",
+        "default_port": 5353,
+        "agent_class": "Udp"
+    },
+    "dds": {
+        "transport": "udp",
+        "default_executable":"/root/cyclonedds/build/bin/HelloworldSubscriber",
+        "default_arguments":"-p 7400",
+        "default_host":"127.0.0.1",
+        "default_port": 7400,
+        "agent_class": "Udp"
+    },
+    "dnp3": {
+        "transport": "tcp",
+        "default_executable":"/root/opendnp3/build/cpp/examples/outstation/outstation-demo",
+        "default_arguments":"-p 20000",
+        "default_host":"127.0.0.1",
+        "default_port": 20000,
+        "agent_class": "Tcp"
+    },
+    "tls": {
+        "transport": "udp",
+        "default_executable":"/usr/local/bin/openssl",
+        "default_arguments":"s_server -dtls1_2 -cert /root/openssl/demos/sslecho/cert.pem -key /root/openssl/demos/sslecho/key.pem -accept 4444",
+        "default_host":"127.0.0.1",
+        "default_port": 4444,
+        "agent_class": "Udp"
+    },
+    "rtsp": {
+        "transport": "Udp",
+        "default_executable":"/root/cyclonedds/build/bin/HelloworldSubscriber",
+        "default_arguments":"-p 7400",
+        "default_host":"127.0.0.1",
+        "default_port": 7400,
+        "agent_class":"Udp"
+    }
+}
