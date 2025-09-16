@@ -57,7 +57,7 @@ RUN sed -i 's/\r$//' run_peachstar.sh
 
 # 复制所需目录及文件
 RUN mkdir -p /root/Shark2Pit
-COPY --chown=ubuntu:ubuntu shark2pit/* /root/Shark2Pit
+COPY --chown=ubuntu:ubuntu shark2pit /root/Shark2Pit
 
 # 赋予所有.sh文件执行权限
 RUN find /root/ -type f -name "*.sh" -exec chmod +x {} \;
