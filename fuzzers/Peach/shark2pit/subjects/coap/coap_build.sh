@@ -20,8 +20,8 @@ git clone https://github.com/obgm/libcoap.git
 
 # 回到根目录并克隆 libcoap
 cd /root/libcoap
+git checkout 60e9f08
 # 配置 libcoap 的编译环境
-cd libcoap
 export CC=/root/pcguard-cov/afl-clang-fast
 export CXX=/root/pcguard-cov/afl-clang-fast++
 export CFLAGS="-Wall -O2 -g -fsanitize=address,undefined -fno-omit-frame-pointer -fsanitize-coverage=trace-pc-guard"
