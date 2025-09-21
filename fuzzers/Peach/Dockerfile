@@ -54,12 +54,12 @@ WORKDIR /etc/
 COPY --chown=ubuntu:ubuntu profile /etc/profile
 
 RUN /bin/bash /etc/profile
-
+RUN mkdir -p /root/Shark2Pit
 # 切换到源代码目录
 WORKDIR /root/
 COPY --chown=ubuntu:ubuntu collect.py /root/collect.py
 COPY --chown=ubuntu:ubuntu Peach /root/Peach/
-COPY --chown=ubuntu:ubuntu run_peach.sh /root/run_peach.sh
+COPY --chown=ubuntu:ubuntu run_peach.sh /root/Shark2Pit/run_peach.sh
 
 RUN mkdir -p /root/Shark2Pit
 COPY --chown=ubuntu:ubuntu shark2pit /root/Shark2Pit
