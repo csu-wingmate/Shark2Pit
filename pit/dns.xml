@@ -25,6 +25,75 @@
             <Blob name="dns_4" valueType="hex" value="c12900010001000272a500044501c844c1470001000100000daf0004ca313b06" size="256"/>
         </Block>
     </DataModel>
+    <DataModel name="Synthetic_packet_2_0">
+        <Block name="dns">
+            <Number name="dns_id" valueType="hex" value="002b" size="16"/>
+            <Number name="dns_flags" valueType="hex" value="0100" size="16"/>
+            <Number name="dns_count_queries" valueType="hex" value="0001" size="16"/>
+            <Number name="dns_count_answers" valueType="hex" value="0000" size="16"/>
+            <Number name="dns_count_auth_rr" valueType="hex" value="0000" size="16"/>
+            <Number name="dns_count_add_rr" valueType="hex" value="0000" size="16"/>
+            <Blob name="dns_1" valueType="hex" value="02757304706f6f6c036e7470036f72670000010001" size="168"/>
+            <Blob name="dns_2" valueType="hex" value="c00c0001000100000d87000443814409c00c0001000100000d870004452c393cc00c0001000100000d870004cfead1b5c00c0001000100000d870004d184b004c00c0001000100000d870004d81bb92ac00c0001000100000d87000418224f2ac00c0001000100000d870004187bcae6c00c0001000100000d8700043fa43ef9c00c0001000100000d8700044070bd0bc00c0001000100000d870004417de9cec00c0001000100000d8700044221ce05c00c0001000100000d8700044221d80bc00c0001000100000d870004425c44f6c00c0001000100000d870004426f2ec8c00c0001000100000d87000442738804" size="1920"/>
+            <Blob name="dns_3" valueType="hex" value="04504f4f4c036e7470036f72670000020001000010d60012036e7331086d61696c776f7278036e657400c11100020001000010d6000f067573656e6574036e6574026e7a00c11100020001000010d60014067a626173656c08666f72747974776f02636800c11100020001000010d60018086176656e747572610a62686d732d67726f6570026e6c00c11100020001000010d600110e736c617274696261727466617374c18bc11100020001000010d6000f0161026e73076d61646475636bc136" size="1544"/>
+            <Blob name="dns_4" valueType="hex" value="c12900010001000272a500044501c844c1470001000100000daf0004ca313b06" size="256"/>
+        </Block>
+    </DataModel>
+    <DataModel name="Synthetic_packet_1_1">
+        <Block name="dns">
+            <Number name="dns_id" valueType="hex" value="002b" size="16"/>
+            <Number name="dns_flags" valueType="hex" value="8180" size="16"/>
+            <Number name="dns_count_queries" valueType="hex" value="0001" size="16"/>
+            <Number name="dns_count_answers" valueType="hex" value="000f" size="16"/>
+            <Number name="dns_count_auth_rr" valueType="hex" value="0006" size="16"/>
+            <Number name="dns_count_add_rr" valueType="hex" value="0002" size="16"/>
+            <Blob name="dns_1" valueType="hex" value="02757304706f6f6c036e7470036f72670000010001" size="168"/>
+        </Block>
+    </DataModel>
+    <DataModel name="Synthetic_packet_1_2">
+        <Block name="dns">
+            <Number name="dns_id" valueType="hex" value="002b" size="16"/>
+            <Number name="dns_flags" valueType="hex" value="8180" size="16"/>
+            <Number name="dns_count_queries" valueType="hex" value="0001" size="16"/>
+            <Number name="dns_count_answers" valueType="hex" value="000f" size="16"/>
+            <Number name="dns_count_auth_rr" valueType="hex" value="0006" size="16"/>
+            <Number name="dns_count_add_rr" valueType="hex" value="0002" size="16"/>
+            <Blob name="dns_1" valueType="hex" value="02757304706f6f6c036e7470036f72670000010001" size="168"/>
+        </Block>
+    </DataModel>
+    <DataModel name="Synthetic_packet_1_3">
+        <Block name="dns">
+            <Number name="dns_id" valueType="hex" value="002b" size="16"/>
+            <Number name="dns_flags" valueType="hex" value="8180" size="16"/>
+            <Number name="dns_count_queries" valueType="hex" value="0001" size="16"/>
+            <Number name="dns_count_answers" valueType="hex" value="000f" size="16"/>
+            <Number name="dns_count_auth_rr" valueType="hex" value="0006" size="16"/>
+            <Number name="dns_count_add_rr" valueType="hex" value="0002" size="16"/>
+            <Blob name="dns_1" valueType="hex" value="02757304706f6f6c036e7470036f72670000010001" size="168"/>
+        </Block>
+    </DataModel>
+    <DataModel name="Synthetic_packet_1_4">
+        <Block name="dns">
+            <Number name="dns_id" valueType="hex" value="002b" size="16"/>
+            <Number name="dns_flags" valueType="hex" value="8180" size="16"/>
+            <Number name="dns_count_queries" valueType="hex" value="0001" size="16"/>
+            <Number name="dns_count_answers" valueType="hex" value="000f" size="16"/>
+            <Number name="dns_count_auth_rr" valueType="hex" value="0006" size="16"/>
+            <Number name="dns_count_add_rr" valueType="hex" value="0002" size="16"/>
+            <Blob name="dns_1" valueType="hex" value="02757304706f6f6c036e7470036f72670000010001" size="168"/>
+        </Block>
+    </DataModel>
+    <DataModel name="Synthetic_packet_1_5">
+        <Block name="dns">
+            <Number name="dns_id" valueType="hex" value="002b" size="16"/>
+            <Number name="dns_flags" valueType="hex" value="8180" size="16"/>
+            <Number name="dns_count_queries" valueType="hex" value="0001" size="16"/>
+            <Number name="dns_count_answers" valueType="hex" value="000f" size="16"/>
+            <Number name="dns_count_auth_rr" valueType="hex" value="0006" size="16"/>
+            <Number name="dns_count_add_rr" valueType="hex" value="0002" size="16"/>
+            <Blob name="dns_1" valueType="hex" value="02757304706f6f6c036e7470036f72670000010001" size="168"/>
+        </Block>
+    </DataModel>
     <StateModel name="dns_StateModel" initialState="test">
         <State name="test">
             <Action name="Send_packet_1" type="output">
@@ -32,6 +101,82 @@
             </Action>
             <Action name="Send_packet_2" type="output">
                 <DataModel ref="packet_2"/>
+            </Action>
+            <Action name="Send_Synthetic_packet_2_0" type="output">
+                <DataModel ref="Synthetic_packet_2_0"/>
+            </Action>
+            <Action name="Send_Synthetic_packet_1_1" type="output">
+                <DataModel ref="Synthetic_packet_1_1"/>
+            </Action>
+            <Action name="Send_Synthetic_packet_1_2" type="output">
+                <DataModel ref="Synthetic_packet_1_2"/>
+            </Action>
+            <Action name="Send_Synthetic_packet_1_3" type="output">
+                <DataModel ref="Synthetic_packet_1_3"/>
+            </Action>
+            <Action name="Send_Synthetic_packet_1_4" type="output">
+                <DataModel ref="Synthetic_packet_1_4"/>
+            </Action>
+            <Action name="Send_Synthetic_packet_1_5" type="output">
+                <DataModel ref="Synthetic_packet_1_5"/>
+            </Action>
+        </State>
+        <State name="test_shuffled_1">
+            <Action name="Send_Synthetic_packet_1_1" type="output">
+                <DataModel ref="Synthetic_packet_1_1"/>
+            </Action>
+            <Action name="Send_Synthetic_packet_1_2" type="output">
+                <DataModel ref="Synthetic_packet_1_2"/>
+            </Action>
+            <Action name="Send_Synthetic_packet_1_4" type="output">
+                <DataModel ref="Synthetic_packet_1_4"/>
+            </Action>
+            <Action name="Send_Synthetic_packet_1_5" type="output">
+                <DataModel ref="Synthetic_packet_1_5"/>
+            </Action>
+            <Action name="Send_Synthetic_packet_2_0" type="output">
+                <DataModel ref="Synthetic_packet_2_0"/>
+            </Action>
+            <Action name="Send_Synthetic_packet_1_3" type="output">
+                <DataModel ref="Synthetic_packet_1_3"/>
+            </Action>
+            <Action name="Send_packet_1" type="output">
+                <DataModel ref="packet_1"/>
+            </Action>
+            <Action name="Send_packet_2" type="output">
+                <DataModel ref="packet_2"/>
+            </Action>
+        </State>
+        <State name="test_repeated_2">
+            <Action name="Send_packet_2" type="output">
+                <DataModel ref="packet_2"/>
+            </Action>
+            <Action name="Send_packet_1" type="output">
+                <DataModel ref="packet_1"/>
+            </Action>
+            <Action name="Send_packet_2" type="output">
+                <DataModel ref="packet_2"/>
+            </Action>
+            <Action name="Send_Synthetic_packet_1_2" type="output">
+                <DataModel ref="Synthetic_packet_1_2"/>
+            </Action>
+            <Action name="Send_Synthetic_packet_2_0" type="output">
+                <DataModel ref="Synthetic_packet_2_0"/>
+            </Action>
+            <Action name="Send_Synthetic_packet_1_1" type="output">
+                <DataModel ref="Synthetic_packet_1_1"/>
+            </Action>
+            <Action name="Send_Synthetic_packet_1_2" type="output">
+                <DataModel ref="Synthetic_packet_1_2"/>
+            </Action>
+            <Action name="Send_Synthetic_packet_1_3" type="output">
+                <DataModel ref="Synthetic_packet_1_3"/>
+            </Action>
+            <Action name="Send_Synthetic_packet_1_4" type="output">
+                <DataModel ref="Synthetic_packet_1_4"/>
+            </Action>
+            <Action name="Send_Synthetic_packet_1_5" type="output">
+                <DataModel ref="Synthetic_packet_1_5"/>
             </Action>
         </State>
     </StateModel>

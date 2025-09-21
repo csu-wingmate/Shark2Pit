@@ -26,6 +26,7 @@ def calculate_optimal_synthetic_count(original_count):
         return min(int(1.5 * base), 50)
     else:
         return min(max(15, int(2 * math.log(original_count))), 50)
+
 ###Load configuration file###
 def load_config_file(file_path):
     try:
@@ -145,7 +146,81 @@ def create_data_model(peach, name, fields, protocol):
     
     return dm
 
-def json_to_peach_pit(input_json, output_pit, protocol, synthetic=False):
+# ---------- 状态打乱 / 重复 ----------
+def _deep_copy_state(original_state, new_name):
+    """深度复制状态及其所有子元素"""
+    new_state = Element('State', name=new_name)
+    for action in original_state:
+        new_action = Element('Action', action.attrib.copy())
+        for param in action:
+            SubElement(new_action, param.tag, param.attrib.copy())
+        new_state.append(new_action)
+    return new_state
+
+def _shuffle_actions_in_state(state, seed=None):
+    """打乱状态内的动作顺序"""
+    random.seed(seed)
+    actions = list(state)
+    random.shuffle(actions)
+    # 清空原有动作
+    for action in list(state):
+        state.remove(action)
+    # 添加打乱后的动作
+    for action in actions:
+        state.append(action)
+
+def _repeat_actions_in_state(state, repeat_times, seed=None):
+    """重复状态内的某些动作"""
+    random.seed(seed)
+    actions = list(state)
+    
+    for _ in range(repeat_times):
+        # 随机选择一个动作进行复制和插入
+        action_to_repeat = random.choice(actions)
+        new_action = Element('Action', action_to_repeat.attrib.copy())
+        
+        # 复制子元素
+        for child in action_to_repeat:
+            SubElement(new_action, child.tag, child.attrib.copy())
+        
+        # 插入到随机位置
+        insert_position = random.randint(0, len(state))
+        state.insert(insert_position, new_action)
+
+def append_shuffled_or_repeated_states(peach, protocol, shuffle=False, repeat_times=0, seed=None):
+    if not shuffle and repeat_times <= 0:
+        return
+    
+    sm = peach.find(".//StateModel[@name='{}_StateModel']".format(protocol[0]))
+    if sm is None:
+        logger.warning("StateModel not found, skip shuffle/repeat.")
+        return
+    
+    # 找到初始状态
+    original_state = sm.find("./State[@name='test']")
+    if original_state is None:
+        logger.warning("Initial state 'test' not found, skip shuffle/repeat.")
+        return
+    
+    # 复制状态并根据需要进行修改
+    state_counter = 1
+    
+    if shuffle:
+        # 创建打乱后的状态副本
+        shuffled_state = _deep_copy_state(original_state, f"test_shuffled_{state_counter}")
+        _shuffle_actions_in_state(shuffled_state, seed)
+        sm.append(shuffled_state)
+        logger.info("Created shuffled state copy (seed=%s).", seed)
+        state_counter += 1
+    
+    if repeat_times > 0:
+        # 创建重复动作后的状态副本
+        repeated_state = _deep_copy_state(original_state, f"test_repeated_{state_counter}")
+        _repeat_actions_in_state(repeated_state, repeat_times, seed)
+        sm.append(repeated_state)
+        logger.info("Created repeated state copy with %d additional actions (seed=%s).", repeat_times, seed)
+
+def json_to_peach_pit(input_json, output_pit, protocol, synthetic=False, shuffle_states=False, state_repeat_times=0):
     """Main conversion function: JSON to Peach PIT"""
     try:
         with open(input_json) as f:
@@ -229,6 +304,12 @@ def json_to_peach_pit(input_json, output_pit, protocol, synthetic=False):
     for dm_name in data_models:
         action = SubElement(state, 'Action', name=f"Send_{dm_name}", type="output")
         SubElement(action, 'DataModel', ref=dm_name)
+
+    # 追加打乱 / 重复
+    append_shuffled_or_repeated_states(peach, protocol,
+                                      shuffle=shuffle_states,
+                                      repeat_times=state_repeat_times,
+                                      seed=42)
     
     agent = SubElement(peach, 'Agent', name="PublisherAgent")
     monitor = SubElement(agent, 'Monitor', {"class": "Process"})
@@ -277,12 +358,18 @@ if __name__ == "__main__":
                         required=True, help="Protocol type (e.g., mqtt modbus)")
     parser.add_argument("--synthetic", action="store_true",
                         help="Enable synthetic packet generation")
-    
+
+    parser.add_argument("--shuffle-states", action="store_true", default=False,
+                        help="Shuffle the order of actions within states (default: False)")
+    parser.add_argument("--state-repeat-times", type=int, default=0,
+                        help="Number of times to repeat the state (0=disable)")
     args = parser.parse_args()
     
     json_to_peach_pit(
         input_json=args.input_json,
         output_pit=args.output_pit,
         protocol=args.protocol,
-        synthetic=args.synthetic 
+        synthetic=args.synthetic,
+        shuffle_states=args.shuffle_states,
+        state_repeat_times=args.state_repeat_times
     )
