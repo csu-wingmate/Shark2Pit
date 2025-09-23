@@ -78,4 +78,3 @@ RUN cd /root/pcguard-cov/llvm_mode/ \
 
 # 容器启动命令
 CMD ["bash"]
-
