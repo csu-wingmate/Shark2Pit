@@ -36,7 +36,7 @@ Shark2Pit
 └── Shark2Pit.sh: start Shark2Pit
 └── README.md: this file
 ```
-# Shark2Pit
+# Shark2Pit Installation (Tested on Ubuntu 20.04 64-bit (or newer); Docker required.)
 ```
 apt update
 apt install -y tshark tcpdump
@@ -46,6 +46,9 @@ cd /root/Shark2Pit/fuzzers/Peach
 docker build . -t shark2pit
 docker run -it --privileged --shm-size=2G --name shark2pit shark2pit /bin/bash
 ```
+# Usage
+
+
 # Tutorial - Fuzzing libcoap server with Peach
 ## Step-1. Set up environmental variables
 ```
