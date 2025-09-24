@@ -1,6 +1,5 @@
 #!/bin/bash
 set -euxo pipefail
-
 sudo DEBIAN_FRONTEND=noninteractive apt-get update
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -y \
     openssl \
@@ -10,17 +9,13 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get install -y \
     autoconf \
     llvm llvm-dev clang \
     gnutls-dev libgnutls28-dev lcov wget
-
-mkdir -p ~/cyclonedds_build
-cd ~/cyclonedds_build
-
+    
+cd /root
 git clone https://github.com/eclipse-cyclonedds/cyclonedds.git
 cd cyclonedds
 mkdir -p build
 cd build
-
 AFL_PATH="/root/pcguard-cov"
-
 cmake \
     -DBUILD_EXAMPLES=ON \
     -DCMAKE_C_COMPILER="$AFL_PATH/afl-clang-fast" \
