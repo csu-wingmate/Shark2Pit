@@ -16,7 +16,7 @@ REPO_URLS=(
     "http://github.com/hfiref0x/LightFTP.git"
 )
 for url in "${REPO_URLS[@]}"; do
-    dir_name=$(basename "$url" .git)  # 自动提取目录名（如 repo1）
+    dir_name=$(basename "$url" .git)
     if [ -d "$dir_name" ]; then
         echo "skipping clone: $dir_name"
     else
