@@ -47,7 +47,26 @@ docker build . -t shark2pit
 docker run -it --privileged --shm-size=2G --name shark2pit shark2pit /bin/bash
 ```
 # Usage
+```
+Usage: ./Shark2Pit.sh [options] <protocol_name> [layer1 layer2 ...]
+Automatically convert PCAP/PCAPNG files to PDML format and generate Pit files
 
+Arguments:
+  protocol_name     Name of the protocol to process (without file extension)
+  layer_list        List of protocol layers to process (e.g., coap dns http)
+
+Options:
+  -h, --help        Show this help message
+  -s, --synthetic   Enable packet reassembly during Pit generation
+  -sh, --shuffle    Shuffle states during Pit generation
+  -r, --repeat      Number of times to repeat the state
+
+Examples:
+  ./Shark2Pit.sh modbus modbus mbtcp
+  ./Shark2Pit.sh coap coap
+  ./Shark2Pit.sh -s dns dns
+  ./Shark2Pit.sh -s -sh -r 2 coap coap
+```
 
 # Tutorial - Fuzzing libcoap server with Peach
 ## Step-1. Set up environmental variables
