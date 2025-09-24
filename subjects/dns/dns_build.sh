@@ -2,7 +2,6 @@
 export DEBIAN_FRONTEND=noninteractive
 # Update system and install basic dependencies
 sudo apt-get update
-sudo apt-get upgrade -y
 sudo apt-get install -y \
     openssl unzip  \
     git build-essential \
