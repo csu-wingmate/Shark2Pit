@@ -5,7 +5,6 @@ apt-get update
 apt-get install -y sudo 
 # 更新包列表并安装依赖
 sudo apt-get update
-sudo apt-get upgrade -y
 
 sudo apt-get install -y \
     unzip \
