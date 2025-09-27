@@ -37,7 +37,14 @@ Shark2Pit
 └── README.md: this file
 ```
 # Shark2Pit Installation (Tested on Ubuntu 20.04 64-bit (or newer); Docker required.)
+We have set up the Shark2Pit tool in a Docker image. You can use the docker pull command to get the image and use it directly.
 ```
+## Method 1: Use the Docker image directly. When using the Docker image, we need skip the step-2 in Tutorial.
+docker pull fyldocker/shark2pit:peach
+docker run -it --privileged --shm-size=2G --name shark2pit_peach fyldocker/shark2pit:peach /bin/bash
+## end Method 1
+
+## Method 2: Build from the source code
 apt update
 apt install -y tshark tcpdump
 cd /root
@@ -75,6 +82,7 @@ cd /root/Shark2Pit
 export Shark2Pit=$(pwd)
 ```
 ## Step-2. Building the libcoap Protocol Implementation
+When using the Docker image, we need skip this step.
 ```bash
 cd $Shark2Pit/subjects/coap
 ./coap_build.sh
@@ -82,8 +90,10 @@ cd $Shark2Pit/subjects/coap
 ## Step-3. Generate Pit file and Fuzzing
 To learn how to use Shark2Pit, you can execute the command `./Shark2Pit.sh -h `to view the help documentation.
 ```bash
+## here, cd $Shark2Pit is the same as cd /root/Shark2Pit.
 cd $Shark2Pit
-./Shark2Pit.sh coap coap
+./Shark2Pit.sh -s -sh -r 2 coap coap
+## Run ./run_peach.sh [protocol] to fuzz a protocol (e.g., coap, bacnet). The default protocol is CoAP.
 ./run_peach.sh coap
 ```
 
