@@ -129,4 +129,4 @@ fuzzers/PeachStar
 ```
 All the required files (i.e., Dockerfile) follow some templates so that one can easily follow them to prepare files for a new fuzzer.
 # Demo Video
-[Click to view the demo video](https://youtu.be/6tuphioX930.)
+[Click to view the demo video](https://youtu.be/eVpCG0vjpPQ)
