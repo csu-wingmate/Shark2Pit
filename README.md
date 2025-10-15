@@ -70,9 +70,10 @@ Options:
 
 Examples:
   ./Shark2Pit.sh modbus modbus mbtcp
+  ./Shark2Pit.sh bacnet bacnet blvm bacapp
   ./Shark2Pit.sh coap coap
   ./Shark2Pit.sh -s dns dns
-  ./Shark2Pit.sh -s -sh -r 2 coap coap
+  ./Shark2Pit.sh -s -sh -r 2 coap coap  
 ```
 
 # Tutorial - Fuzzing libcoap server with Peach
