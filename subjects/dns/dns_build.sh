@@ -1,18 +1,14 @@
 #!/bin/bash
-##sed -i 's@//security.ubuntu.com@//mirrors.aliyun.com@g' /etc/apt/sources.list
-## Set non-interactive frontend to prevent interactive prompts during installation
 export DEBIAN_FRONTEND=noninteractive
-
 # Update system and install basic dependencies
 sudo apt-get update
-sudo apt-get upgrade -y
 sudo apt-get install -y \
     openssl unzip  \
     git build-essential \
     libglib2.0-dev libcairo2-dev \
     autoconf \
     llvm llvm-dev clang
-
+    
 # Create working directory
 mkdir -p /root/
 cd /root/
@@ -25,10 +21,7 @@ sudo apt-get install -y \
 git clone git://thekelleys.org.uk/dnsmasq.git 
 cd /root/dnsmasq
 
-# Compile and install dnsmasq
-# Compile and install dnsmasq
 AFL_PATH="/root/pcguard-cov"
-
 # Set AFL compiler and sanitizer options
 export CC=$AFL_PATH/afl-clang-fast
 export CXX=$AFL_PATH/afl-clang-fast++
