@@ -87,6 +87,32 @@ Shadow byte legend (one shadow byte represents 8 application bytes):
   Shadow gap:              cc
 ==502==ABORTING
 ```
+## libcoap(CoAP): use-of-uninitialized-value
+```
+==431==WARNING: MemorySanitizer: use-of-uninitialized-value
+    #0 0x55add74122e0 in coap_digest_setup /root/libcoap/src/coap_gnutls.c:3013:1
+    #1 0x55add732b2a9 in coap_add_data_large_internal /root/libcoap/src/coap_block.c:849:36
+    #2 0x55add732e675 in coap_add_data_large_response_lkd /root/libcoap/src/coap_block.c:1403:8
+    #3 0x55add7319ecb in hnd_get_index /root/libcoap/examples/coap-server.c:289:3
+    #4 0x55add7385048 in handle_request /root/libcoap/src/coap_net.c 
+    #5 0x55add7377102 in coap_dispatch /root/libcoap/src/coap_net.c:4783:7
+    #6 0x55add737446b in coap_read_session /root/libcoap/src/coap_net.c:2552:15
+    #7 0x55add737c48b in coap_io_do_epoll_lkd /root/libcoap/src/coap_net.c:2844:13
+    #8 0x55add73608e1 in coap_io_process_with_fds_lkd /root/libcoap/src/coap_io.c:2154:5
+    #9 0x55add73150d4 in main /root/libcoap/examples/coap-server.c:2741:20
+    #10 0x7f83f9ad71c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 282c2c16e7b6600b0b22ea0c99010d2795752b5f)
+    #11 0x7f83f9ad728a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 282c2c16e7b6600b0b22ea0c99010d2795752b5f) 
+    #12 0x55add7276a24 in _start (/root/libcoap/build/coap-server+0x36a24) (BuildId: 90df580774734d63011f3d24f29f051bc1e66bd3)
+
+  Uninitialized value was stored to memory at
+    #0 0x55add74122d9 in coap_digest_setup /root/libcoap/src/coap_gnutls.c:3009:7
+    #1 0x55add732b2a9 in coap_add_data_large_internal /root/libcoap/src/coap_block.c:849:36
+    #2 0x55add732e675 in coap_add_data_large_response_lkd /root/libcoap/src/coap_block.c:1403:8
+    #3 0x55add7319ecb in hnd_get_index /root/libcoap/examples/coap-server.c:289:3
+.c:3007:3
+
+SUMMARY: MemorySanitizer: use-of-uninitialized-value /root/libcoap/src/coap_gnutls.c:3013:1 in coap_digest_setup
+```
 ## bacnet-stack(BACnet): use-of-uninitialized-value
 ```
 BACnet Server Demo
