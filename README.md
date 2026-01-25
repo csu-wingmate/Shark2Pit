@@ -134,6 +134,22 @@ cd /root/Shark2Pit/fuzzers/Peach
 
 
 
+## 🏆 Real-world Bug Discovery
+
+To validate the effectiveness of Shark2Pit, we evaluated it against several actively maintained, open-source protocol implementations. Shark2Pit successfully uncovered **5 previously unknown bugs**, ranging from memory safety violations to undefined behaviors. All discovered bugs have been reported to the respective vendors, and most have been fixed.
+
+The table below summarizes the critical vulnerabilities found by Shark2Pit:
+
+| Target Protocol | Bug Type | Issue ID / Link | Status |
+| :--- | :--- | :--- | :--- |
+| **libcoap** | Heap-use-after-free | [obgm/libcoap#1720](https://github.com/obgm/libcoap/issues/1720) | **Fixed** |
+| **libcoap** | Use-of-uninitialized-value | [obgm/libcoap#1659](https://github.com/obgm/libcoap/issues/1659) | Acked |
+| **OpENer** | Undefined-behavior | [EIPStackGroup/OpENer#532](https://github.com/EIPStackGroup/OpENer/issues/532) | **Fixed** |
+| **bacnet-stack** | Use-of-uninitialized-value | [bacnet-stack/bacnet-stack#1045](https://github.com/bacnet-stack/bacnet-stack/issues/1045) | **Fixed** |
+| **open62541** | Undefined-behavior | [open62541/open62541#7358](https://github.com/open62541/open62541/issues/7358) | Acked |
+
+
+
 ## 🔌 Extensibility
 
 Shark2Pit is designed to be easily extended to new protocols and fuzzers.
