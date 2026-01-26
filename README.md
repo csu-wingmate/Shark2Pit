@@ -41,7 +41,10 @@ Shark2Pit is optimized for **Ubuntu 20.04 (64-bit)** or newer. We strongly recom
 This is the fastest way to get started. The docker image contains the tool and pre-configured dependencies.
 
 ```bash
+# Download the image containing Shark2Pit and Peach Fuzzer dependencies.
 docker pull fyldocker/shark2pit:peach
+
+# Start container. '--privileged' is required for packet capture and debugger access.
 docker run -it --privileged --name shark2pit fyldocker/shark2pit:peach /bin/bash
 ```
 
