@@ -122,13 +122,13 @@ cd /root/Shark2Pit # Return to root
 ### 3. Generate Pit File
 Generate the test template using Shark2Pit with synthesis enabled:
 ```bash
+cd /root/Shark2Pit
 ./Shark2Pit.sh -s -sh -r 2 coap coap
 ```
 
 ### 4. Start Fuzzing
 Run the fuzzing script. The default protocol is CoAP.
 ```bash
-cd /root/Shark2Pit/fuzzers/Peach
 ./run_peach.sh coap
 ```
 
