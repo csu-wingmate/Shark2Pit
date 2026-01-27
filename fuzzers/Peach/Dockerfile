@@ -40,7 +40,7 @@ RUN cd /usr/bin && \
     ./autogen.sh && \
     make get-monolite-latest
 
-COPY --chown=ubuntu:ubuntu processes.c /usr/bin/mono-4.8.1/mono/io-layer/processes.c
+COPY  processes.c /usr/bin/mono-4.8.1/mono/io-layer/processes.c
 # 切换到源代码目录
 WORKDIR /usr/bin/mono-4.8.1
 
@@ -51,18 +51,18 @@ RUN sudo make -j$(nproc) && \
 # 切换到源代码目录
 WORKDIR /etc/    
     
-COPY --chown=ubuntu:ubuntu profile /etc/profile
+COPY  profile /etc/profile
 
 RUN /bin/bash /etc/profile
 RUN mkdir -p /root/Shark2Pit
 # 切换到源代码目录
 WORKDIR /root/
-COPY --chown=ubuntu:ubuntu collect.py /root/collect.py
-COPY --chown=ubuntu:ubuntu Peach /root/Peach/
-COPY --chown=ubuntu:ubuntu run_peach.sh /root/Shark2Pit/run_peach.sh
+COPY  collect.py /root/collect.py
+COPY  Peach /root/Peach/
+COPY  run_peach.sh /root/Shark2Pit/run_peach.sh
 
 RUN mkdir -p /root/Shark2Pit
-COPY --chown=ubuntu:ubuntu shark2pit /root/Shark2Pit
+COPY  shark2pit /root/Shark2Pit
 
 # 赋予所有.sh文件执行权限
 RUN find /root/ -type f -name "*.sh" -exec chmod +x {} \;
