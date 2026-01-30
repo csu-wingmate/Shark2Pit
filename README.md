@@ -8,7 +8,7 @@
 *   **Automated Parsing:** Converts PCAP/PCAPNG traffic into structured PDML formats automatically.
 *   **Structure-Preserving Synthesis:** Generates novel data models while maintaining protocol structural validity using the `--synthetic` flag.
 *   **State Model Enhancement:** Supports state shuffling and repetition strategies to explore deeper interaction paths.
-*   **Extensibility:** Designed to easily integrate new protocols and fuzzing engines.
+*   **Extensibility:** Designed to easily integrate new protocol implementations and fuzzing engines.
 
 
 
@@ -85,7 +85,7 @@ The main functionality is accessed via the `Shark2Pit.sh` script.
 *   `-h`, `--help`: Show the help message.
 *   `-s`, `--synthetic`: **(Recommended)** Enable data reconstitution (packet reassembly) to generate diverse data models.
 *   `-sh`, `--shuffle`: Enable state shuffling to discover new transition paths.
-*   `-r`, `--repeat`: Specify the number of times to repeat states (tests protocol stability).
+*   `-r`, `--repeat`: Specify the number of times to repeat states (tests protocol implementation stability).
 
 ### Examples
 ```bash
@@ -104,7 +104,7 @@ The main functionality is accessed via the `Shark2Pit.sh` script.
 
 ## 📖 Tutorial: Fuzzing libcoap
 
-This tutorial demonstrates how to generate a Pit file for CoAP and run the Peach fuzzer.
+This tutorial demonstrates how to generate a Pit file for CoAP protocol implementation(libcoap) and run the Peach fuzzer.
 
 ### 1. Environment Setup
 Enter the working directory inside the container:
@@ -115,7 +115,7 @@ cd /root/Shark2Pit
 ### 2. Build the Target Protocol
 *Note: If you used **Option 1 (Docker Pull)**, the targets are pre-built, and you can skip this step.*
 
-If you built from source, compile the CoAP implementation:
+If you built from source, compile the CoAP protocol implementation(libcoap):
 ```bash
 cd /root/Shark2Pit/subjects/coap
 ./coap_build.sh
@@ -133,6 +133,10 @@ cd /root/Shark2Pit
 Run the fuzzing script. The default protocol is CoAP.
 ```bash
 ./run_peach.sh coap
+
+# Or run CoAP fuzzing directly with Peach (without branch coverage collection)
+# If you need to collect branch coverage, set up shared memory before executing the command.
+/root/Peach/bin/peach ./pit/coap.xml
 ```
 
 
@@ -157,7 +161,7 @@ The table below summarizes the critical vulnerabilities found by Shark2Pit:
 
 Shark2Pit is designed to be easily extended to new protocols and fuzzers.
 
-### Adding a New Target Protocol
+### Adding a New Target Protocol Implementation
 To add a protocol (e.g., FTP) and a target server (e.g., LightFTP):
 
 1.  **Create Protocol Directory:** Create a new folder in `subjects/`.
