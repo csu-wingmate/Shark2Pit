@@ -20,6 +20,8 @@ show_help() {
     echo "  $0 coap coap"
     echo "  $0 -s dns dns"
     echo "  $0 -s -sh -r 2 coap coap"
+    echo "  $0 -s -sh -r 2 bacnet bacnet bvlc bacapp"
+    echo "  $0 -s -sh -r 2 ethernet ethernet enip"
     exit 0
 }
 
