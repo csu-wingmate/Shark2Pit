@@ -16,7 +16,7 @@
           "position": 42,
           "size": 1,
           "value": "81",
-          "show": "0x81",
+          "show": "0x00000081",
           "layer": "bvlc"
         },
         {
@@ -24,7 +24,7 @@
           "position": 43,
           "size": 1,
           "value": "0a",
-          "show": "0x0a",
+          "show": "0x0000000a",
           "layer": "bvlc"
         },
         {
@@ -48,7 +48,7 @@
           "position": 47,
           "size": 1,
           "value": "04",
-          "show": "0x04",
+          "show": "0x00000004",
           "layer": "bacnet"
         },
         {
@@ -64,7 +64,7 @@
           "position": 48,
           "size": 1,
           "value": "0",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacapp"
         },
         {
@@ -125,7 +125,7 @@
           "position": 42,
           "size": 1,
           "value": "81",
-          "show": "0x81",
+          "show": "0x00000081",
           "layer": "bvlc"
         },
         {
@@ -133,7 +133,7 @@
           "position": 43,
           "size": 1,
           "value": "0a",
-          "show": "0x0a",
+          "show": "0x0000000a",
           "layer": "bvlc"
         },
         {
@@ -157,7 +157,7 @@
           "position": 47,
           "size": 1,
           "value": "00",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacnet"
         },
         {
@@ -173,7 +173,7 @@
           "position": 48,
           "size": 1,
           "value": "0",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacapp"
         },
         {
@@ -242,7 +242,7 @@
           "position": 42,
           "size": 1,
           "value": "81",
-          "show": "0x81",
+          "show": "0x00000081",
           "layer": "bvlc"
         },
         {
@@ -250,7 +250,7 @@
           "position": 43,
           "size": 1,
           "value": "0a",
-          "show": "0x0a",
+          "show": "0x0000000a",
           "layer": "bvlc"
         },
         {
@@ -274,7 +274,7 @@
           "position": 47,
           "size": 1,
           "value": "04",
-          "show": "0x04",
+          "show": "0x00000004",
           "layer": "bacnet"
         },
         {
@@ -290,7 +290,7 @@
           "position": 48,
           "size": 1,
           "value": "0",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacapp"
         },
         {
@@ -351,7 +351,7 @@
           "position": 42,
           "size": 1,
           "value": "81",
-          "show": "0x81",
+          "show": "0x00000081",
           "layer": "bvlc"
         },
         {
@@ -359,7 +359,7 @@
           "position": 43,
           "size": 1,
           "value": "0a",
-          "show": "0x0a",
+          "show": "0x0000000a",
           "layer": "bvlc"
         },
         {
@@ -383,7 +383,7 @@
           "position": 47,
           "size": 1,
           "value": "00",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacnet"
         },
         {
@@ -399,7 +399,7 @@
           "position": 48,
           "size": 1,
           "value": "0",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacapp"
         },
         {
@@ -468,7 +468,7 @@
           "position": 42,
           "size": 1,
           "value": "81",
-          "show": "0x81",
+          "show": "0x00000081",
           "layer": "bvlc"
         },
         {
@@ -476,7 +476,7 @@
           "position": 43,
           "size": 1,
           "value": "0a",
-          "show": "0x0a",
+          "show": "0x0000000a",
           "layer": "bvlc"
         },
         {
@@ -500,7 +500,7 @@
           "position": 47,
           "size": 1,
           "value": "04",
-          "show": "0x04",
+          "show": "0x00000004",
           "layer": "bacnet"
         },
         {
@@ -516,7 +516,7 @@
           "position": 48,
           "size": 1,
           "value": "0",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacapp"
         },
         {
@@ -577,7 +577,7 @@
           "position": 42,
           "size": 1,
           "value": "81",
-          "show": "0x81",
+          "show": "0x00000081",
           "layer": "bvlc"
         },
         {
@@ -585,7 +585,7 @@
           "position": 43,
           "size": 1,
           "value": "0a",
-          "show": "0x0a",
+          "show": "0x0000000a",
           "layer": "bvlc"
         },
         {
@@ -609,7 +609,7 @@
           "position": 47,
           "size": 1,
           "value": "00",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacnet"
         },
         {
@@ -625,7 +625,7 @@
           "position": 48,
           "size": 1,
           "value": "0",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacapp"
         },
         {
@@ -694,7 +694,7 @@
           "position": 42,
           "size": 1,
           "value": "81",
-          "show": "0x81",
+          "show": "0x00000081",
           "layer": "bvlc"
         },
         {
@@ -702,7 +702,7 @@
           "position": 43,
           "size": 1,
           "value": "0a",
-          "show": "0x0a",
+          "show": "0x0000000a",
           "layer": "bvlc"
         },
         {
@@ -726,7 +726,7 @@
           "position": 47,
           "size": 1,
           "value": "04",
-          "show": "0x04",
+          "show": "0x00000004",
           "layer": "bacnet"
         },
         {
@@ -742,7 +742,7 @@
           "position": 48,
           "size": 1,
           "value": "0",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacapp"
         },
         {
@@ -803,7 +803,7 @@
           "position": 42,
           "size": 1,
           "value": "81",
-          "show": "0x81",
+          "show": "0x00000081",
           "layer": "bvlc"
         },
         {
@@ -811,7 +811,7 @@
           "position": 43,
           "size": 1,
           "value": "0a",
-          "show": "0x0a",
+          "show": "0x0000000a",
           "layer": "bvlc"
         },
         {
@@ -835,7 +835,7 @@
           "position": 47,
           "size": 1,
           "value": "00",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacnet"
         },
         {
@@ -851,7 +851,7 @@
           "position": 48,
           "size": 1,
           "value": "0",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacapp"
         },
         {
@@ -920,7 +920,7 @@
           "position": 42,
           "size": 1,
           "value": "81",
-          "show": "0x81",
+          "show": "0x00000081",
           "layer": "bvlc"
         },
         {
@@ -928,7 +928,7 @@
           "position": 43,
           "size": 1,
           "value": "0a",
-          "show": "0x0a",
+          "show": "0x0000000a",
           "layer": "bvlc"
         },
         {
@@ -952,7 +952,7 @@
           "position": 47,
           "size": 1,
           "value": "04",
-          "show": "0x04",
+          "show": "0x00000004",
           "layer": "bacnet"
         },
         {
@@ -968,7 +968,7 @@
           "position": 48,
           "size": 1,
           "value": "0",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacapp"
         },
         {
@@ -1029,7 +1029,7 @@
           "position": 42,
           "size": 1,
           "value": "81",
-          "show": "0x81",
+          "show": "0x00000081",
           "layer": "bvlc"
         },
         {
@@ -1037,7 +1037,7 @@
           "position": 43,
           "size": 1,
           "value": "0a",
-          "show": "0x0a",
+          "show": "0x0000000a",
           "layer": "bvlc"
         },
         {
@@ -1061,7 +1061,7 @@
           "position": 47,
           "size": 1,
           "value": "00",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacnet"
         },
         {
@@ -1077,7 +1077,7 @@
           "position": 48,
           "size": 1,
           "value": "0",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacapp"
         },
         {
@@ -1146,7 +1146,7 @@
           "position": 42,
           "size": 1,
           "value": "81",
-          "show": "0x81",
+          "show": "0x00000081",
           "layer": "bvlc"
         },
         {
@@ -1154,7 +1154,7 @@
           "position": 43,
           "size": 1,
           "value": "0a",
-          "show": "0x0a",
+          "show": "0x0000000a",
           "layer": "bvlc"
         },
         {
@@ -1178,7 +1178,7 @@
           "position": 47,
           "size": 1,
           "value": "04",
-          "show": "0x04",
+          "show": "0x00000004",
           "layer": "bacnet"
         },
         {
@@ -1194,7 +1194,7 @@
           "position": 48,
           "size": 1,
           "value": "0",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacapp"
         },
         {
@@ -1255,7 +1255,7 @@
           "position": 42,
           "size": 1,
           "value": "81",
-          "show": "0x81",
+          "show": "0x00000081",
           "layer": "bvlc"
         },
         {
@@ -1263,7 +1263,7 @@
           "position": 43,
           "size": 1,
           "value": "0a",
-          "show": "0x0a",
+          "show": "0x0000000a",
           "layer": "bvlc"
         },
         {
@@ -1287,7 +1287,7 @@
           "position": 47,
           "size": 1,
           "value": "00",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacnet"
         },
         {
@@ -1303,7 +1303,7 @@
           "position": 48,
           "size": 1,
           "value": "0",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacapp"
         },
         {
@@ -1372,7 +1372,7 @@
           "position": 42,
           "size": 1,
           "value": "81",
-          "show": "0x81",
+          "show": "0x00000081",
           "layer": "bvlc"
         },
         {
@@ -1380,7 +1380,7 @@
           "position": 43,
           "size": 1,
           "value": "0a",
-          "show": "0x0a",
+          "show": "0x0000000a",
           "layer": "bvlc"
         },
         {
@@ -1404,7 +1404,7 @@
           "position": 47,
           "size": 1,
           "value": "04",
-          "show": "0x04",
+          "show": "0x00000004",
           "layer": "bacnet"
         },
         {
@@ -1420,7 +1420,7 @@
           "position": 48,
           "size": 1,
           "value": "0",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacapp"
         },
         {
@@ -1481,7 +1481,7 @@
           "position": 42,
           "size": 1,
           "value": "81",
-          "show": "0x81",
+          "show": "0x00000081",
           "layer": "bvlc"
         },
         {
@@ -1489,7 +1489,7 @@
           "position": 43,
           "size": 1,
           "value": "0a",
-          "show": "0x0a",
+          "show": "0x0000000a",
           "layer": "bvlc"
         },
         {
@@ -1513,7 +1513,7 @@
           "position": 47,
           "size": 1,
           "value": "00",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacnet"
         },
         {
@@ -1529,7 +1529,7 @@
           "position": 48,
           "size": 1,
           "value": "0",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacapp"
         },
         {
@@ -1598,7 +1598,7 @@
           "position": 42,
           "size": 1,
           "value": "81",
-          "show": "0x81",
+          "show": "0x00000081",
           "layer": "bvlc"
         },
         {
@@ -1606,7 +1606,7 @@
           "position": 43,
           "size": 1,
           "value": "0a",
-          "show": "0x0a",
+          "show": "0x0000000a",
           "layer": "bvlc"
         },
         {
@@ -1630,7 +1630,7 @@
           "position": 47,
           "size": 1,
           "value": "04",
-          "show": "0x04",
+          "show": "0x00000004",
           "layer": "bacnet"
         },
         {
@@ -1646,7 +1646,7 @@
           "position": 48,
           "size": 1,
           "value": "0",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacapp"
         },
         {
@@ -1707,7 +1707,7 @@
           "position": 42,
           "size": 1,
           "value": "81",
-          "show": "0x81",
+          "show": "0x00000081",
           "layer": "bvlc"
         },
         {
@@ -1715,7 +1715,7 @@
           "position": 43,
           "size": 1,
           "value": "0a",
-          "show": "0x0a",
+          "show": "0x0000000a",
           "layer": "bvlc"
         },
         {
@@ -1739,7 +1739,7 @@
           "position": 47,
           "size": 1,
           "value": "00",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacnet"
         },
         {
@@ -1755,7 +1755,7 @@
           "position": 48,
           "size": 1,
           "value": "0",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacapp"
         },
         {
@@ -1824,7 +1824,7 @@
           "position": 42,
           "size": 1,
           "value": "81",
-          "show": "0x81",
+          "show": "0x00000081",
           "layer": "bvlc"
         },
         {
@@ -1832,7 +1832,7 @@
           "position": 43,
           "size": 1,
           "value": "0a",
-          "show": "0x0a",
+          "show": "0x0000000a",
           "layer": "bvlc"
         },
         {
@@ -1856,7 +1856,7 @@
           "position": 47,
           "size": 1,
           "value": "04",
-          "show": "0x04",
+          "show": "0x00000004",
           "layer": "bacnet"
         },
         {
@@ -1872,7 +1872,7 @@
           "position": 48,
           "size": 1,
           "value": "0",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacapp"
         },
         {
@@ -1933,7 +1933,7 @@
           "position": 42,
           "size": 1,
           "value": "81",
-          "show": "0x81",
+          "show": "0x00000081",
           "layer": "bvlc"
         },
         {
@@ -1941,7 +1941,7 @@
           "position": 43,
           "size": 1,
           "value": "0a",
-          "show": "0x0a",
+          "show": "0x0000000a",
           "layer": "bvlc"
         },
         {
@@ -1965,7 +1965,7 @@
           "position": 47,
           "size": 1,
           "value": "00",
-          "show": "0x00",
+          "show": "0x00000000",
           "layer": "bacnet"
         },
         {

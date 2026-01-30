@@ -4,6 +4,70 @@
       "number": "1",
       "fields": [
         {
+          "name": "coap.invalid_option_number",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.message",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "Invalid Option Number 2",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.severity",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "6291456",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.group",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "117440512",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.invalid_option_number",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.message",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "Invalid Option Number 2",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.severity",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "6291456",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.group",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "117440512",
+          "layer": "coap"
+        },
+        {
           "name": "coap.version",
           "position": 62,
           "size": 1,
@@ -25,6 +89,22 @@
           "size": 1,
           "value": "3",
           "show": "3",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert",
+          "position": 62,
+          "size": 0,
+          "value": "",
+          "show": "",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert",
+          "position": 62,
+          "size": 0,
+          "value": "",
+          "show": "",
           "layer": "coap"
         },
         {
@@ -56,7 +136,7 @@
           "position": 69,
           "size": 12,
           "value": "2b2e77656c6c2d6b6e6f776e",
-          "show": "#1: Unknown Option (2)",
+          "show": "#1: Unknown Option",
           "layer": "coap"
         },
         {
@@ -64,7 +144,7 @@
           "position": 81,
           "size": 5,
           "value": "04636f7265",
-          "show": "#2: Unknown Option (2)",
+          "show": "#2: Unknown Option",
           "layer": "coap"
         }
       ]
@@ -72,6 +152,70 @@
     {
       "number": "2",
       "fields": [
+        {
+          "name": "coap.invalid_option_number",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.message",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "Invalid Option Number 2",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.severity",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "6291456",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.group",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "117440512",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.invalid_option_number",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.message",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "Invalid Option Number 2",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.severity",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "6291456",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.group",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "117440512",
+          "layer": "coap"
+        },
         {
           "name": "coap.version",
           "position": 62,
@@ -94,6 +238,22 @@
           "size": 1,
           "value": "3",
           "show": "3",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert",
+          "position": 62,
+          "size": 0,
+          "value": "",
+          "show": "",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert",
+          "position": 62,
+          "size": 0,
+          "value": "",
+          "show": "",
           "layer": "coap"
         },
         {
@@ -125,7 +285,7 @@
           "position": 69,
           "size": 12,
           "value": "2b2e77656c6c2d6b6e6f776e",
-          "show": "#1: Unknown Option (2)",
+          "show": "#1: Unknown Option",
           "layer": "coap"
         },
         {
@@ -133,7 +293,7 @@
           "position": 81,
           "size": 5,
           "value": "04636f7265",
-          "show": "#2: Unknown Option (2)",
+          "show": "#2: Unknown Option",
           "layer": "coap"
         }
       ]
@@ -141,6 +301,70 @@
     {
       "number": "3",
       "fields": [
+        {
+          "name": "coap.invalid_option_number",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.message",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "Invalid Option Number 2",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.severity",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "6291456",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.group",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "117440512",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.invalid_option_number",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.message",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "Invalid Option Number 2",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.severity",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "6291456",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.group",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "117440512",
+          "layer": "coap"
+        },
         {
           "name": "coap.version",
           "position": 62,
@@ -163,6 +387,22 @@
           "size": 1,
           "value": "3",
           "show": "3",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert",
+          "position": 62,
+          "size": 0,
+          "value": "",
+          "show": "",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert",
+          "position": 62,
+          "size": 0,
+          "value": "",
+          "show": "",
           "layer": "coap"
         },
         {
@@ -194,7 +434,7 @@
           "position": 69,
           "size": 12,
           "value": "2b2e77656c6c2d6b6e6f776e",
-          "show": "#1: Unknown Option (2)",
+          "show": "#1: Unknown Option",
           "layer": "coap"
         },
         {
@@ -202,7 +442,7 @@
           "position": 81,
           "size": 5,
           "value": "04636f7265",
-          "show": "#2: Unknown Option (2)",
+          "show": "#2: Unknown Option",
           "layer": "coap"
         }
       ]
@@ -210,6 +450,70 @@
     {
       "number": "4",
       "fields": [
+        {
+          "name": "coap.invalid_option_number",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.message",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "Invalid Option Number 2",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.severity",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "6291456",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.group",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "117440512",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.invalid_option_number",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.message",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "Invalid Option Number 2",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.severity",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "6291456",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.group",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "117440512",
+          "layer": "coap"
+        },
         {
           "name": "coap.version",
           "position": 62,
@@ -232,6 +536,22 @@
           "size": 1,
           "value": "3",
           "show": "3",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert",
+          "position": 62,
+          "size": 0,
+          "value": "",
+          "show": "",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert",
+          "position": 62,
+          "size": 0,
+          "value": "",
+          "show": "",
           "layer": "coap"
         },
         {
@@ -263,7 +583,7 @@
           "position": 69,
           "size": 12,
           "value": "2b2e77656c6c2d6b6e6f776e",
-          "show": "#1: Unknown Option (2)",
+          "show": "#1: Unknown Option",
           "layer": "coap"
         },
         {
@@ -271,7 +591,7 @@
           "position": 81,
           "size": 5,
           "value": "04636f7265",
-          "show": "#2: Unknown Option (2)",
+          "show": "#2: Unknown Option",
           "layer": "coap"
         }
       ]
@@ -279,6 +599,70 @@
     {
       "number": "5",
       "fields": [
+        {
+          "name": "coap.invalid_option_range",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.message",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "Invalid Option Range: 7 (0 < x < 2)",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.severity",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "6291456",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.group",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "117440512",
+          "layer": "coap"
+        },
+        {
+          "name": "coap.invalid_option_range",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.message",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "Invalid Option Range: 7 (0 < x < 4)",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.severity",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "6291456",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert.group",
+          "position": 0,
+          "size": 0,
+          "value": "",
+          "show": "117440512",
+          "layer": "coap"
+        },
         {
           "name": "coap.version",
           "position": 62,
@@ -301,6 +685,22 @@
           "size": 1,
           "value": "5",
           "show": "5",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert",
+          "position": 62,
+          "size": 0,
+          "value": "",
+          "show": "",
+          "layer": "coap"
+        },
+        {
+          "name": "_ws.expert",
+          "position": 62,
+          "size": 0,
+          "value": "",
+          "show": "",
           "layer": "coap"
         },
         {
