@@ -12,15 +12,23 @@ show_help() {
     echo "Options:"
     echo "  -h, --help        Show this help message"
     echo "  -s, --synthetic   Enable packet reassembly during Pit generation"
+    echo "  -sh, --shuffle    Shuffle states during Pit generation"
+    echo "  -r, --repeat      Number of times to repeat the state"
     echo
     echo "Examples:"
+    echo "  $0 modbus modbus mbtcp"
     echo "  $0 coap coap"
     echo "  $0 -s dns dns"
+    echo "  $0 -s -sh -r 2 coap coap"
+    echo "  $0 -s -sh -r 2 bacnet bacnet bvlc bacapp"
+    echo "  $0 -s -sh -r 2 ethernet ethernet enip"
     exit 0
 }
 
-# Initialize synthetic flag
+# Initialize flags
 synthetic=false
+shuffle_states=false
+state_repeat_times=0
 
 # Parse command-line options
 while [[ $# -gt 0 ]]; do
@@ -31,6 +39,22 @@ while [[ $# -gt 0 ]]; do
         -s|--synthetic)
             synthetic=true
             shift
+            ;;
+        -sh|--shuffle)
+            shuffle_states=true
+            shift
+            ;;
+        -r|--repeat)
+            if [[ $# -lt 2 ]]; then
+                echo "Error: Missing value for repeat option" >&2
+                exit 1
+            fi
+            if ! [[ "$2" =~ ^[0-9]+$ ]] || [[ "$2" -lt 0 ]]; then
+                echo "Error: Invalid repeat value '$2'. Must be a non-negative integer." >&2
+                exit 1
+            fi
+            state_repeat_times=$2
+            shift 2
             ;;
         -*)
             echo "Error: Unknown option $1" >&2
@@ -99,11 +123,23 @@ python3 "./tool/preproc.py" \
     exit 1
 }
 
-# Prepare synthetic flag for forpit.py
+# Prepare flags for forpit.py
 synthetic_flag=""
 if [ "$synthetic" = true ]; then
     synthetic_flag="--synthetic"
     echo "Enabling packet reassembly (synthetic mode)"
+fi
+
+shuffle_flag=""
+if [ "$shuffle_states" = true ]; then
+    shuffle_flag="--shuffle-states"
+    echo "Enabling state shuffling"
+fi
+
+repeat_flag=""
+if [ "$state_repeat_times" -gt 0 ]; then
+    repeat_flag="--state-repeat-times $state_repeat_times"
+    echo "State repeat times: $state_repeat_times"
 fi
 
 # Generate Pit file with Python script
@@ -112,7 +148,9 @@ python3 "./tool/forpit.py" \
     "./json/$protocol.json" \
     "./pit/$protocol.xml" \
     --protocol "${layers[@]}" \
-    $synthetic_flag || {
+    $synthetic_flag \
+    $shuffle_flag \
+    $repeat_flag || {
     echo "Error: forpit.py processing failed" >&2
     exit 1
 }

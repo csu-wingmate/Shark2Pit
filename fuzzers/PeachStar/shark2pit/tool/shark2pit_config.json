@@ -10,7 +10,7 @@
     "ethernet": {
         "transport": "Udp",
         "default_executable":"/root/OpENer/bin/posix/src/ports/POSIX/OpENer",
-        "default_arguments":"-p 44818",
+        "default_arguments":"eth0",
         "default_host":"127.0.0.1",
         "default_port": 44818,
         "agent_class": "Udp"
@@ -95,4 +95,5 @@
         "default_port": 7400,
         "agent_class":"Udp"
     }
+
 }
